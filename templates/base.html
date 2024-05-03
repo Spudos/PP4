@@ -1,15 +1,58 @@
+{% load static %}
+
+{% url 'welcome' as home_url %}
+{% url 'contact' as about_url %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pure Drive Fitness</title>
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
   <body>
+    <header>
+      <div class="row">
+        <div class="col-4">Logo</div>
+        <div class="col-8">
+          <div class="row">
+            <div class="col-2">Book</div>
+            <div class="col-2">Shop</div>
+            <div class="col-2">Blog</div>
+            <div class="col-2">Contact</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
     <main>
-      {% block content %}
-      <!-- Content Goes here -->
-      {% endblock content %}
+      <div class="row">
+        <div class="col-4">
+          <div class="row">Details</div>
+          <div class="row">Map</div>
+        </div>
+        <div class="col-8">
+          {% block content %}
+            <!-- Content Goes here -->
+          {% endblock content %}
+        </div>
+      </div>
     </main>
+
+    <footer>
+      <div class="row">
+        footer
+      </div>
+    </footer>
   </body>
 </html> 
