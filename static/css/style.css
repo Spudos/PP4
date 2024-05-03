@@ -1,11 +1,12 @@
 body {
-  background-color: #0b56ea;
+  color: #fff;
+  background-color: rgb(70, 22, 154, 0.7);
 }
 
 header {
-  background-color: aquamarine;
+  background-color: rgb(70, 22, 154);;
 }
 
 footer {
-  background-color: antiquewhite;
+  background-color: rgb(255, 192, 203);
 }
