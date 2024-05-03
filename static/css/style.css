@@ -4,9 +4,53 @@ body {
 }
 
 header {
-  background-color: rgb(70, 22, 154);;
+  background-color: rgb(70, 22, 154);
+  min-height: 100px;
+}
+
+#nav-section {
+  
+}
+
+#nav-block {
+  margin-left: auto;
+  max-width: 50px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(255, 192, 203);
+}
+
+.logo {
+  background: url("../images/website_logo_white.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100px;
+}
+
+main {
+  height: 100vh;
+}
+
+#details {
+  height: 50vh;
+  border: 1px solid rgb(255, 192, 203);
+}
+
+#map {
+  height: 50vh;
+  border: 1px solid rgb(255, 192, 203);
+}
+
+#main-content {
+  border: 1px solid rgb(255, 192, 203);
 }
 
 footer {
   background-color: rgb(255, 192, 203);
+  border: 1px solid rgb(70, 22, 154);
+  min-height: 80px;
 }

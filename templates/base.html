@@ -23,13 +23,13 @@
   <body>
     <header>
       <div class="row">
-        <div class="col-4">Logo</div>
+        <div class="col-4 logo"></div>
         <div class="col-8">
-          <div class="row">
-            <div class="col-2">Book</div>
-            <div class="col-2">Shop</div>
-            <div class="col-2">Blog</div>
-            <div class="col-2">Contact</div>
+          <div class="row" id="nav-section">
+            <div class="col-2" id="nav-block">Book</div>
+            <div class="col-2" id="nav-block">Shop</div>
+            <div class="col-2" id="nav-block">Blog</div>
+            <div class="col-2" id="nav-block">Contact</div>
           </div>
         </div>
       </div>
@@ -38,10 +38,10 @@
     <main>
       <div class="row">
         <div class="col-4">
-          <div class="row">Details</div>
-          <div class="row">Map</div>
+          <div id="details" class="row">Details</div>
+          <div id="map" class="row">Map</div>
         </div>
-        <div class="col-8">
+        <div id="main-content" class="col-8">
           {% block content %}
             <!-- Content Goes here -->
           {% endblock content %}
