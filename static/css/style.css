@@ -1,6 +1,6 @@
 body {
   color: #fff;
-  background-color: rgb(70, 22, 154, 0.7);
+  
   margin: 0 10% ;
 }
 
@@ -13,10 +13,16 @@ h6 {
     margin: 0;
 }
 
+.col,
+.col-4,
+.col-8 {
+  padding: 0;
+}
+
 /*--------------------------------------------Heading*/
 header {
   background-color: rgb(70, 22, 154);
-  min-height: 100px;
+  height: 150px;
 }
 
 #nav {
@@ -26,15 +32,10 @@ header {
   justify-content: center;
 }
 
-#nav li {
-  padding: 0;
-}
-
 .nav-button {
-  height: 150px;
   width: 150px;
+  height: 150px;
   text-align: center;
-  border: 2px solid black;
 }
 
 .nav-button a {
@@ -44,9 +45,11 @@ header {
   color: #fff;
 }
 
+.nav-button:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
 
 .nav-button a i {
-  padding-top: 2rem;
   display: block;
   font-size: 2rem;
 }
@@ -56,8 +59,7 @@ header {
   width: 100%;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  padding: 5px;
+  letter-spacing: 2px;
 }
 
 .logo {
