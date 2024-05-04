@@ -1,26 +1,63 @@
 body {
   color: #fff;
   background-color: rgb(70, 22, 154, 0.7);
+  margin: 0 10% ;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/*--------------------------------------------Heading*/
 header {
   background-color: rgb(70, 22, 154);
   min-height: 100px;
 }
 
-#nav-section {
-  
+#nav {
+  margin: 0px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
 }
 
-#nav-block {
-  margin-left: auto;
-  max-width: 50px;
-  min-height: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid rgb(255, 192, 203);
+#nav li {
+  padding: 0;
+}
+
+.nav-button {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.nav-button a {
+  width: 100%;
+  text-decoration: none;
+  max-height: 100px;
+  color: #fff;
+}
+
+
+.nav-button a i {
+  padding-top: 2rem;
+  display: block;
+  font-size: 2rem;
+}
+
+.nav-button span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 5px;
 }
 
 .logo {
@@ -28,27 +65,30 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100px;
 }
 
-main {
-  height: 100vh;
-}
-
+/*--------------------------------------------Details*/
 #details {
   height: 50vh;
   border: 1px solid rgb(255, 192, 203);
 }
 
+/*--------------------------------------------Map*/
 #map {
   height: 50vh;
   border: 1px solid rgb(255, 192, 203);
+}
+
+/*--------------------------------------------Main*/
+main {
+  height: 100vh;
 }
 
 #main-content {
   border: 1px solid rgb(255, 192, 203);
 }
 
+/*--------------------------------------------Footer*/
 footer {
   background-color: rgb(255, 192, 203);
   border: 1px solid rgb(70, 22, 154);
