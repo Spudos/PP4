@@ -21,48 +21,111 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
   <body>
-    <header>
-      <div class="row">
-        <div class="col-4 logo"></div>
-        <div class="col-8">
-          <div class="row no-gutters">
-            <div class="col">
-                <ul id="nav" class="list-inline">
-                    <li class="nav-button">
-                        <a href="index.html"><i class="fa fa-home"
-                          aria-hidden="true"></i><span>Book</span></a>
-                    </li>
-                    <li class="nav-button">
-                        <a href="resume.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Shop</span></a>
-                    </li>
-                    <li class="nav-button">
-                        <a href="contact.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Blog</span></a>
-                    </li>
-                    <li class="nav-button">
-                        <a href="contact.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Contact</span></a>
-                    </li>
-                </ul>
-            </div>
+    <header class="sticky-top">
+      <div id="top-row">
+        <div id="logo" class="row col-6">
+          <div class="col-10">
+            <h1>Pure Drive Fitness</h1>
+          </div>
+          <div class="col-2">
+            <h6>Login to your account</h6>
+          </div>
         </div>
+      </div>
+
+      <div class="row">
+        <ul id="nav" class="list-inline">
+            <li class="nav-button">
+                <a href="index.html"><i class="fa fa-home"
+                  aria-hidden="true"></i><span>Book</span></a>
+            </li>
+            <li class="nav-button">
+                <a href="resume.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Shop</span></a>
+            </li>
+            <li class="nav-button">
+                <a href="contact.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Blog</span></a>
+            </li>
+            <li class="nav-button">
+                <a href="contact.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Contact</span></a>
+            </li>
+        </ul>
       </div>
     </header>
 
+    <div id="hero"></div>
+    
     <main>
-      <div class="row">
-        <div class="col-4">
-          <div id="details" class="row">Details</div>
-          <div id="map" class="row">Map</div>
-        </div>
-        <div id="main-content" class="col-8">
-          {% block content %}
-            <!-- Content Goes here -->
-          {% endblock content %}
+      <div class="section-heading">
+        <h3>Featured Blog Posts</h3>
+      </div>
+
+      <div id="blog" class="row">
+        <div class="row">
+          <div class="main-featured-blog col-6">
+            <div class="row" id="featured-blog-image"></div>
+            <div class="row" id="featured-blog-text"></div>
+          </div>
+          <div class="col-6">
+            <div class="blog">
+              <div class="blog-image col-4"></div>
+              <div class="blog-text col-8"></div>
+            </div>
+            <div class="blog">
+              <div class="blog-image col-4"></div>
+              <div class="blog-text col-8"></div>
+            </div>
+            <div class="blog">
+              <div class="blog-image col-4"></div>
+              <div class="blog-text col-8"></div>
+            </div>
+          </div>
         </div>
       </div>
-    </main>
+
+      <div class="section-heading">
+        <h3>Session Types</h3>
+      </div>
+
+      <div id="sessions" class="row">
+        <div class="row">
+          <div class="col-5 session-type">
+            <div class="session-image col-4">image</div>
+            <div class="session-text col-8">text</div>
+          </div>
+          <div class="col-5 session-type">
+            <div class="session-text col-8">text</div>
+            <div class="session-image col-4">image</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-5 session-type">
+            <div class="session-image col-4">image</div>
+            <div class="session-text col-8">text</div>
+          </div>
+          <div class="col-5 session-type">
+            <div class="session-text col-8">text</div>
+            <div class="session-image col-4">image</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-heading">
+        <h3>Shop</h3>
+      </div>
+
+      <div id="shop" class="row">
+        <div id="carousel"></div>
+      </div>
+    </main>    
+
+    <div id="info-section">
+      <div id="info-section-detail" class="col-6">
+        <h3>Info</h3>
+      </div>
+    </div>
 
     <footer>
-      <div class="row">
+      <div class="row footer mt-auto">
         footer
       </div>
     </footer>

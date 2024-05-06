@@ -1,52 +1,67 @@
-body {
-  color: #fff;
-  background-color: rgb(70, 22, 154, 0.7);
-  margin: 0 10% ;
+main {
+  max-width: 1200px;
+  margin: auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
+.row {
+  margin: 0px;
+}
+
+.col-2,
+.col-6,
+.col-4,
+.col-5,
+.col-8,
+.col-12 {
+  margin: 0px;
+}
+
+/*--------------------------------------------Homepage*/
+.section-heading {
+  font-weight: 900;
+  letter-spacing: 4px;
+  border-bottom: #f0eded solid 2px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 /*--------------------------------------------Heading*/
-header {
-  background-color: rgb(70, 22, 154);
+#top-row {
+  display: flex;
   min-height: 100px;
+  background-color: #000000;
+  color: #fff;
+}
+
+#logo {
+  margin: auto;
 }
 
 #nav {
+  height: 90px;
+  background-color: #fbf5ed;
+  color: #000000;
   margin: 0px;
-  margin-right: 50px;
   display: flex;
   justify-content: center;
 }
 
 #nav li {
-  padding: 0;
+  padding: 10px;
 }
 
 .nav-button {
-  height: 150px;
-  width: 150px;
+  width: 250px;
   text-align: center;
-  border: 2px solid black;
 }
 
 .nav-button a {
   width: 100%;
   text-decoration: none;
-  max-height: 100px;
-  color: #fff;
+  color: #000;
 }
 
-
 .nav-button a i {
-  padding-top: 2rem;
   display: block;
   font-size: 2rem;
 }
@@ -57,40 +72,93 @@ header {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  padding: 5px;
 }
 
-.logo {
-  background: url("../images/website_logo_white.webp");
+.nav-button:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/*--------------------------------------------Hero*/
+#hero {
+  background: url("../images/hero2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+}  
+
+/*--------------------------------------------Featured Blogs*/
+#featured-blog-image {
+  width: 80%;
+  height: 70%;
+  border: solid 1px #76d517;
 }
 
-/*--------------------------------------------Details*/
-#details {
-  height: 50vh;
-  border: 1px solid rgb(255, 192, 203);
+#featured-blog-text {
+  width: 80%;
+  height: 30%;
+  border: solid 1px #76d517;
 }
 
-/*--------------------------------------------Map*/
-#map {
-  height: 50vh;
-  border: 1px solid rgb(255, 192, 203);
+.blog {
+  display: flex;
+  height: 150px;
 }
 
-/*--------------------------------------------Main*/
-main {
-  height: 100vh;
+.blog-image {
+  border: solid 1px #0cef7a;
 }
 
-#main-content {
-  border: 1px solid rgb(255, 192, 203);
+.blog-text {
+  height: 100%;
+  border: solid 1px #0cef7a;
+}
+/*--------------------------------------------Sessions*/
+.session-type {
+  display: flex;
+  height: 150px;
+  margin: auto;
+}
+
+.session-image {
+  height: 100%;
+  border: solid 1px #0cef7a;
+  border-radius: 50%;
+}
+
+.session-text {
+  height: 100%;
+  padding: 5%;
+  border: solid 1px #0cef7a;
+}
+
+/*--------------------------------------------Shop*/
+#carousel {
+  margin: auto;
+  width: 75%;
+  height: 300px;
+  border: solid 1px #0cef7a;
+}
+/*--------------------------------------------info*/
+#info-section {
+  background-color: #fbf5ed;
+  font-weight: 900;
+  letter-spacing: 4px;
+  margin-top: 100px;
+}
+
+#info-section-detail {
+  width: 40%;
+  margin: auto;
+  height: 300px;
+
 }
 
 /*--------------------------------------------Footer*/
 footer {
-  background-color: rgb(255, 192, 203);
-  border: 1px solid rgb(70, 22, 154);
-  min-height: 80px;
+  background-color: rgb(0, 0, 0);
+  min-height: 100px;
 }
