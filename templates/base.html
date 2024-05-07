@@ -1,6 +1,9 @@
 {% load static %}
 
 {% url 'welcome' as home_url %}
+{% url 'blog' as blog_url %}
+{% url 'booking' as booking_url %}
+{% url 'shop' as shop_url %}
 {% url 'contact' as contact_url %}
 
 <!DOCTYPE html>
@@ -42,16 +45,16 @@
               href="{% url 'welcome' %}"><i class="fa fa-house" aria-hidden="true"></i><span>Start</span></a>
             </li>
             <li class="nav-button">
-              <a class="nav-link {% if request.path == about_url %}active" aria-current="page{% endif %}"
-              href="{% url 'contact' %}"><i class="fa fa-book-open" aria-hidden="true"></i><span>Read</span></a>
+              <a class="nav-link {% if request.path == blog_url %}active" aria-current="page{% endif %}"
+              href="{% url 'blog' %}"><i class="fa fa-book-open" aria-hidden="true"></i><span>Read</span></a>
             </li>
             <li class="nav-button">
-              <a class="nav-link {% if request.path == about_url %}active" aria-current="page{% endif %}"
-              href="{% url 'contact' %}"><i class="fa-solid fa-dumbbell" aria-hidden="true"></i><span>Meet</span></a>
+              <a class="nav-link {% if request.path == booking_url %}active" aria-current="page{% endif %}"
+              href="{% url 'booking' %}"><i class="fa-solid fa-dumbbell" aria-hidden="true"></i><span>Meet</span></a>
             </li>
             <li class="nav-button">
-              <a class="nav-link {% if request.path == about_url %}active" aria-current="page{% endif %}"
-              href="{% url 'contact' %}"><i class="fa-solid fa-basket-shopping" aria-hidden="true"></i><span>Spend</span></a>
+              <a class="nav-link {% if request.path == shop_url %}active" aria-current="page{% endif %}"
+              href="{% url 'shop' %}"><i class="fa-solid fa-basket-shopping" aria-hidden="true"></i><span>Spend</span></a>
             </li>
             <li class="nav-button">
                 <a class="nav-link {% if request.path == about_url %}active" aria-current="page{% endif %}"
