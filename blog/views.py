@@ -1,5 +1,9 @@
 from django.shortcuts import render
+from django.views import generic
+from .models import Post
 
-# Create your views here.
-def blog_page(request):
-  return render(request, 'blog.html')
+class BlogEntries(generic.ListView):
+  model = Post
+  queryset = Post.objects.filter(status=1).order_by('-created_on')
+  template_name = "blog.html"
+  paginate_by = 6
