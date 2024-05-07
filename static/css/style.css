@@ -100,7 +100,6 @@ main {
 #featured-blog-text {
   width: 80%;
   height: 30%;
-  border: solid 1px #76d517;
 }
 
 .blog {
@@ -114,7 +113,6 @@ main {
 
 .blog-text {
   height: 100%;
-  border: solid 1px #0cef7a;
 }
 /*--------------------------------------------Sessions*/
 .session-type {
@@ -130,6 +128,12 @@ main {
 }
 
 .session-text {
+  height: 100%;
+  padding: 5%;
+  border: solid 1px #0cef7a;
+}
+
+.session-text-right {
   height: 100%;
   padding: 5%;
   border: solid 1px #0cef7a;
