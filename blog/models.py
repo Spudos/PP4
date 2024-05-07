@@ -3,6 +3,13 @@ from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
 
 STATUS = ((0, "draft"), (1, "Public"))
+CATEGORY = ((0, "Fitness"),
+            (1, "Lifestyle"),
+            (2, "Cardio"),
+            (3, "Nutrition"),
+            (4, "Motivation"),
+            (5, "Shopping"),
+            (6, "Weight"))
 
 class Post(models.Model):
   title = models.CharField(max_length=200, unique=True)
@@ -14,6 +21,7 @@ class Post(models.Model):
   excerpt = models.TextField()
   created_on = models.DateTimeField(auto_now_add=True)
   status = models.IntegerField(choices=STATUS, default=0)
+  category = models.IntegerField(choices=CATEGORY, default=0)
   likes = models.ManyToManyField(User, related_name='blog_likes', blank=True)
 
   class Meta:
