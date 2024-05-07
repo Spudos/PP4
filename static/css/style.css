@@ -93,8 +93,6 @@ main {
 /*--------------------------------------------Featured Blogs*/
 #featured-blog-image {
   width: 80%;
-  height: 70%;
-  border: solid 1px #76d517;
 }
 
 #featured-blog-text {
@@ -108,12 +106,11 @@ main {
 }
 
 .blog-image {
-  border: solid 1px #0cef7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.blog-text {
-  height: 100%;
-}
 /*--------------------------------------------Sessions*/
 .session-type {
   display: flex;
@@ -121,22 +118,28 @@ main {
   margin: auto;
 }
 
-.session-image {
-  height: 100%;
-  border: solid 1px #0cef7a;
+.session-image img {
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
 }
 
 .session-text {
   height: 100%;
   padding: 5%;
-  border: solid 1px #0cef7a;
 }
 
 .session-text-right {
   height: 100%;
   padding: 5%;
-  border: solid 1px #0cef7a;
+}
+
+.right h4 {
+  text-align: end;
+}
+
+.right p {
+  text-align: end;
 }
 
 /*--------------------------------------------Shop*/

@@ -56,13 +56,15 @@
     
     <main>
       <div class="section-heading">
-        <h3>Featured Blog Posts</h3>
+        <h2>Featured Blog Posts</h2>
       </div>
 
       <div id="blog" class="row">
         <div class="row">
           <div class="main-featured-blog col-6">
-            <div class="row" id="featured-blog-image"></div>
+            <div class="row" id="featured-blog-image">
+              <img src="{% static 'images/big-image.png' %}" class="big-image" alt="{{ about.title }}">
+            </div>
             <div class="row" id="featured-blog-text">
               <h4>Blog about something</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
@@ -70,21 +72,27 @@
           </div>
           <div class="col-6">
             <div class="blog">
-              <div class="blog-image col-4"></div>
+              <div class="blog-image col-4">
+                <img src="{% static 'images/small-image.png' %}" class="small-image" alt="{{ about.title }}">
+              </div>
               <div class="blog-text col-8 p-2">
                 <h4>Blog about something</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
               </div>
             </div>
             <div class="blog">
-              <div class="blog-image col-4"></div>
+              <div class="blog-image col-4">
+                <img src="{% static 'images/small-image.png' %}" class="small-image" alt="{{ about.title }}">
+              </div>
               <div class="blog-text col-8 p-2">
                 <h4>Blog about something</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
               </div>
             </div>
             <div class="blog">
-              <div class="blog-image col-4"></div>
+              <div class="blog-image col-4">
+                <img src="{% static 'images/small-image.png' %}" class="small-image" alt="{{ about.title }}">
+              </div>
               <div class="blog-text col-8 p-2">
                 <h4>Blog about something</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
@@ -95,46 +103,54 @@
       </div>
 
       <div class="section-heading">
-        <h3>Session Types</h3>
+        <h2>Session Types</h2>
       </div>
 
       <div id="sessions" class="row">
         <div class="row">
           <div class="col-5 session-type">
-            <div class="session-image col-4">image</div>
+            <div class="session-image col-4">
+              <img src="{% static 'images/small-image.png' %}" class="small-image" alt="{{ about.title }}">
+            </div>
             <div class="session-text col-8">
               <h4>Session Type</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
           </div>
           <div class="col-5 session-type">
-            <div class="session-text-right col-8">
+            <div class="session-text right col-8">
               <h4>Session Type</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
-            <div class="session-image col-4">image</div>
+            <div class="session-image col-4">
+              <img src="{% static 'images/small-image.png' %}" class="small-image" alt="{{ about.title }}">
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="col-5 session-type">
-            <div class="session-image col-4">image</div>
+            <div class="session-image col-4">
+              <img src="{% static 'images/small-image.png' %}" class="small-image" alt="{{ about.title }}">
+            </div>
             <div class="session-text col-8">
               <h4>Session Type</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
           </div>
           <div class="col-5 session-type">
-            <div class="session-text-right col-8">
+            <div class="session-text right col-8">
               <h4>Session Type</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
-            <div class="session-image col-4">image</div>
+            <div class="session-image col-4">
+              <img src="{% static 'images/small-image.png' %}" class="small-image" alt="{{ about.title }}">
+            </div>
           </div>
         </div>
       </div>
 
       <div class="section-heading">
-        <h3>Shop</h3>
+        <h2>Shop</h2>
       </div>
 
       <div id="shop" class="row">
@@ -144,7 +160,7 @@
 
     <div id="info-section">
       <div id="info-section-detail" class="col-6">
-        <h3>Info</h3>
+        <h2>Info</h2>
       </div>
     </div>
 
