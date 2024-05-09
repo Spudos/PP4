@@ -28,12 +28,25 @@
   <body>
     <header class="sticky-top">
       <div id="top-row">
-        <div id="logo" class="row col-6">
-          <div class="col-10">
+        <div id="logo" class="row col-10">
+          <div class="col-9">
             <h1>Pure Drive Fitness</h1>
           </div>
-          <div class="col-2">
-            <h6>Login to your account</h6>
+          <div class="col-3">
+            <ul id="nav-top" class="list-inline">
+              {% if user.is_authenticated %}
+                <li class="nav-button nav-button-dark">
+                    <a class="nav-link" href="{% url 'account_logout' %}"><i class="fa-solid fa-right-from-bracket"></i><span>Logout</span></a>
+                </li>
+                {% else %}
+                <li class="nav-button nav-button-dark">
+                    <a class="nav-link" href="{% url 'account_signup' %}"><i class="fa-solid fa-user-plus" aria-hidden="true"></i><span>Signup</span></a>
+                </li>
+                <li class="nav-button nav-button-dark">
+                    <a class="nav-link" href="{% url 'account_login' %}"><i class="fa-solid fa-right-to-bracket"></i><span>Login</span></a>
+                </li>
+              {% endif %}
+          </ul>
           </div>
         </div>
       </div>
