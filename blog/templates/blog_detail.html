@@ -7,6 +7,20 @@
 <main>
   <h1>{{ blog.title }}</h1>
   <p>{{ blog.content }}</p>
+
+  <h3 class="mt-5">Comments</h3>
+  <div class="card-body">
+    {% for comment in comments %}
+    <div class="comments" style="padding: 10px;">
+            {{ comment.name }}
+            <span class=" text-muted font-weight-normal">
+                {{ comment.created_on }}
+            </span> wrote:
+        </p>
+        {{ comment.body | linebreaks }}
+    </div>
+    {% endfor %}
+
   {% if commented %}
       <div class="alert alert-success" role="alert">
           Your comment is awaiting approval
