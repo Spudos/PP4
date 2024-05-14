@@ -10,6 +10,22 @@ class BlogEntries(generic.ListView):
   queryset = Post.objects.filter(status=1).order_by('-created_on')
   template_name = "blog.html"
   paginate_by = 6
+  
+  def get_context_data(self, **kwargs):
+    context = super().get_context_data(**kwargs)
+    category_mapping = {
+        0: 'Fitness',
+        1: 'Lifestyle',
+        2: 'Cardio',
+        3: 'Nutrition',
+        4: 'Motivation',
+        5: 'Shopping',
+        6: 'Weight',
+    }
+    posts = context['post_list']
+    for post in posts:
+        post.category_string = category_mapping.get(post.category, 'Other')
+    return context
 
 class BlogDetail(View):
   def get(self, request, slug, *args, **kwargs):
