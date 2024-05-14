@@ -184,7 +184,8 @@ footer {
 /*--------------------------------------------Blog page*/
 .blog-header {
   background-color: #fbf5ed;
-  border-radius: 10%;
+  border-radius: 5%;
+  padding: 20px;
 }
 
 .blog-list-image img {
