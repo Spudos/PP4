@@ -128,7 +128,8 @@ main {
   width: 150px;
 }
 
-.main-featured-blog .blog-selected-entries {
+.main-featured-blog, 
+.blog-selected-entries a {
   text-decoration: none;
   color: #000;
 }
