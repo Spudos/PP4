@@ -185,3 +185,8 @@ footer {
   border-radius: 10%;
   vertical-align: auto;
 }
+
+.card-button a {
+  text-decoration: none;
+  color: #000;
+}

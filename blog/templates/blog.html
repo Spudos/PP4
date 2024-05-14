@@ -15,8 +15,8 @@
             <div class="col-6">
               <div class="card mb-4">
                 <div class="card-body">
-                  <div class="nav-button">
-                    <a href='{% url 'blog_detail' post.slug %}'><h5>{{ post.title }}</h5>
+                  <div class="card-button">
+                    <a href='{% url 'blog_detail' post.slug %}'><h3>{{ post.title }}</h3>
                     <div class="blog-list-image mt-5">
                       {% if "none" in post.image.url %}
                       <img src="{% static 'images/big-image.png' %}">
