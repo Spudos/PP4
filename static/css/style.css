@@ -155,13 +155,6 @@ main {
   text-align: end;
 }
 
-/*--------------------------------------------Shop*/
-#carousel {
-  margin: auto;
-  width: 75%;
-  height: 300px;
-  border: solid 1px #0cef7a;
-}
 /*--------------------------------------------info*/
 #info-section {
   background-color: #fbf5ed;

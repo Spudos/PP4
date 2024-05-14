@@ -15,17 +15,20 @@
             <div class="col-6">
               <div class="card mb-4">
                 <div class="card-body">
-                  <a href='{% url 'blog_detail' post.slug %}'><h2>{{ post.title }}</h2></a>
-                  <div class="blog-list-image mt-5">
-                    {% if "none" in post.image.url %}
-                    <img src="{% static 'images/big-image.png' %}">
-                    {% else %}
-                    <img src=" {{ post.image.url }}">
-                    {% endif %}
+                  <div class="nav-button">
+                    <a href='{% url 'blog_detail' post.slug %}'><h5>{{ post.title }}</h5>
+                    <div class="blog-list-image mt-5">
+                      {% if "none" in post.image.url %}
+                      <img src="{% static 'images/big-image.png' %}">
+                      {% else %}
+                      <img src=" {{ post.image.url }}">
+                      {% endif %}
+                    </div>
+                    <p>Category: {{ post.category_string }}</p>
+                    <h6>{{ post.excerpt }}</h6>
+                    <p>{{ post.created_on}}</p>
+                    </a>
                   </div>
-                  <h4>{{ post.category_string }}</h4>
-                  <h5>{{ post.excerpt }}</h5>
-                  <p>{{ post.created_on}}</p>
                   <strong>
                     {% if user.is_authenticated %}
                     <form class="d-inline" action="{% url 'blog_like' post.slug %}" method="POST">

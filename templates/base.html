@@ -3,7 +3,6 @@
 {% url 'welcome' as home_url %}
 {% url 'blog' as blog_url %}
 {% url 'booking' as booking_url %}
-{% url 'shop' as shop_url %}
 {% url 'contact' as contact_url %}
 
 <!DOCTYPE html>
@@ -64,10 +63,6 @@
             <li class="nav-button">
               <a class="nav-link {% if request.path == booking_url %}active" aria-current="page{% endif %}"
               href="{% url 'booking' %}"><i class="fa-solid fa-dumbbell" aria-hidden="true"></i><span>Meet</span></a>
-            </li>
-            <li class="nav-button">
-              <a class="nav-link {% if request.path == shop_url %}active" aria-current="page{% endif %}"
-              href="{% url 'shop' %}"><i class="fa-solid fa-basket-shopping" aria-hidden="true"></i><span>Spend</span></a>
             </li>
             <li class="nav-button">
                 <a class="nav-link {% if request.path == about_url %}active" aria-current="page{% endif %}"
