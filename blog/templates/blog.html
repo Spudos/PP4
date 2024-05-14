@@ -26,7 +26,21 @@
                   <h4>{{ post.category }}</h4>
                   <h5>{{ post.excerpt }}</h5>
                   <p>{{ post.created_on}}</p>
-                  <p><i class="far fa-thumbs-up"></i> {{ post.number_of_likes }}</p>
+                  <strong>
+                    {% if user.is_authenticated %}
+                    <form class="d-inline" action="{% url 'blog_like' post.slug %}" method="POST">
+                        {% csrf_token %}
+                        {% if liked %}
+                        <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like"><i class="fas fa-thumbs-up"></i></button>
+                        {% else %}
+                        <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like"><i class="far fa-thumbs-up"></i></button>
+                        {% endif %}
+                    </form>
+                    {% else %}
+                    <span class="text-secondary"><i class="far fa-thumbs-up"></i></span>
+                    {% endif %}
+                <span class="text-secondary">{{ post.number_of_likes }} </span>
+                </strong>
                 </div>
               </div>
             </div>
