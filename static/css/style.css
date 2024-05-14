@@ -128,6 +128,11 @@ main {
   width: 150px;
 }
 
+.main-featured-blog .blog-selected-entries {
+  text-decoration: none;
+  color: #000;
+}
+
 /*--------------------------------------------Sessions*/
 .session-type {
   display: flex;
