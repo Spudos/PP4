@@ -17,16 +17,16 @@
                 <div class="card-body">
                   <div class="card-section">
                     <a href='{% url 'blog_detail' post.slug %}'><h3>{{ post.title }}</h3>
-                    <div class="blog-list-image mt-5">
+                    <p>{{ post.created_on}}</p>  
+                    <p>Category: {{ post.category_string }}</p>  
+                    <div class="blog-list-image mt-2 mb-2">
                       {% if "none" in post.image.url %}
                       <img src="{% static 'images/big-image.png' %}">
                       {% else %}
                       <img src=" {{ post.image.url }}">
                       {% endif %}
                     </div>
-                    <p>Category: {{ post.category_string }}</p>
-                    <h6>{{ post.excerpt | safe }}</h6>
-                    <p>{{ post.created_on}}</p>
+                    <h6>{{ post.excerpt|safe }}</h6>
                     </a>
                   </div>
                   <strong>

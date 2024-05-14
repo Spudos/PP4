@@ -14,13 +14,14 @@
     <div class="row">
       <div class="main-featured-blog col-6">
         <div class="row" id="featured-blog-image">
-          <img src="{% static 'images/big-image.png' %}" class="big-image" alt="{{ about.title }}">
+          <img src="{{ latest_blog_entry.image.url }}" class="big-image" alt="{{ latest_blog_entry.title }}">
         </div>
         <div class="row" id="featured-blog-text">
-          <h4>Blog about something</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <h4>{{ latest_blog_entry.title }}</h4>
+          <p>{{ latest_blog_entry.excerpt|safe }}</p>
         </div>
       </div>
+
       <div class="col-6">
         <div class="blog">
           <div class="blog-image col-4">
@@ -31,6 +32,7 @@
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           </div>
         </div>
+
         <div class="blog">
           <div class="blog-image col-4">
             <img src="{% static 'images/small-image.png' %}" class="small-image" alt="{{ about.title }}">
@@ -40,6 +42,7 @@
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           </div>
         </div>
+
         <div class="blog">
           <div class="blog-image col-4">
             <img src="{% static 'images/small-image.png' %}" class="small-image" alt="{{ about.title }}">
@@ -49,6 +52,7 @@
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           </div>
         </div>
+      
       </div>
     </div>
   </div>
