@@ -105,12 +105,13 @@ main {
 
 /*--------------------------------------------Featured Blogs*/
 #featured-blog-image {
-  width: 80%;
+  width: 300px;
+  height: 400px;
 }
 
 #featured-blog-text {
-  width: 80%;
-  height: 30%;
+  width: 300px;
+  height: 150px;
 }
 
 .blog {
@@ -183,6 +184,10 @@ footer {
 
 
 /*--------------------------------------------Blog page*/
+.blog-header {
+  background-color: #fbf5ed;
+}
+
 .blog-list-image img {
   width: 200px;
   height: 200px;
