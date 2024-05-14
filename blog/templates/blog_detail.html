@@ -5,11 +5,14 @@
 {% load crispy_forms_tags %}
 
 <main>
-  <h1>{{ blog.title }}</h1>
-  <p>{{ blog.content|safe }}</p>
+    <div class="blog-detail-image">
+        <img src="{{ blog.image.url }}" alt="{{ blog.title }}">
+    </div>
+    <h1>{{ blog.title }}</h1>
+    <p>{{ blog.content|safe }}</p>
 
-  <h3 class="mt-5">Comments</h3>
-  <div class="card-body">
+    <h3 class="mt-5">Comments</h3>
+    <div class="card-body">
     {% for comment in comments %}
     <div class="comments" style="padding: 10px;">
             {{ comment.name }}
@@ -21,22 +24,22 @@
     </div>
     {% endfor %}
 
-  {% if commented %}
-      <div class="alert alert-success" role="alert">
-          Your comment is awaiting approval
-      </div>
-      {% else %}
-      {% if user.is_authenticated %}
+    {% if commented %}
+        <div class="alert alert-success" role="alert">
+            Your comment is awaiting approval
+        </div>
+        {% else %}
+        {% if user.is_authenticated %}
 
-      <h3>Leave a comment:</h3>
-      <p>Posting as: {{ user.username }}</p>
-      <form method="post" style="margin-top: 1.3em;">
-          {{ comment_form | crispy }}
-          {% csrf_token %}
-          <button type="submit" class="btn btn-signup btn-lg">Submit</button>
-      </form>
-      {% endif %}
-      {% endif %}
+        <h3>Leave a comment:</h3>
+        <p>Posting as: {{ user.username }}</p>
+        <form method="post" style="margin-top: 1.3em;">
+            {{ comment_form | crispy }}
+            {% csrf_token %}
+            <button type="submit" class="btn btn-signup btn-lg">Submit</button>
+        </form>
+        {% endif %}
+        {% endif %}
  </main> 
 
  {% endblock content %}

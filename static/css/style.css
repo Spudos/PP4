@@ -210,3 +210,9 @@ footer {
   text-decoration: none;
   color: #000;
 }
+
+/*--------------------------------------------Blog detail page*/
+.blog-detail-image {
+  margin: auto;
+  width: 400px;
+}
