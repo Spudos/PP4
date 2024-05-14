@@ -105,13 +105,11 @@ main {
 
 /*--------------------------------------------Featured Blogs*/
 #featured-blog-image {
-  width: 400px;
-  height: 300px;
+  width: 300px;
 }
 
 #featured-blog-text {
   width: 300px;
-  height: 150px;
 }
 
 .blog {

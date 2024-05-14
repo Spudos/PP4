@@ -16,7 +16,7 @@
               <div class="card mb-4">
                 <div class="card-body">
                   <div class="card-section">
-                    <a href='{% url 'blog_detail' post.slug %}'><h3 class="blog-header">{{ post.title }}</h3>
+                    <a href='{% url 'blog_detail' post.slug %}'><h3 class="blog-header p-5">{{ post.title }}</h3>
                     <p>{{ post.created_on}}</p>  
                     <p>Category: {{ post.category_string }}</p>  
                     <div class="blog-list-image mt-2 mb-2">
