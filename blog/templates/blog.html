@@ -24,7 +24,7 @@
                       {% endif %}
                     </div>
                     <a href='{% url 'blog_detail' post.slug %}'><h4>{{ post.title }}</h4>
-                    <h6 >{{ post.excerpt|safe }}</h6>
+                    <h5 >{{ post.excerpt|safe }}</h5>
                     <p>Category: {{ post.category_string }}</p>
                     </a>
                   </div>
@@ -33,13 +33,13 @@
                     <form class="d-inline" action="{% url 'blog_like' post.slug %}" method="POST">
                         {% csrf_token %}
                         {% if liked %}
-                        <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like"><i class="fas fa-thumbs-up"></i></button>
+                        <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like m-2"><i class="fas fa-thumbs-up"></i></button>
                         {% else %}
-                        <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like"><i class="far fa-thumbs-up"></i></button>
+                        <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like m-2"><i class="far fa-thumbs-up"></i></button>
                         {% endif %}
                     </form>
                     {% else %}
-                    <span class="text-secondary"><i class="far fa-thumbs-up"></i></span>
+                    <span class="text-secondary"><i class="far fa-thumbs-up m-2"></i></span>
                     {% endif %}
                 <span class="text-secondary">{{ post.number_of_likes }} </span>
                 </strong>
