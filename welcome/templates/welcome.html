@@ -22,9 +22,9 @@
         </div>
       </a>
     </div>
-    <div class="col-6">
+    <div class="blog-selected-entries col-6">
       {% for entry in selected_entries %}
-        <a href='{% url 'blog_detail' latest_blog_entry.slug %}'>
+        <a href='{% url 'blog_detail' entry.slug %}'>
           <div class="blog mb-5">
             <div class="blog-image col-4">
               <img src="{{ entry.image.url }}" alt="{{ entry.title }}">
