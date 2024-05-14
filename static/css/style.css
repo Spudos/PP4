@@ -124,6 +124,11 @@ main {
   align-items: center;
 }
 
+.blog-image img {
+  height: 150px;
+  width: 150px;
+}
+
 /*--------------------------------------------Sessions*/
 .session-type {
   display: flex;

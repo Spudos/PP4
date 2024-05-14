@@ -14,19 +14,18 @@
     <div class="row">
       <div class="main-featured-blog col-6">
         <div class="row" id="featured-blog-image">
-          <img src="{{ latest_blog_entry.image.url }}" class="big-image" alt="{{ latest_blog_entry.title }}">
+          <img src="{{ latest_blog_entry.image.url }}" alt="{{ latest_blog_entry.title }}">
         </div>
         <div class="row" id="featured-blog-text">
           <h4>{{ latest_blog_entry.title }}</h4>
           <p>{{ latest_blog_entry.excerpt|safe }}</p>
         </div>
       </div>
-
       {% for entry in selected_entries %}
         <div class="col-6">
           <div class="blog">
             <div class="blog-image col-4">
-              <img src="{{ entry.image.url }}" class="big-image" alt="{{ entry.title }}">
+              <img src="{{ entry.image.url }}" alt="{{ entry.title }}">
             </div>
             <div class="blog-text col-8 p-2">
               <h4>{{ entry.title }}</h4>
@@ -34,8 +33,6 @@
             </div>
           </div>
         {% endfor %}
-
-      
       </div>
     </div>
   </div>
