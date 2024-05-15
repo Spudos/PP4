@@ -234,3 +234,9 @@ footer {
   border-radius: 10%;
   vertical-align: auto;
 }
+
+/*--------------------------------------------Contact me page*/
+.contact-page {
+  padding: 100px;
+  height: 100vh;
+}

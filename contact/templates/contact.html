@@ -1,6 +1,47 @@
-{% extends 'base.html' %}
-{% load static %}
-
-{% block content %}
-  <h2>Contact</h2>
+{% extends 'base.html' %} {% load static %} {% block content %}
+<main>
+  <div class="contact-page">
+    <h3 class="mb-5">Contact me using the following methods</h3>
+    <div class="col-4 d-flex flex-column mb-5">
+      <h5>Pure Drive Fitness Ltd</h5>
+      <h6>Mobile: 07913 528 697</h6>
+      <h6>Email: success@puredrivefitness.com</h6>
+    </div>
+    <h3 class="mb-5">Or complete this form and I will get right back to you!</h3>
+    <form method="post" action="{% url 'contact' %}">
+      {% csrf_token %}
+      <div class="mb-3">
+        <label for="id_email" class="form-label">Email:</label>
+        <input
+          type="email"
+          class="form-control"
+          id="id_email"
+          name="email"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="id_subject" class="form-label">Subject:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="id_subject"
+          name="subject"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="id_message" class="form-label">Message:</label>
+        <textarea
+          class="form-control"
+          id="id_message"
+          name="message"
+          rows="4"
+          required
+        ></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark">Submit</button>
+    </form>
+  </div>
+</main>
 {% endblock content %}

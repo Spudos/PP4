@@ -172,3 +172,16 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+# DEFAULT_FROM_EMAIL = "spudos16@gmail.com"
+# NOTIFY_EMAIL = "spudos16@gmail.com"
+
+DEFAULT_FROM_EMAIL = "spudos16@gmail.com"
+NOTIFY_EMAIL = "spudos16@gmail.com"
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.sendgrid.net"
+EMAIL_HOST_USER = "apikey"
+EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_API_KEY")
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
