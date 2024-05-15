@@ -169,6 +169,19 @@ main {
   text-align: end;
 }
 
+/*--------------------------------------------contact*/
+.contact-image img {
+  height: 300px;
+  width: 150px;
+  border-radius: 5%;
+  margin-top: 25px;
+}
+
+.contact-button:hover {
+  color: rgb(15, 149, 233);
+  background: rgba(0, 0, 0, 0.2);
+}
+
 /*--------------------------------------------info*/
 #info-section {
   background-color: #fbf5ed;
@@ -183,8 +196,15 @@ main {
 footer {
   background-color: rgb(0, 0, 0);
   min-height: 100px;
+  color: #fff;
+  font-size: 3rem;
+  display: flex;
 }
 
+.social a {
+  text-decoration: none;
+  color: #fff;
+}
 
 /*--------------------------------------------Blog page*/
 .blog-header {

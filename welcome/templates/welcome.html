@@ -88,10 +88,27 @@
 
   <div class="section-heading">
     <h2>Contact Me</h2>
+    
   </div>
 
-  <div id="contact-me" class="row">
-
+  <div id="contact-me" class="row d-flex justify-content-center">
+    <div class="contact-image d-flex justify-content-center col-2 m-5">
+      <img src="{% static 'images/smiling.webp' %}" alt="picture of the site owner smiling">
+    </div>
+    <div class="col-6 m-5">
+      <h5>Meet Sarah, a vibrant and accomplished female personal trainer and nutritionist.</h5> 
+        <P>With a warm smile and a passion for helping others, she's dedicated to transforming lives through fitness and healthy eating.</P>
+        <P>Sarah's approach is not just about physical results, but also about fostering a positive mindset and sustainable lifestyle changes. Her clients describe her as an inspiring motivator who tailors her programs to individual needs, making every session enjoyable and effective.</P>
+        <P>As a successful entrepreneur, Sarah has built a thriving community around her, empowering women to embrace their strength and vitality. Her infectious energy and expertise make her a sought-after mentor in the wellness world.</P>
+        <h6>Get in touch now to discuss your goals and how we can achieve them.</h6>
+    </div>
+    <div class="session-image d-flex justify-content-center col-2 m-5">
+      <a class="btn btn-dark btn-lg contact-button" href="{% url 'contact' %}" role="button">
+        <i class="fa fa-comment" aria-hidden="true"></i>
+        <span>Lets Talk</span>
+      </a>
+    </div>
+    
   </div>
 </main>
 
