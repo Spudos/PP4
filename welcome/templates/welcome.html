@@ -38,43 +38,56 @@
       {% endfor %} 
     </div>
   </div>
+  <div class="row d-flex justify-content-center m-5">
+    <div class="col-2 d-flex justify-content-center">
+      <a class="btn btn-dark btn-lg contact-button" href="{% url 'blog' %}" role="button">
+        <i class="fa fa-book-open" aria-hidden="true"></i>
+        <span>Lets Read</span>
+      </a>
+    </div>
+  </div>
 
   <div class="section-heading">
     <h2>Session Types</h2>
   </div>
 
-  <div id="sessions" class="row">
-    {% for session in sessions_a %}
-      <div class="col-5 session-type">
-        <div class="session-image col-4">
-          <img src="{{ session.image.url }}" class="small-image" alt="{{ session.type }}">
-        </div>
-        <div class="session-text col-8">
-          <h4>{{ session.type }}</h4>
-          <p>{{ session.excerpt}}</p>
-        </div>
+  <div>
+    <div class="d-flex">
+      <div class="col-6">
+      {% for session in sessions_a %}
+        <div class="d-flex session-type justify-content-start align-items-center">
+          <div class="session-image col-3 p-0 m-0">
+            <img src="{{ session.image.url }}" class="small-image" alt="{{ session.type }}">
+          </div>
+          <div class="session-text col-9">
+            <h4>{{ session.session_type }}</h4>
+            <p>{{ session.excerpt}}</p>
+          </div>
       </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
 
-    {% for session in sessions_b %}
-      <div class="col-5 session-type">
-        <div class="session-text right col-8">
-          <h4>{{ session.type }}</h4>
-          <p>{{ session.excerpt}}</p>
-        </div>
-        <div class="session-image col-4">
-          <img src="{{ session.image.url }}" class="small-image" alt="{{ session.type }}">
-        </div>
+    <div class="col-6">
+      {% for session in sessions_b %}
+        <div class="d-flex session-type justify-content-end align-items-center">
+          <div class="session-text right col-9">
+            <h4>{{ session.session_type }}</h4>
+            <p>{{ session.excerpt}}</p>
+          </div>
+          <div class="session-image col-3 p-0 m-0">
+            <img src="{{ session.image.url }}" class="small-image" alt="{{ session.type }}">
+          </div>
       </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
 
-    <div class="row d-flex justify-content-center m-5">
-      <div class="col-2 d-flex justify-content-center">
-        <a class="btn btn-dark btn-lg contact-button" href="{% url 'booking' %}" role="button">
-          <i class="fa fa-dumbbell" aria-hidden="true"></i>
-          <span>Lets Meet</span>
-        </a>
-      </div>
+  <div class="row d-flex justify-content-center m-5">
+    <div class="col-2 d-flex justify-content-center">
+      <a class="btn btn-dark btn-lg contact-button" href="{% url 'booking' %}" role="button">
+        <i class="fa fa-dumbbell" aria-hidden="true"></i>
+        <span>Lets Meet</span>
+      </a>
     </div>
   </div>
 

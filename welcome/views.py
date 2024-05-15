@@ -12,4 +12,3 @@ def welcome(request):
     sessions_b = session_types[3:6]
     
     return render(request, 'welcome.html', {'latest_blog_entry': latest_blog_entry, 'selected_entries': selected_entries, 'sessions_a': sessions_a, 'sessions_b': sessions_b})
-

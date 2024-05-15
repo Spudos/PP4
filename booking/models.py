@@ -17,11 +17,18 @@ class Booking(models.Model):
   booking_date_time = models.DateTimeField()
   last_update = models.DateTimeField(auto_now=True)
   created_on = models.DateTimeField(auto_now_add=True)
-  
+
+SESSION_TYPE = (("Gym", "Gym"),
+        ("Strength", "Strength"),
+        ("Cardio", "Cardio"),
+        ("Nutrition", "Nutrition"),
+        ("Motivation", "Motivation"),
+        ("Weight Loss", "Weight Loss"))
+
 class Sessions(models.Model):
-  type = models.IntegerField(choices=TYPE, default=0)
-  Description = models.TextField(max_length=200, unique=True)
-  excerpt = models.TextField(max_length=50, unique=True)
+  session_type = models.TextField(choices=SESSION_TYPE, default='Gym')
+  Description = models.TextField()
+  excerpt = models.TextField()
   image = CloudinaryField('image', default='none')
   last_update = models.DateTimeField(auto_now=True)
   created_on = models.DateTimeField(auto_now_add=True)

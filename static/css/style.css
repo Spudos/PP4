@@ -140,9 +140,7 @@ main {
 
 /*--------------------------------------------Sessions*/
 .session-type {
-  display: flex;
-  height: 150px;
-  margin: auto;
+  height: 200px;
 }
 
 .session-image img {
