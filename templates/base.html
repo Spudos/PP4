@@ -23,6 +23,10 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- Google Maps -->
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOTqfJ0yY0SC1eM3HkYoNsaYasR--Lob8&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
 </head>
   <body>
     <header class="sticky-top">
@@ -90,10 +94,19 @@
     {% endblock content %}
    
 
-    <div id="info-section">
-      <div id="info-section-detail" class="col-6">
-        <h2>Info</h2>
+    <div id="info-section" class="d-flex flex-row justify-content-center align-items-center">
+      <div class="col-4 d-flex flex-column">
+        <h5>Pure Drive Fitness Ltd</h5>
+        <h6>Mobile: 07913 528 697</h6>
+        <h6>Email: shirley@puredrivefitness.com</h6>
+        <h6>Vat Reg No: 548 4546 544</h6>
+        <h6 class="mt-3">We are located at</h6>
+        <p>Meole Brace Golf Course, Oteley Rd, Shrewsbury SY2 6QQ</p>
       </div>
+      <gmp-map class="col-4" center="52.688995361328125,-2.762193202972412" zoom="14" map-id="DEMO_MAP_ID">
+        
+        <gmp-advanced-marker position="52.688995361328125,-2.762193202972412" title="My location"></gmp-advanced-marker>
+      </gmp-map>
     </div>
 
     <footer>
