@@ -44,44 +44,36 @@
   </div>
 
   <div id="sessions" class="row">
-    <div class="row">
+    {% for session in sessions_a %}
       <div class="col-5 session-type">
         <div class="session-image col-4">
-          <img src="{% static 'images/small-image.png' %}" class="small-image" alt="{{ about.title }}">
+          <img src="{{ session.image.url }}" class="small-image" alt="{{ session.type }}">
         </div>
         <div class="session-text col-8">
-          <h4>Session Type</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <h4>{{ session.type }}</h4>
+          <p>{{ session.excerpt}}</p>
         </div>
       </div>
+    {% endfor %}
+
+    {% for session in sessions_b %}
       <div class="col-5 session-type">
         <div class="session-text right col-8">
-          <h4>Session Type</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <h4>{{ session.type }}</h4>
+          <p>{{ session.excerpt}}</p>
         </div>
         <div class="session-image col-4">
-          <img src="{% static 'images/small-image.png' %}" class="small-image" alt="{{ about.title }}">
+          <img src="{{ session.image.url }}" class="small-image" alt="{{ session.type }}">
         </div>
       </div>
-    </div>
-    <div class="row mt-5">
-      <div class="col-5 session-type">
-        <div class="session-image col-4">
-          <img src="{% static 'images/small-image.png' %}" class="small-image" alt="{{ about.title }}">
-        </div>
-        <div class="session-text col-8">
-          <h4>Session Type</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
-      </div>
-      <div class="col-5 session-type">
-        <div class="session-text right col-8">
-          <h4>Session Type</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
-        <div class="session-image col-4">
-          <img src="{% static 'images/small-image.png' %}" class="small-image" alt="{{ about.title }}">
-        </div>
+    {% endfor %}
+
+    <div class="row d-flex justify-content-center m-5">
+      <div class="col-2 d-flex justify-content-center">
+        <a class="btn btn-dark btn-lg contact-button" href="{% url 'booking' %}" role="button">
+          <i class="fa fa-dumbbell" aria-hidden="true"></i>
+          <span>Lets Meet</span>
+        </a>
       </div>
     </div>
   </div>
