@@ -13,10 +13,10 @@
           <div class="row">
             {% for post in post_list %}
             <div class="col-6">
-              <div class="card card border-0 mb-4">
+              <div class="card border-0 mb-4">
                 <div class="card-body">
-                  <div class="card-section blog-header">
-                    <div class="blog-list-image mt-2 mb-2">
+                  <div class="card-section d-flex blog-header">
+                    <div class="blog-list-image m-5">
                       {% if "none" in post.image.url %}
                       <img src="{% static 'images/big-image.png' %}">
                       {% else %}

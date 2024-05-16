@@ -1,6 +1,24 @@
 {% extends 'base.html' %} {% load static %} {% block content %}
 <main>
-  <h2>Booking</h2>
+  <div class="mt-5 d-flex justify-content-center">
+    <h2>Booking</h2>
+    <p>My sessions</p>
+  </div>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      {% for session in session_types %}
+        <div class="col card card-body booking-card m-4">
+          <a href="{% url 'booking_form' %}">     
+            <img src="{{ session.image.url }}" class="small-image" alt="{{ session.type }}">
+            <h3>{{ session.session_type }}</h3>
+            <p>{{ session.Description }}</p>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+  
 </main>
 
 {% endblock content %}

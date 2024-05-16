@@ -159,14 +159,6 @@ main {
   padding: 5%;
 }
 
-.right h4 {
-  text-align: end;
-}
-
-.right p {
-  text-align: end;
-}
-
 /*--------------------------------------------contact*/
 .contact-image img {
   height: 300px;
@@ -209,6 +201,7 @@ footer {
   background-color: #fbf5ed;
   border-radius: 5%;
   padding: 20px;
+  height: 400px;
 }
 
 .blog-list-image img {
@@ -231,6 +224,25 @@ footer {
   border: #000000 5px solid;
   border-radius: 10%;
   vertical-align: auto;
+}
+
+/*--------------------------------------------Booking page*/
+
+.booking-card {
+  background-color: #fbf5ed;
+  height: 525px;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.booking-card a {
+  text-decoration: none;
+  color: #000;
+}
+
+.card-body:hover {
+  color: rgb(15, 149, 233);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 /*--------------------------------------------Contact me page*/
