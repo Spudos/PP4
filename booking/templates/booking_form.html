@@ -1,7 +1,7 @@
 {% extends 'base.html' %} {% load static %} {% block content %}
 <main>
   <h2>User Booking</h2>
-
+{{ session_type }}
   <form method="post">
     {% csrf_token %}
     <div>
