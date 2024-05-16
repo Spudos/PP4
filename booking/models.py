@@ -13,6 +13,7 @@ class Booking(models.Model):
   session_type = models.TextField(choices=SESSION_TYPE, default='Gym')
   notes = models.TextField()
   user = models.ForeignKey(User, on_delete=models.CASCADE)
+  approved = models.BooleanField(default=False)
   cancelled = models.BooleanField(default=False)
   booking_date_time = models.DateTimeField()
   last_update = models.DateTimeField(auto_now=True)

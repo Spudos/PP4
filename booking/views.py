@@ -14,6 +14,7 @@ def booking_form(request):
     session_type = request.GET.get('session_type')
     if session_type is None:
         return HttpResponseBadRequest("Session type is required")
+    user_name = request.user.get_full_name()
     
     if request.method == 'POST':
         form = BookingForm(request.POST)
@@ -27,6 +28,6 @@ def booking_form(request):
     else:
         initial_data = {'user': request.user.id, 'session_type': session_type}
         form = BookingForm(initial=initial_data)
-    return render(request, 'booking_form.html', {'form': form})
+    return render(request, 'booking_form.html', {'form': form, 'user_name': user_name})
 
 
