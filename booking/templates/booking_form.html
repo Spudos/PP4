@@ -3,7 +3,7 @@
   <h3 class="mt-5">
     Ready to get started, {{ user_name }}? Great, let's walk you through it
   </h3>
-  {{ session_type }}
+
   <form method="post" class="mt-4 col-6">
     {% csrf_token %}
     <div class="mt-5 mb-5">
@@ -32,22 +32,27 @@
     </div>
     <input type="hidden" name="user" value="{{ form.initial.user }}" />
     <div class="mt-5 mb-5">
-      <label for="id_booking_date_time" class="form-label"
-        ><h5>Finally we need to find a time for us to meet.</h5>
+      <label for="id_booking_date_time" class="form-label">
+        <h5>Finally we need to find a time for us to meet.</h5>
         <p>
           Select your ideal date and time here and I will confirm the booking
-          once I have revied it all. Remember, sessions are held at the address
-          below and last for one hour.
-        </p></label
-      >
-      <input
-        type="datetime-local"
+          once I have reviewed it all. Remember, sessions are held at the
+          address below and last for one hour.
+        </p>
+      </label>
+      <select
         id="id_booking_date_time"
         name="booking_date_time"
         class="form-control"
-        step="3600"
-      />
+      >
+        {% for appointment in available_appointments %}
+        <option value="{{ appointment.date_time }}">
+          {{ appointment.date_time }}
+        </option>
+        {% endfor %}
+      </select>
     </div>
+
     <button type="submit" class="btn btn-dark contact-button">
       Book My Session
     </button>

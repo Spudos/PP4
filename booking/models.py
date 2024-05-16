@@ -26,4 +26,8 @@ class Sessions(models.Model):
   image = CloudinaryField('image', default='none')
   last_update = models.DateTimeField(auto_now=True)
   created_on = models.DateTimeField(auto_now_add=True)
-
+  
+class Appointments(models.Model):
+  appointment_type = models.TextField(default='General')
+  available = models.BooleanField(default=True)
+  date_time = models.DateTimeField()

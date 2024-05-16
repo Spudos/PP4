@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Booking, Sessions
+from .models import Booking, Sessions, Appointments
 from django_summernote.admin import SummernoteModelAdmin
 
 # Register your models here.
@@ -14,3 +14,8 @@ class BookingAdmin(SummernoteModelAdmin):
 class SessionsAdmin(admin.ModelAdmin):
     list_display = ('session_type', 'Description', 'excerpt', 'created_on', 'image')
     list_filter = ('session_type', 'created_on')
+
+@admin.register(Appointments)
+class AppointmentsAdmin(admin.ModelAdmin):
+    list_display = ('appointment_type', 'date_time', 'available')
+    list_filter = ('appointment_type', 'available')
