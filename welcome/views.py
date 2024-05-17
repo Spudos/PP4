@@ -14,3 +14,6 @@ def welcome(request):
     unapproved_comments = Comment.objects.filter(approved=0)
     
     return render(request, 'welcome.html', {'latest_blog_entry': latest_blog_entry, 'selected_entries': selected_entries, 'sessions_a': sessions_a, 'sessions_b': sessions_b, 'unapproved_comments': unapproved_comments})
+
+def user_account(request):
+    return render(request, 'user_account.html')

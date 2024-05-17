@@ -109,6 +109,14 @@
               ><span>Talk</span></a
             >
           </li>
+          {% if user.is_authenticated %}
+          <li class="nav-button">
+            <a class="nav-link" href="{% url 'user_account' %}"
+              ><i class="fa-solid fa-right-from-bracket"
+              ></i><span>Me</span></a
+            >
+          </li>
+          {% endif %}
         </ul>
       </div>
     </header>
