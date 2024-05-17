@@ -14,6 +14,7 @@ class BookingAdmin(SummernoteModelAdmin):
 class SessionsAdmin(admin.ModelAdmin):
     list_display = ('session_type', 'Description', 'excerpt', 'created_on', 'image')
     list_filter = ('session_type', 'created_on')
+    summernote_field = ('session_type', 'Description', 'excerpt')
 
 @admin.register(Appointments)
 class AppointmentsAdmin(admin.ModelAdmin):

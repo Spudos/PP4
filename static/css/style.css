@@ -265,5 +265,7 @@ footer {
 /*--------------------------------------------Image control*/
 .page-image img{
   border-radius: 5%;
+  height: 300px;
+  width: 300px;
   margin: auto;
 }
