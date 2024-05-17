@@ -17,5 +17,4 @@ class SessionsAdmin(admin.ModelAdmin):
 
 @admin.register(Appointments)
 class AppointmentsAdmin(admin.ModelAdmin):
-    list_display = ('appointment_type', 'date_time', 'available')
-    list_filter = ('appointment_type', 'available')
+    list_display = ('appointment_type', 'date_time')

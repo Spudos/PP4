@@ -1,11 +1,11 @@
-from django.shortcuts import render, redirect
-from .models import Sessions, Appointments
+from django.shortcuts import render, redirect, get_object_or_404
+from .models import Sessions, Appointments, Booking
 from .forms import BookingForm
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseBadRequest
-from datetime import datetime
-
-import pdb
+from django.urls import reverse
+from datetime import date
+from django.db.models import Q
 
 def booking_page(request):
   session_types = Sessions.objects.all()
@@ -19,22 +19,32 @@ def booking_form(request):
         return HttpResponseBadRequest("Session type is required")
     user_name = request.user.get_full_name()
     
-    available_appointments = Appointments.objects.filter(available=True).order_by("date_time")
+    current_date = date.today()
+    available_appointments = Appointments.objects.filter(Q(booking__isnull=True) & Q(date_time__gt=current_date)).order_by("date_time")
     
     if request.method == 'POST':
         form = BookingForm(request.POST)
-        pdb.set_trace()
+
         if form.is_valid():
             new_booking = form.save(commit=False)
             new_booking.user = request.user
-
             new_booking.session_type = session_type
+            appointment_id = request.POST.get('appointment')
+            appointment_instance = get_object_or_404(Appointments, id=appointment_id)
+            new_booking.appointment = appointment_instance
             new_booking.save()
-            return redirect('booking')
+            return redirect(reverse('booking_success', kwargs={'booking_id': new_booking.id}))
+        else:
+            return HttpResponseBadRequest("Form data is not valid")
     else:
         initial_data = {'user': request.user.id, 'session_type': session_type}
         form = BookingForm(initial=initial_data)
         
     return render(request, 'booking_form.html', {'form': form, 'user_name': user_name, 'available_appointments': available_appointments})
 
+
+def booking_success(request, booking_id):
+    booking = get_object_or_404(Booking, id=booking_id)
+
+    return render(request, 'booking_success.html', {'booking': booking})
 

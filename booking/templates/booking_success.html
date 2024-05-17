@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<main>
+  <div class="contact-page">
+    <div class="mt-5 text-center">
+      <h2 class="mb-3">You are booked in with me</h2>
+      <h4>Session Type: {{ booking.session_type }} </h4>
+      <h5>Notes: {{ booking.notes }} </h5>
+      <h5>Date and Time: {{ booking.appointment.date_time }} </h5>
+      <p>Thank you so much for booking with me, should I need any further information I will be in touch shortly</P>
+    </div>
+  </div>  
+</main>
+
+{% endblock content %}
