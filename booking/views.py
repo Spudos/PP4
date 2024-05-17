@@ -28,13 +28,6 @@ def booking_form(request):
             new_booking = form.save(commit=False)
             new_booking.user = request.user
 
-            date_time_str = form.cleaned_data['booking_date_time']
-            input_format = "%B %d, %Y, %I %p"
-            parsed_date_time = datetime.strptime(date_time_str, input_format)
-            output_format = "%Y-%m-%d %H:%M:%S"
-            formatted_date_time = parsed_date_time.strftime(output_format)
-            
-            new_booking.booking_date_time = formatted_date_time
             new_booking.session_type = session_type
             new_booking.save()
             return redirect('booking')
