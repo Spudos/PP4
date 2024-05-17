@@ -20,7 +20,6 @@ class Booking(models.Model):
     session_type = models.TextField(choices=SESSION_TYPE, default='Gym')
     notes = models.TextField()
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    cancelled = models.BooleanField(default=False)
     appointment = models.OneToOneField(Appointments, on_delete=models.DO_NOTHING)
     last_update = models.DateTimeField(auto_now=True)
     created_on = models.DateTimeField(auto_now_add=True)

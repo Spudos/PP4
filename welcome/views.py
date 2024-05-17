@@ -18,13 +18,12 @@ def welcome(request):
 
 def user_account(request):
     user_bookings = Booking.objects.filter(user=request.user)
-    user_past_bookings = user_bookings.filter(cancelled=False, appointment__date_time__lt=date.today())
-    user_future_bookings = user_bookings.filter(cancelled=False, appointment__date_time__gt=date.today())
-    user_cancelled_bookings = user_bookings.filter(cancelled=True)
+    user_past_bookings = user_bookings.filter(appointment__date_time__lt=date.today())
+    user_future_bookings = user_bookings.filter(appointment__date_time__gt=date.today())
+    
 
     return render(request, 'user_account.html', {
         'user_bookings': user_bookings,
-        'user_cancelled_bookings': user_cancelled_bookings,
         'user_past_bookings': user_past_bookings,
         'user_future_bookings': user_future_bookings
     })

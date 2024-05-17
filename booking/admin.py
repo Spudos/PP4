@@ -5,9 +5,9 @@ from django_summernote.admin import SummernoteModelAdmin
 # Register your models here.
 @admin.register(Booking)
 class BookingAdmin(SummernoteModelAdmin):
-    list_display = ('session_type', 'user', 'cancelled', 'created_on')
+    list_display = ('session_type', 'user', 'created_on')
     search_fields = ['session_type', 'user']
-    list_filter = ('user', 'cancelled', 'created_on')
+    list_filter = ('user', 'created_on')
     summernote_field = ('notes')
     
 @admin.register(Sessions)
