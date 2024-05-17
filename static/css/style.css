@@ -109,7 +109,7 @@ main {
 }
 
 #featured-blog-image img {
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 #featured-blog-text {
@@ -212,8 +212,7 @@ footer {
 .blog-list-image img {
   width: 200px;
   height: 200px;
-  border: #000000 5px solid;
-  border-radius: 10%;
+  border-radius: 5%;
   vertical-align: auto;
 }
 
@@ -226,8 +225,7 @@ footer {
 .blog-detail-image img {
   width: 400px;
   height: 400px;
-  border: #000000 5px solid;
-  border-radius: 10%;
+  border-radius: 5%;
   vertical-align: auto;
 }
 
