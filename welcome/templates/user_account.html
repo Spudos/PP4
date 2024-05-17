@@ -3,11 +3,18 @@
 <main>
   <div class="contact-page">
     <div class="mb-5 p-0">
-      <h2 class="mb-5">Your Account</h2>
-      <h3>User Details</h3>
-      <p>First Name: {{ user.first_name }}</p>
-      <p>Last Name: {{ user.last_name }}</p>
-      <p>Email: {{ user.email }}</p>
+      <div class="row">
+        <h2 class="mb-5">Your Account</h2>
+        <div class="col-6">  
+          <h3>User Details</h3>
+          <p>First Name: {{ user.first_name }}</p>
+          <p>Last Name: {{ user.last_name }}</p>
+          <p>Email: {{ user.email }}</p>
+        </div>
+        <div class="col-6 page-image">
+          <img src="{% static 'images/success.webp' %}" alt="">
+        </div>
+      </div>
     </div>
     <h3>Upcoming Bookings</h3>
     <h6>If you cannot attend a session please cancel it here and rebook</h6>
