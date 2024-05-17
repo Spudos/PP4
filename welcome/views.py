@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404, redirect
 from blog.models import Post, Comment
 from booking.models import Sessions, Booking
 from datetime import date
@@ -28,3 +28,9 @@ def user_account(request):
         'user_past_bookings': user_past_bookings,
         'user_future_bookings': user_future_bookings
     })
+    
+def delete_booking(request, booking_id):
+    if request.method == 'POST':
+        booking = get_object_or_404(Booking, id=booking_id)
+        booking.delete()
+        return redirect('user_account')
