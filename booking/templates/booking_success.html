@@ -1,6 +1,9 @@
 {% extends 'base.html' %} {% load static %} {% block content %}
 <main>
   <div class="contact-page">
+    <div class="page-image d-flex justify-content-center col-2 m-5">
+      <img src="{% static 'images/success.webp' %}" alt="">
+    </div>
     <div class="mt-5 text-center">
       <h2 class="mb-3">You are booked in with me</h2>
       <h4>Session Type: {{ booking.session_type }} </h4>

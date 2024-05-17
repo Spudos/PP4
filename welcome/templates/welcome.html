@@ -57,7 +57,7 @@
       {% for session in sessions_a %}
         <div class="d-flex session-type justify-content-start align-items-center">
           <div class="session-image col-3 p-0 m-0">
-            <img src="{{ session.image.url }}" class="small-image" alt="{{ session.type }}">
+            <img src="{{ session.image.url }}" alt="{{ session.type }}">
           </div>
           <div class="session-text col-9">
             <h4>{{ session.session_type }}</h4>
@@ -75,7 +75,7 @@
             <p>{{ session.excerpt}}</p>
           </div>
           <div class="session-image col-3 p-0 m-0">
-            <img src="{{ session.image.url }}" class="small-image" alt="{{ session.type }}">
+            <img src="{{ session.image.url }}" alt="{{ session.type }}">
           </div>
       </div>
       {% endfor %}

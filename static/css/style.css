@@ -108,6 +108,10 @@ main {
   width: 300px;
 }
 
+#featured-blog-image img {
+  border-radius: 10%;
+}
+
 #featured-blog-text {
   width: 450px;
 }
@@ -126,6 +130,7 @@ main {
 .blog-image img {
   height: 150px;
   width: 150px;
+  border-radius: 5%;
 }
 
 .blog-selected-entries a {
@@ -230,7 +235,7 @@ footer {
 
 .booking-card {
   background-color: #fbf5ed;
-  height: 525px;
+  height: 550px;
   text-align: center;
   border-radius: 5%;
 }
@@ -238,6 +243,12 @@ footer {
 .booking-card a {
   text-decoration: none;
   color: #000;
+}
+
+.booking-card a img {
+  height: 150px;
+  width: 150px;
+  border-radius: 5%;
 }
 
 .card-body:hover {
@@ -249,4 +260,10 @@ footer {
 .contact-page {
   padding: 100px;
   height: 100vh;
+}
+
+/*--------------------------------------------Image control*/
+.page-image img{
+  border-radius: 5%;
+  margin: auto;
 }

@@ -11,7 +11,7 @@
       {% for session in session_types %}
         <div class="col card border-0 card-body booking-card m-4">
           <a href="{% url 'booking_form' %}?session_type={{ session.session_type }}">         
-            <img src="{{ session.image.url }}" class="small-image" alt="{{ session.type }}">
+            <img src="{{ session.image.url }}" alt="{{ session.type }}">
             <h3>{{ session.session_type }}</h3>
             <p>{{ session.Description }}</p>
           </a>
