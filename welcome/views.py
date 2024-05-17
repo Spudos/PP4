@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from blog.models import Post, Comment
-from booking.models import Sessions
+from booking.models import Sessions, Booking
+from datetime import date
 
 def welcome(request):
     blog_entries = Post.objects.filter(status=1).order_by('-created_on')
@@ -16,4 +17,14 @@ def welcome(request):
     return render(request, 'welcome.html', {'latest_blog_entry': latest_blog_entry, 'selected_entries': selected_entries, 'sessions_a': sessions_a, 'sessions_b': sessions_b, 'unapproved_comments': unapproved_comments})
 
 def user_account(request):
-    return render(request, 'user_account.html')
+    user_bookings = Booking.objects.filter(user=request.user)
+    user_past_bookings = user_bookings.filter(cancelled=False, appointment__date_time__lt=date.today())
+    user_future_bookings = user_bookings.filter(cancelled=False, appointment__date_time__gt=date.today())
+    user_cancelled_bookings = user_bookings.filter(cancelled=True)
+
+    return render(request, 'user_account.html', {
+        'user_bookings': user_bookings,
+        'user_cancelled_bookings': user_cancelled_bookings,
+        'user_past_bookings': user_past_bookings,
+        'user_future_bookings': user_future_bookings
+    })

@@ -6,6 +6,66 @@
 <main>
   <div class="contact-page">
     <h1>User Account</h1>
+
+    <h3>Upcoming Bookings</h3>
+    <table class="table mb-5">
+      <thead>
+        <tr>
+          <th scope="col">Session Type</th>
+          <th scope="col">Date of Session</th>
+          <th scope="col">Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for booking in user_future_bookings %}
+        <tr>
+          <td>{{ booking.session_type }}</td>
+          <td>{{ booking.appointment.date_time }}</td>
+          <td>{{ booking.notes|safe }}</td>
+        </tr>
+      {% endfor  %}
+      </tbody>
+    </table>
+
+    <h3>Past Bookings</h3>
+    <table class="table mb-5">
+      <thead>
+        <tr>
+          <th scope="col">Session Type</th>
+          <th scope="col">Date of Session</th>
+          <th scope="col">Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for booking in user_past_bookings %}
+        <tr>
+          <td>{{ booking.session_type }}</td>
+          <td>{{ booking.appointment.date_time }}</td>
+          <td>{{ booking.notes|safe }}</td>
+        </tr>
+      {% endfor  %}
+      </tbody>
+    </table>
+    
+    <h3>Cancelled Bookings</h3>
+    <table class="table mb-5">
+      <thead>
+        <tr>
+          <th scope="col">Session Type</th>
+          <th scope="col">Date of Session</th>
+          <th scope="col">Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for booking in user_cancelled_bookings %}
+        <tr>
+          <td>{{ booking.session_type }}</td>
+          <td>{{ booking.appointment.date_time }}</td>
+          <td>{{ booking.notes|safe }}</td>
+        </tr>
+      {% endfor  %}
+      </tbody>
+    </table>
   </div>
 </main>
 
