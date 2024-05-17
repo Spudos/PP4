@@ -3,6 +3,15 @@
 
 {% block content %}
 
+{% if user.is_superuser %}
+  {% if unapproved_comments %}
+    <div class="bg-warning p-3 text-center">
+      <h3>There are unapproved comments to review</h3>
+      <a class="btn btn-dark btn-lg contact-button" href="{% url 'admin:index' %}" role="button">Go to Admin</a>
+    </div>  
+  {% endif %}
+{% endif %}
+
 <div id="hero"></div>
     
 <main>

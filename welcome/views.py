@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from blog.models import Post
+from blog.models import Post, Comment
 from booking.models import Sessions
 
 def welcome(request):
@@ -11,4 +11,6 @@ def welcome(request):
     sessions_a = session_types[0:3]
     sessions_b = session_types[3:6]
     
-    return render(request, 'welcome.html', {'latest_blog_entry': latest_blog_entry, 'selected_entries': selected_entries, 'sessions_a': sessions_a, 'sessions_b': sessions_b})
+    unapproved_comments = Comment.objects.filter(approved=0)
+    
+    return render(request, 'welcome.html', {'latest_blog_entry': latest_blog_entry, 'selected_entries': selected_entries, 'sessions_a': sessions_a, 'sessions_b': sessions_b, 'unapproved_comments': unapproved_comments})
