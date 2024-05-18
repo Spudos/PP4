@@ -1,6 +1,6 @@
 {% extends 'base.html' %} {% load static %} {% block content %}
 <main>
-  <div class="mt-5 text-center">
+  <div class="m-2 mt-5 text-center">
     <h2 class="mb-3">Booking with me</h2>
     <p>Please review the sessions types below and choose what you feel is best for you.</p>
     <p>Once you have decided, simply click on a session and you will be taken to the booking for to submit your details</p>
@@ -9,7 +9,7 @@
   <div class="container">
     <div class="row row-cols-1 row-cols-md-3 g-4">
       {% for session in session_types %}
-        <div class="col card border-0 card-body booking-card m-4">
+        <div class="col card border-0 card-body booking-card m-2">
           <a href="{% url 'booking_form' %}?session_type={{ session.session_type }}">         
             <img src="{{ session.image.url }}" alt="{{ session.type }}">
             <h3>{{ session.session_type }}</h3>

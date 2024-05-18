@@ -1,10 +1,10 @@
 {% extends 'base.html' %} {% load static %} {% block content %}
 <main>
-  <h3 class="mt-5">
+  <h3 class="m-2 mt-5">
     Ready to get started, {{ user_name }}? Great, let's walk you through it
   </h3>
 
-  <form method="post" class="mt-4 col-6">
+  <form method="post" class="m-2 mt-4 col-11 col-md-6">
     {% csrf_token %}
     <div class="mt-5 mb-5">
       <label for="id_session_type" class="form-label"
@@ -17,17 +17,12 @@
       {{ form.session_type }}
     </div>
     <div class="mt-5 mb-5">
-      <label for="id_notes" class="form-label"
-        ><h5>Next, what would you like to tell me?</h5>
+      <label for="id_notes" class="form-label">
+        <h5>Next, what would you like to tell me?</h5>
         <p>
-          We will cover everything that we need to during the session but it is
-          sometimes useful for me to have some information about your aims and
-          ambitions before we start. Yoiu can also tell me about any injuries
-          you have had or if you have had any help before and if so, why did it
-          work (or not work!).
+          We will cover everything that we need to during the session but it is sometimes useful for me to have some information about your aims and ambitions before we start. You can also tell me about any injuries you have had or if you have had any help before and if so, why did it work (or not work!).
         </p>
-        <p></p
-      ></label>
+      </label>
       {{ form.notes }}
     </div>
     <input type="hidden" name="user" value="{{ form.initial.user }}" />

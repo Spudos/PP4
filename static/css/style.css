@@ -233,7 +233,8 @@ footer {
 
 .booking-card {
   background-color: #fbf5ed;
-  height: 550px;
+  height: fit-content;
+  min-height: 550px;
   text-align: center;
   border-radius: 5%;
 }
@@ -254,9 +255,11 @@ footer {
   background: rgba(0, 0, 0, 0.2);
 }
 
-/*--------------------------------------------Contact me page*/
-.contact-page {
-  height: 100vh;
+#id_notes {
+  border-radius: 5%;
+  padding: 10px;
+  max-width: 300px;
+  box-sizing: border-box;
 }
 
 /*--------------------------------------------Image control*/
@@ -278,6 +281,7 @@ footer {
   #info-section {
     flex-direction: column !important;
     height: 600px;
+    letter-spacing: 2px;
   }
 
   .nav-button a i {
