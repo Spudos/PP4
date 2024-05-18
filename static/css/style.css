@@ -60,12 +60,12 @@ main {
 }
 
 .nav-button {
-  width: 250px;
+  max-width: 250px;
   text-align: center;
 }
 
 .nav-button a {
-  width: 100%;
+  max-width: 100%;
   text-decoration: none;
   color: #000;
 }
@@ -81,7 +81,7 @@ main {
 
 .nav-button span {
   display: block;
-  width: 100%;
+  max-width: 100%;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -256,14 +256,46 @@ footer {
 
 /*--------------------------------------------Contact me page*/
 .contact-page {
-  padding: 100px;
   height: 100vh;
 }
 
 /*--------------------------------------------Image control*/
 .page-image img{
   border-radius: 5%;
-  height: 300px;
-  width: 300px;
+  max-width: 300px;
   margin: auto;
+}
+
+/*--------------------------------------------Media Queries*/
+@media (max-width: 1100px) {
+  #info-section {
+    flex-direction: column !important;
+    height: 600px;
+  }
+}
+
+@media (max-width: 820px) {
+  #info-section {
+    flex-direction: column !important;
+    height: 600px;
+  }
+
+  .nav-button a i {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  .nav-button span {
+    letter-spacing: 0px;
+  }
+
+  .nav-link {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .page-image img {
+    max-width: 200px;
+  }
 }

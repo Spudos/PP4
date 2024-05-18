@@ -39,11 +39,11 @@
   <body>
     <header class="sticky-top">
       <div id="top-row">
-        <div id="logo" class="row col-10">
-          <div class="col-9">
+        <div id="logo" class="row col-md-10">
+          <div class="col-6 col-md-8 col-lg-10">
             <h1>Pure Drive Fitness</h1>
           </div>
-          <div class="col-3">
+          <div class="col-5 col-md-4 col-lg-2">
             <ul id="nav-top" class="list-inline">
               {% if user.is_authenticated %}
               <li class="nav-button nav-button-dark">
@@ -140,7 +140,7 @@
       id="info-section"
       class="d-flex flex-row justify-content-center align-items-center"
     >
-      <div class="col-4 d-flex flex-column">
+      <div class="col-xl-4 col-md-6 d-flex flex-column m-2">
         <h5>Pure Drive Fitness Ltd</h5>
         <h6>Mobile: 07913 528 697</h6>
         <h6>Email: success@puredrivefitness.com</h6>
@@ -149,7 +149,8 @@
         <p>Meole Brace Golf Course, Oteley Rd, Shrewsbury SY2 6QQ</p>
       </div>
       <gmp-map
-        class="col-4"
+        class="col-xl-4 col-md-6"
+        style="max-height: 300px;"
         center="52.688995361328125,-2.762193202972412"
         zoom="14"
         map-id="DEMO_MAP_ID"
@@ -163,7 +164,7 @@
 
     <footer class="row footer d-flex justify-content-center">
       <div
-        class="col-4 d-flex justify-content-between align-items-center g-5 social"
+        class="col-xl-4 col-md-6 d-flex justify-content-between align-items-center g-5 social"
       >
         <a href="https://www.facebook.com" target="_blank"
           ><i class="fa-brands fa-facebook contact-button"></i
