@@ -4,8 +4,8 @@
 {% block content %}
 {% load crispy_forms_tags %}
 
-<main>
-    <div class="blog-detail-image d-flex justify-content-center mt-5 mb-2">
+<main class="container-fluid">
+    <div class="blog-detail-image d-flex justify-content-center m-2 mt-5">
         <img src="{{ blog.image.url }}" alt="{{ blog.title }}">
     </div>
     <h1 class="text-center">{{ blog.title }}</h1>

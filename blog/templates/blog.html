@@ -10,14 +10,14 @@
 
   <div class="container-fluid">
     <div class="row">
-        <div class="col-12">
+        <div>
           <div class="row">
             {% for post in post_list %}
-            <div class="col-6">
+            <div class="col-sm-6">
               <div class="card border-0 mb-4">
                 <div class="card-body">
-                  <div class="card-section d-flex blog-header">
-                    <div class="blog-list-image m-5">
+                  <div class="card-section blog-header">
+                    <div class="blog-list-image mb-5">
                       {% if "none" in post.image.url %}
                       <img src="{% static 'images/big-image.png' %}">
                       {% else %}

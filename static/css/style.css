@@ -206,14 +206,17 @@ footer {
   background-color: #fbf5ed;
   border-radius: 5%;
   padding: 20px;
-  height: 400px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .blog-list-image img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 5%;
-  vertical-align: auto;
+  
 }
 
 .card-section a {
