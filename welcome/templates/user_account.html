@@ -1,7 +1,7 @@
 {% extends 'base.html' %} {% load static %} {% block content %}
 
 <main>
-  <div class="contact-page">
+  <div class="m-2">
     <div class="mb-5 p-0">
       <div class="row">
         <h2 class="mb-5">Your Account</h2>
@@ -24,7 +24,6 @@
           <th scope="col">Session Type</th>
           <th scope="col">Date of Session</th>
           <th scope="col">Notes</th>
-          <th scope="col">Actions</th>
         </tr>
       </thead>
       <tbody>
@@ -33,6 +32,9 @@
           <td>{{ booking.session_type }}</td>
           <td>{{ booking.appointment.date_time }}</td>
           <td>{{ booking.notes|safe }}</td>
+        </tr>
+        <tr>
+          <td></td>
           <td>
             <form
               id="deleteForm{{ booking.id }}"
@@ -45,11 +47,14 @@
                 class="btn btn-danger"
                 onclick="confirmDelete({{ booking.id }})"
               >
-                Cancel booking
+                Cancel
               </button>
             </form>
           </td>
+          <td></td>
         </tr>
+          
+
         {% endfor %}
       </tbody>
     </table>

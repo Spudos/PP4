@@ -292,10 +292,14 @@ footer {
   .nav-link {
     padding: 10px;
   }
+
+  .page-image img {
+    max-width: 200px;
+  }
 }
 
 @media (max-width: 500px) {
   .page-image img {
-    max-width: 200px;
+    display: none;
   }
 }
