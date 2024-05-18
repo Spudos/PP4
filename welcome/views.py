@@ -9,12 +9,10 @@ def welcome(request):
     selected_entries = blog_entries[1:4]
     
     session_types = Sessions.objects.all()
-    sessions_a = session_types[0:3]
-    sessions_b = session_types[3:6]
     
     unapproved_comments = Comment.objects.filter(approved=0)
     
-    return render(request, 'welcome.html', {'latest_blog_entry': latest_blog_entry, 'selected_entries': selected_entries, 'sessions_a': sessions_a, 'sessions_b': sessions_b, 'unapproved_comments': unapproved_comments})
+    return render(request, 'welcome.html', {'latest_blog_entry': latest_blog_entry, 'selected_entries': selected_entries, 'session_types': session_types, 'unapproved_comments': unapproved_comments})
 
 def user_account(request):
     user_bookings = Booking.objects.filter(user=request.user)

@@ -143,24 +143,10 @@ main {
 }
 
 /*--------------------------------------------Sessions*/
-.session-type {
-  height: 200px;
-}
-
 .session-image img {
   height: 150px;
   width: 150px;
   border-radius: 50%;
-}
-
-.session-text {
-  height: 100%;
-  padding: 5%;
-}
-
-.session-text-right {
-  height: 100%;
-  padding: 5%;
 }
 
 /*--------------------------------------------contact*/
@@ -276,10 +262,6 @@ footer {
   #info-section {
     flex-direction: column !important;
     height: 600px;
-  }
-
-  .session-image {
-    display: none;
   }
 }
 

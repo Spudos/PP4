@@ -60,37 +60,21 @@
     <h2>Session Types</h2>
   </div>
 
-  <div>
-    <div class="d-flex">
-      <div class="col-6">
-      {% for session in sessions_a %}
-        <div class="d-flex session-type justify-content-start align-items-center">
-          <div class="session-image col-3 p-0 m-0">
-            <img src="{{ session.image.url }}" alt="{{ session.type }}">
-          </div>
-          <div class="session-text col-9">
-            <h4>{{ session.session_type }}</h4>
-            <p>{{ session.excerpt}}</p>
-          </div>
+  <div class="row">
+    {% for session in session_types %}
+    <div class="col-sm-6">
+      <div class="session-image m-auto">
+        <img src="{{ session.image.url }}" alt="{{ session.type }}">
       </div>
-      {% endfor %}
-    </div>
-
-    <div class="col-6">
-      {% for session in sessions_b %}
-        <div class="d-flex session-type justify-content-end align-items-center">
-          <div class="session-text right col-9">
-            <h4>{{ session.session_type }}</h4>
-            <p>{{ session.excerpt}}</p>
-          </div>
-          <div class="session-image col-3 p-0 m-0">
-            <img src="{{ session.image.url }}" alt="{{ session.type }}">
-          </div>
+      <div class="">
+        <h4>{{ session.session_type }}</h4>
+        <p>{{ session.excerpt }}</p>
       </div>
-      {% endfor %}
     </div>
+    {% endfor %}
   </div>
-
+  
+  
   <div class="row d-flex justify-content-center m-5">
     <div class="col-6 col-sm-3 col-lg-2 d-flex justify-content-center">
       <a class="btn btn-dark btn-lg contact-button" href="{% url 'booking' %}" role="button">
