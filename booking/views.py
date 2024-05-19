@@ -6,6 +6,8 @@ from django.http import HttpResponseBadRequest
 from django.urls import reverse
 from datetime import date
 from django.db.models import Q
+from django.conf import settings
+from django.core.mail import send_mail
 
 def booking_page(request):
   session_types = Sessions.objects.all()
@@ -48,6 +50,32 @@ def booking_form(request):
 
 def booking_success(request, booking_id):
     booking = get_object_or_404(Booking, id=booking_id)
+    current_user = request.user
+    message = booking
+
+    full_message = f"""
+        Hey {current_user.first_name}
+       
+        Thenk you for your booking!
+        
+        Session Type:  {message.session_type}
+        
+        Notes:  {message.notes}
+        
+        Date and Time:  {message.appointment.date_time}
+        
+        I look forward to seeing you.
+        
+        Many Thanks
+        
+        Sarah
+        Pride Fitness Ltd
+        """
+    send_mail(
+        subject="Received booking submission",
+        message=full_message,
+        from_email=settings.DEFAULT_FROM_EMAIL,
+        recipient_list=[settings.NOTIFY_EMAIL, current_user.email],
+    )
 
     return render(request, 'booking_success.html', {'booking': booking})
-

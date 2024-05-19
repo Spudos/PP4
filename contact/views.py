@@ -33,6 +33,6 @@ class ContactView(FormView):
             subject="Received contact form submission",
             message=full_message,
             from_email=settings.DEFAULT_FROM_EMAIL,
-            recipient_list=[settings.NOTIFY_EMAIL],
+            recipient_list=[settings.NOTIFY_EMAIL, email],
         )
         return super(ContactView, self).form_valid(form)
