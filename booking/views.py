@@ -39,8 +39,11 @@ def booking_form(request):
     else:
         initial_data = {'user': request.user.id, 'session_type': session_type}
         form = BookingForm(initial=initial_data)
-        
-    return render(request, 'booking_form.html', {'form': form, 'user_name': user_name, 'available_appointments': available_appointments})
+    
+    if available_appointments:
+        return render(request, 'booking_form.html', {'form': form, 'user_name': user_name, 'available_appointments': available_appointments})
+    else:
+        return render(request, 'booking_full.html') 
 
 
 def booking_success(request, booking_id):
