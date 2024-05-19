@@ -60,10 +60,10 @@
     <h2>Session Types</h2>
   </div>
 
-  <div class="row">
+  <div class="row d-flex justify-content-center">
     {% for session in session_types %}
-    <div class="col-sm-6">
-      <div class="session-image m-auto">
+    <div class="col-sm-5">
+      <div class="session-image m-auto d-flex justify-content-center">
         <img src="{{ session.image.url }}" alt="{{ session.type }}">
       </div>
       <div class="">
@@ -100,11 +100,14 @@
         <P>As a successful entrepreneur, Sarah has built a thriving community around her, empowering women to embrace their strength and vitality. Her infectious energy and expertise make her a sought-after mentor in the wellness world.</P>
         <h6>Get in touch now to discuss your goals and how we can achieve them.</h6>
     </div>
-    <div class="session-image d-flex justify-content-center col-6 col-sm-3 col-lg-2 m-5">
-      <a class="btn btn-dark btn-lg contact-button" href="{% url 'contact' %}" role="button">
-        <i class="fa fa-comment" aria-hidden="true"></i>
-        <span>Lets Talk</span>
-      </a>
+
+    <div class="row d-flex justify-content-center m-5">
+      <div class="col-6 col-sm-3 col-lg-2 d-flex justify-content-center">
+        <a class="btn btn-dark btn-lg contact-button" href="{% url 'contact' %}" role="button">
+          <i class="fa fa-comment" aria-hidden="true"></i>
+          <span>Lets Talk</span>
+        </a>
+      </div>
     </div>
     
   </div>
