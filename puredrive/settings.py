@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+import sys
 import dj_database_url
 from django.contrib.messages import constants as messages
 if os.path.isfile('env.py'):
@@ -110,29 +111,13 @@ TEMPLATES = [
 WSGI_APPLICATION = 'puredrive.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-default_db_config = dj_database_url.parse(os.environ.get("DATABASE_URL"))
-
 DATABASES = {
-    'default': default_db_config,
-    'test': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': ':memory:',
-    }
+    'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
-
  
-# Password validation
-# https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
+if 'test' in sys.argv:
+    DATABASES['default']['ENGINE'] = 'django.db.backends.sqlite3'
+
 
 AUTH_PASSWORD_VALIDATORS = [
     {
