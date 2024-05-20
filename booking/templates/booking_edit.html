@@ -1,0 +1,45 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<main>
+  <div class="m-2 mt-4 m-auto col-11 col-sm-8 col-md-6">
+    <h3 class="m-2 mt-5">Hey, {{ user.first_name }}</h3>
+    <h4 class="m-auto m-2">You can edit your booking below</h4>
+
+    <form method="post">
+      {% csrf_token %}
+
+      <div class="mt-5 mb-5">
+        <label for="id_session_type" class="form-label"
+          ><h6>Your current session type.</h6>
+        </label>
+        {{ form.session_type }}
+      </div>
+
+      <div class="mt-5 mb-5">
+        <label for="id_session_type" class="form-label"
+          ><h6>These are the notes you have submitted.</h6>
+        </label>
+        {{ form.notes }}
+      </div>
+
+      <div class="mb-3">
+        {{ form.appointment.label_tag }} {{ form.appointment}}
+      </div>
+      <button type="submit" class="btn btn-dark contact-button">
+        Save Changes
+      </button>
+    </form>
+
+    <div class="mt-3 col-6 col-sm-3 col-lg-3">
+      <a
+        class="btn btn-dark contact-button"
+        href="{% url 'user_account' %}"
+        role="button"
+      >
+        <i class="fa-solid fa-rotate-left"></i>
+        <span>Return to My Account</span>
+      </a>
+    </div>
+  </div>
+</main>
+
+{% endblock content %}

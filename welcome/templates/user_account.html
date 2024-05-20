@@ -5,14 +5,14 @@
     <div class="mb-5 p-0">
       <div class="row">
         <h2 class="mb-5">Your Account</h2>
-        <div class="col-6">  
+        <div class="col-6">
           <h3>User Details</h3>
           <p>First Name: {{ user.first_name }}</p>
           <p>Last Name: {{ user.last_name }}</p>
           <p>Email: {{ user.email }}</p>
         </div>
         <div class="col-6 page-image">
-          <img src="{% static 'images/success.webp' %}" alt="">
+          <img src="{% static 'images/success.webp' %}" alt="" />
         </div>
       </div>
     </div>
@@ -36,6 +36,15 @@
         <tr>
           <td></td>
           <td>
+            <a
+              class="btn btn-dark contact-button"
+              href="{% url 'booking_edit' pk=booking.pk %}"
+            >
+              <i class="fa-solid fa-pen-to-square" aria-hidden="true"></i>
+              <span>Edit</span>
+            </a>
+          </td>
+          <td>
             <form
               id="deleteForm{{ booking.id }}"
               method="post"
@@ -51,10 +60,7 @@
               </button>
             </form>
           </td>
-          <td></td>
         </tr>
-          
-
         {% endfor %}
       </tbody>
     </table>

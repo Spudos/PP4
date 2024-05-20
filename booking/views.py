@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Sessions, Appointments, Booking
-from .forms import BookingForm
+from .forms import BookingForm, BookingEditForm
+from django.views.generic import UpdateView
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseBadRequest
 from django.urls import reverse
@@ -9,10 +10,12 @@ from django.db.models import Q
 from django.conf import settings
 from django.core.mail import send_mail
 
+
 def booking_page(request):
   session_types = Sessions.objects.all()
   
   return render(request, 'booking.html', {'session_types': session_types})
+
 
 @login_required
 def booking_form(request):
@@ -56,7 +59,7 @@ def booking_success(request, booking_id):
     full_message = f"""
         Hey {current_user.first_name}
        
-        Thenk you for your booking!
+        Thank you for your booking!
         
         Session Type:  {message.session_type}
         
@@ -79,3 +82,44 @@ def booking_success(request, booking_id):
     )
 
     return render(request, 'booking_success.html', {'booking': booking})
+
+    
+class BookingEditView(UpdateView):
+    model = Booking
+    form_class = BookingEditForm
+    template_name = 'booking_edit.html'
+    success_url = '/user-account/'
+
+    def form_valid(self, form):
+        current_user = self.request.user
+        message = form.cleaned_data
+
+        full_message = f"""
+            Hey {current_user.first_name}
+        
+            You have edited your booking!
+            
+            The revised details are as follows:
+            
+            Session Type:  {message['session_type']}
+            
+            Notes:  {message['notes']}
+            
+            Date and Time:  {message['appointment'].date_time}
+            
+            I look forward to seeing you.
+            
+            Many Thanks
+            
+            Sarah
+            Pride Fitness Ltd
+            """
+
+        send_mail(
+            subject="Received booking submission",
+            message=full_message,
+            from_email=settings.DEFAULT_FROM_EMAIL,
+            recipient_list=[settings.NOTIFY_EMAIL, current_user.email],
+        )
+        
+        return super().form_valid(form)

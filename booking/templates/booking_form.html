@@ -1,14 +1,15 @@
 {% extends 'base.html' %} {% load static %} {% block content %}
 <main>
-  <h3 class="m-2 mt-5">
-    Ready to get started, {{ user_name }}? Great, let's walk you through it
-  </h3>
+  <div class="m-2 mt-4 m-auto col-11 col-md-6">
+    <h3 class="m-2 mt-5">
+      Ready to get started, {{ user_name }}? Great, let's walk you through it
+    </h3>
 
-  <form method="post" class="m-2 mt-4 col-11 col-md-6">
+  <form method="post">
     {% csrf_token %}
     <div class="mt-5 mb-5">
       <label for="id_session_type" class="form-label"
-        ><h5>The first thing to select is your session type.</h5>
+        ><h5>Your current session type.</h5>
         <p>
           This is prepopulated with the option you clicked on from the previous
           page but you can change it to anything you want.
@@ -49,9 +50,20 @@
     </div>
 
     <button type="submit" class="btn btn-dark contact-button">
+      <i class="fa fa-dumbbell" aria-hidden="true"></i>
       Book My Session
     </button>
   </form>
+
+
+    <div class="mt-2 col-6 col-sm-3 col-lg-3">
+      <a class="btn btn-dark contact-button" href="{% url 'booking' %}" role="button">
+        <i class="fa-solid fa-rotate-left"></i>
+        <span>Return to Sessions</span>
+      </a>
+    </div>
+
+</div>
 </main>
 
 {% endblock content %}
