@@ -28,7 +28,7 @@ main {
 #top-row {
   display: flex;
   min-height: 100px;
-  background-color: #000000;
+  background-color: rgb(0, 0, 0, 0.9);
   color: #fff;
 }
 
@@ -38,7 +38,7 @@ main {
 
 #nav-top {
   height: 90px;
-  background-color: #000;
+  background-color: rgb(0, 0, 0, 0.9);
   color: #fff;
   margin: 0px;
   display: flex;
@@ -48,7 +48,7 @@ main {
 #nav {
   height: 90px;
   background-color: #fbf5ed;
-  color: #000000;
+  color: rgb(0, 0, 0, 0.9);
   margin: 0px;
   display: flex;
   justify-content: center;
@@ -66,7 +66,7 @@ main {
 .nav-button a {
   max-width: 100%;
   text-decoration: none;
-  color: #000;
+  color: rgb(0, 0, 0, 0.9);
 }
 
 .nav-button-dark a {
@@ -92,7 +92,7 @@ main {
 
 /*--------------------------------------------Hero*/
 #hero {
-  background: url("/images/hero.jgp");
+  background: url("../images/hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,12 +134,12 @@ main {
 
 .blog-selected-entries a {
   text-decoration: none;
-  color: #000;
+  color: rgb(0, 0, 0, 0.9);
 }
 
 .main-featured-blog a {
   text-decoration: none;
-  color: #000;
+  color: rgb(0, 0, 0, 0.9);
 }
 
 /*--------------------------------------------Sessions*/
@@ -174,7 +174,7 @@ main {
 
 /*--------------------------------------------Footer*/
 footer {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0, 0.9);
   min-height: 75px;
   color: #fff;
   font-size: 3rem;
@@ -206,7 +206,7 @@ footer {
 
 .card-section a {
   text-decoration: none;
-  color: #000;
+  color: rgb(0, 0, 0, 0.9);
 }
 
 /*--------------------------------------------Blog detail page*/
@@ -229,7 +229,7 @@ footer {
 
 .booking-card a {
   text-decoration: none;
-  color: #000;
+  color: rgb(0, 0, 0, 0.9);
 }
 
 .booking-card a img {
