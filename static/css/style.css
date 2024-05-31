@@ -92,7 +92,7 @@ main {
 
 /*--------------------------------------------Hero*/
 #hero {
-  background: url("../images/hero2.png");
+  background: url("/images/hero.jgp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
