@@ -496,7 +496,6 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2F) 
 - No Errors Found
 
-
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
 | Error | N/A | N/A | N/A |
@@ -504,9 +503,8 @@ index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infin
 
 ### Login  
 
-login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Faccounts%2Flogin%2F) 
+login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Faccounts%2Flogin%2F)
 - No Errors Found
-
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -515,9 +513,8 @@ login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infin
 
 ### Register  
 
-register.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Faccounts%2Fsignup%2F) 
+register.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Faccounts%2Fsignup%2F)
 - No Errors Found
-
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -532,7 +529,6 @@ register.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-in
 </details>
 - No Errors Found
 
-
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
 | Error | N/A | N/A | N/A |
@@ -540,9 +536,8 @@ register.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-in
 
 ### Products 
 
-products.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fproducts%2F) 
+products.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fproducts%2F)
 - No Errors Found
-
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -551,9 +546,8 @@ products.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-in
 
 ### Product Detail 
 
-product_detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fproducts%2F10%2F) 
+product_detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fproducts%2F10%2F)
 - No Errors Found
-
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -569,13 +563,12 @@ cart.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infini
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
 | Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
+| Warning | N/A | N/A | N/A |
 
 ### Checkout
 
-checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fcheckout%2F) 
+checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fcheckout%2F)
 - No Errors Found
-
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
