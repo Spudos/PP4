@@ -12,9 +12,9 @@ from django.core.mail import send_mail
 
 
 def booking_page(request):
-  session_types = Sessions.objects.all()
-  
-  return render(request, 'booking.html', {'session_types': session_types})
+    session_types = Sessions.objects.all()
+
+    return render(request, 'booking.html', {'session_types': session_types})
 
 
 @login_required
@@ -23,10 +23,10 @@ def booking_form(request):
     if session_type is None:
         return HttpResponseBadRequest("Session type is required")
     user_name = request.user.get_full_name()
-    
+
     current_date = date.today()
     available_appointments = Appointments.objects.filter(Q(booking__isnull=True) & Q(date_time__gt=current_date)).order_by("date_time")
-    
+
     if request.method == 'POST':
         form = BookingForm(request.POST)
 
@@ -44,11 +44,11 @@ def booking_form(request):
     else:
         initial_data = {'user': request.user.id, 'session_type': session_type}
         form = BookingForm(initial=initial_data)
-    
+
     if available_appointments:
         return render(request, 'booking_form.html', {'form': form, 'user_name': user_name, 'available_appointments': available_appointments})
     else:
-        return render(request, 'booking_full.html') 
+        return render(request, 'booking_full.html')
 
 
 def booking_success(request, booking_id):
@@ -58,19 +58,19 @@ def booking_success(request, booking_id):
 
     full_message = f"""
         Hey {current_user.first_name}
-       
+
         Thank you for your booking!
-        
+
         Session Type:  {message.session_type}
-        
+
         Notes:  {message.notes}
-        
+
         Date and Time:  {message.appointment.date_time}
-        
+
         I look forward to seeing you.
-        
+
         Many Thanks
-        
+
         Sarah
         Pride Fitness Ltd
         """
@@ -83,7 +83,7 @@ def booking_success(request, booking_id):
 
     return render(request, 'booking_success.html', {'booking': booking})
 
-    
+
 class BookingEditView(UpdateView):
     model = Booking
     form_class = BookingEditForm
@@ -96,21 +96,21 @@ class BookingEditView(UpdateView):
 
         full_message = f"""
             Hey {current_user.first_name}
-        
+
             You have edited your booking!
-            
+
             The revised details are as follows:
-            
+
             Session Type:  {message['session_type']}
-            
+
             Notes:  {message['notes']}
-            
+
             Date and Time:  {message['appointment'].date_time}
-            
+
             I look forward to seeing you.
-            
+
             Many Thanks
-            
+
             Sarah
             Pride Fitness Ltd
             """
@@ -121,5 +121,5 @@ class BookingEditView(UpdateView):
             from_email=settings.DEFAULT_FROM_EMAIL,
             recipient_list=[settings.NOTIFY_EMAIL, current_user.email],
         )
-        
+
         return super().form_valid(form)

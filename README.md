@@ -84,27 +84,27 @@
 
 <details><summary>User Account</summary>
 
-![Account](/static/Readme_images/issues_account.png)
+![Account](/static/readme_images/issues_account.png)
 </details>
 
 <details><summary>Blog</summary>
 
-![Blog](/static/Readme_images/issues_blog.png)
+![Blog](/static/readme_images/issues_blog.png)
 </details>
 
 <details><summary>Contact</summary>
 
-![Contact](/static/Readme_images/issues_contact.png)
+![Contact](/static/readme_images/issues_contact.png)
 </details>
 
 <details><summary>General</summary>
 
-![General](/static/Readme_images/issues_general.png)
+![General](/static/readme_images/issues_general.png)
 </details>
 
 <details><summary>Session</summary>
 
-![Session](/static/Readme_images/issues_session.png)
+![Session](/static/readme_images/issues_session.png)
 </details>
 
 #### Kanban Board
@@ -112,16 +112,16 @@
 <details><summary>Kanban examples at various stages of the project</summary>
 
 Basic Welcome page complete, contact form in testing and session booking in progress
-![Kanban_1](/static/Readme_images/kanban_1.png)
+![Kanban_1](/static/readme_images/kanban_1.png)
 
 Session editing in testing and blog functions in progress
-![Kanban_2](/static/Readme_images/kanban_2.png)
+![Kanban_2](/static/readme_images/kanban_2.png)
 
 Comment and likes in testing, comment notifications and approval in progress
-![Kanban_3](/static/Readme_images/kanban_3.png)
+![Kanban_3](/static/readme_images/kanban_3.png)
 
 All work completed
-![Kanban_4](/static/Readme_images/kanban_4.png)
+![Kanban_4](/static/readme_images/kanban_4.png)
 </details>
 
 ##### Back to [top](#table-of-contents)<hr>
@@ -131,35 +131,35 @@ Balsamiq is the tool that I commonly use to wireframe my projects.  It has the c
 
 <details><summary>Welcome</summary>  
 
-![Welcome](/static/Readme_images/wireframe_welcome.png)
+![Welcome](/static/readme_images/wireframe_welcome.png)
 </details>
 
 <details><summary>Blog</summary>  
 
 Blog Preview
-![Blog Preview](/static/Readme_images/wireframe_blog.png)
+![Blog Preview](/static/readme_images/wireframe_blog.png)
 
 Blog Detail
-![Blog Detail](/static/Readme_images/wireframe_read.png)
+![Blog Detail](/static/readme_images/wireframe_read.png)
 </details>
 
 <details><summary>Sessions</summary>  
 
 Session Details
-![Session Details](/static/Readme_images/wireframe_sessions.png)
+![Session Details](/static/readme_images/wireframe_sessions.png)
 
 Session Booking
-![Session Booking](/static/Readme_images/wireframe_booking.png)
+![Session Booking](/static/readme_images/wireframe_booking.png)
 </details>
 
 <details><summary>Contact Me</summary>  
 
-![Contact Me](/static/Readme_images/wireframe_contact.png)
+![Contact Me](/static/readme_images/wireframe_contact.png)
 </details>
 
 <details><summary>User Account</summary>  
 
-![User Account](/static/Readme_images/wireframe_account.png)
+![User Account](/static/readme_images/wireframe_account.png)
 </details>
 
 ##### Back to [top](#table-of-contents)<hr>
@@ -221,7 +221,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>ElephantSQL details</summary>
 
-![ElephantSQL](/static/Readme_images/elephantsql.png)<br>
+![ElephantSQL](/static/readme_images/elephantsql.png)<br>
 
 </details>
 
@@ -362,7 +362,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Header](/static/Readme_images/feature_header.png)
+![Header](/static/readme_images/feature_header.png)
 </details>
 
 ### Footer
@@ -373,7 +373,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Footer](/static/Readme_images/feature_footer.png)
+![Footer](/static/readme_images/feature_footer.png)
 </details>
 
 ### Welcome Page
@@ -385,9 +385,9 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Welcome Blogs](/static/Readme_images/feature_welcome_blog.png)
-![Welcome Sessions](/static/Readme_images/feature_welcome_sessions.png)
-![Welcome Contact](/static/Readme_images/feature_welcome_contact.png)
+![Welcome Blogs](/static/readme_images/feature_welcome_blog.png)
+![Welcome Sessions](/static/readme_images/feature_welcome_sessions.png)
+![Welcome Contact](/static/readme_images/feature_welcome_contact.png)
 
 </details>
 
@@ -399,7 +399,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Blog Listing](/static/Readme_images/feature_blog_listing.png)
+![Blog Listing](/static/readme_images/feature_blog_listing.png)
 </details>
 
 ### Blog Detail
@@ -410,7 +410,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Blog Detail](/static/Readme_images/feature_blog_detail.png)
+![Blog Detail](/static/readme_images/feature_blog_detail.png)
 </details>
 
 ### Blog Comment Notification
@@ -420,7 +420,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Blog Comment Notification](/static/Readme_images/feature_notification.png)
+![Blog Comment Notification](/static/readme_images/feature_notification.png)
 </details>
 
 ### Session Detail
@@ -430,7 +430,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Session Detail](/static/Readme_images/feature_session_detail.png)
+![Session Detail](/static/readme_images/feature_session_detail.png)
 </details>
 
 ### Session Booking
@@ -442,9 +442,9 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Session Booking](/static/Readme_images/feature_booking.png)
-![Session Booked](/static/Readme_images/feature_booking_success.png)
-![Session Failure](/static/Readme_images/feature_booking_failure.png)
+![Session Booking](/static/readme_images/feature_booking.png)
+![Session Booked](/static/readme_images/feature_booking_success.png)
+![Session Failure](/static/readme_images/feature_booking_failure.png)
 </details>
 
 ### Contact Me
@@ -456,8 +456,8 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Session Booking](/static/Readme_images/feature_contact.png)
-![Session Booked](/static/Readme_images/feature_contact_success.png)
+![Session Booking](/static/readme_images/feature_contact.png)
+![Session Booked](/static/readme_images/feature_contact_success.png)
 </details>
 
 ### User Account
@@ -468,7 +468,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Session Booking](/static/Readme_images/feature_account.png)
+![Session Booking](/static/readme_images/feature_account.png)
 </details>
 
 ### Admin Section
@@ -478,9 +478,9 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See example feature images</summary>
 
-![Session Booking](/static/Readme_images/feature_admin_1.png)
-![Session Booking](/static/Readme_images/feature_admin_2.png)
-![Session Booking](/static/Readme_images/feature_admin_3.png)
+![Session Booking](/static/readme_images/feature_admin_1.png)
+![Session Booking](/static/readme_images/feature_admin_2.png)
+![Session Booking](/static/readme_images/feature_admin_3.png)
 </details>
 
 ##### Back to [top](#table-of-contents)
@@ -583,7 +583,7 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 
 <details><summary>style.css</summary>
 
-![style.css](/static/Readme_images/css_validation.png)
+![style.css](/static/readme_images/css_validation.png)
 </details>
 
 - No errors found
@@ -591,58 +591,19 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 ##### Back to [top](#table-of-contents)
 
 ### JavaScript Validation
-JSHint javaScript Validation Service was used to validate all javaScript files.
+JSHint javaScript Validation Service was used to validate all javaScript snippets.
 
-<details><summary>base.js</summary>  
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-base.png">
-</details>  
+<details><summary>base.html</summary>
 
-- No issues raised
+![base.html](/static/readme_images/js_base.png)
+</details>
 
-<details><summary>custom_admin.js</summary>  
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-base.png">
-</details>  
+<details><summary>account.html</summary>
 
-- No issues raised
+![user_account.html](/static/readme_images/js_account.png)
+</details>
 
-
-<details><summary>home.js</summary>  
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-base.png">
-</details>  
-
-- No issues raised
-
-<details><summary>product-management.js</summary>  
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-product-management.png">
-</details>  
-
-- No issues raised
-
-<details><summary>products.js</summary>  
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-products.png">
-</details>  
-
-- No issues raised
-
-<details><summary>quantity-input.js</summary>  
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-quantity-input.png">
-</details>  
-
-- No issues raised
-
-<details><summary>stripe_elements.js</summary>  
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-stripe-elements.png">
-</details>  
-
-- one undefined variable Stripe which originates from a external script
-- one undefined variable $ which originates from jquery a external script
-
-<details><summary>toasts.js</summary>  
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-toasts.png">
-</details>  
-
-- No issues raised
-
+- No errors found
 
 ##### Back to [top](#table-of-contents)<hr> 
 
@@ -658,242 +619,6 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 
 <details><summary>cart_tools.py</summary>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-cart-tools.png">
-</details>
-
-<details><summary>test_contexts.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-test-contexts.png">
-</details>
-
-<details><summary>test_views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-test-views.png">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-urls.png">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-views.png">
-</details>
-
-<hr>
-
-### Checkout
-
-<details><summary>forms.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-checkout-forms.png">
-</details>
-
-<details><summary>models.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-checkout-models.png">
-</details>
-
-<details><summary>signals.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-checkout-signals.png">
-</details>
-
-<details><summary>test_forms.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-checkout-test-forms.png">
-</details>
-
-<details><summary>test_models.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-checkout-test-models.png">
-</details>
-
-<details><summary>test_views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-checkout-test-views.png">
-</details>
-
-<details><summary>test_webhook_handler.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-checkout-test-webhook-handler.png">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-checkout-urls.png">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-checkout-views.png">
-</details>
-
-<details><summary>webhook_handler.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-checkout-webhook-handler.png">
-</details>
-
-<details><summary>webhooks.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-checkout-webhooks.png">
-</details>
-
-<hr>
-
-### Contact
-
-<details><summary>forms.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-contact-forms.png">
-</details>
-
-<details><summary>models.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-contact-models.png">
-</details>
-
-<details><summary>test_forms.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-contact-test-forms.png">
-</details>
-
-<details><summary>test_models.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-contact-test-models.png">
-</details>
-
-<details><summary>test_views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-contact-test-views.png">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-contact-urls.png">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-contact-views.png">
-</details>
-
-<hr>
-
-### Custom Admin
-
-<details><summary>contexts.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-custom-admin-contexts.png">
-</details>
-
-<details><summary>forms.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-custom-admin-forms.png">
-</details>
-
-<details><summary>test_forms.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-custom-admin-test-forms.png">
-</details>
-
-<details><summary>test_views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-custom-admin-test-views.png">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-custom-admin-urls.png">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-custom-admin-views.png">
-</details>
-
-<details><summary>widgets.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-custom-admin-widgets.png">
-</details>
-
-<hr>
-
-### Home
-
-<details><summary>models.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-home-models.png">
-</details>
-
-<details><summary>test_views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-home-test-views.png">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-home-urls.png">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-home-views.png">
-</details>
-
-<hr>
-
-### Infinity Innovations
-
-<details><summary>asgi.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-ii-asgi.png">
-</details>
-
-<details><summary>settings.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-ii-settings.png">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-ii-urls.png">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-ii-views.png">
-</details>
-
-<details><summary>wsgi.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-ii-wsgi.png">
-</details>
-
-<hr>
-
-### Products
-
-<details><summary>models.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-products-models.png">
-</details>
-
-<details><summary>test_models.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-products-test-models.png">
-</details>
-
-<details><summary>test_views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-products-test-views.png">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-products-urls.png">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-products-views.png">
-</details>
-
-<hr>
-
-### Products
-
-<details><summary>forms.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-profiles-forms.png">
-</details>
-
-<details><summary>models.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-profiles-models.png">
-</details>
-
-<details><summary>test_forms.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-profiles-test-forms.png">
-</details>
-
-<details><summary>test_models.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-profiles-test-models.png">
-</details>
-
-<details><summary>test_views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-profiles-test-views.png">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-profiles-urls.png">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-profiles-views.png">
-</details>
-
-<hr>
-
-### Root
-
-<details><summary>custom_storages.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-root-custom-storages.png">
 </details>
 
 ##### Back to [top](#table-of-contents)<hr> 

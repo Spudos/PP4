@@ -4,6 +4,7 @@ from django.core import mail
 from contact.forms import ContactForm
 from contact.views import ContactView
 
+
 class ContactViewTest(TestCase):
     def test_contact_form_submission(self):
         form_data = {
@@ -15,5 +16,6 @@ class ContactViewTest(TestCase):
 
         self.assertEqual(response.status_code, 302)
         self.assertEqual(len(mail.outbox), 1)
-        self.assertEqual(mail.outbox[0].subject, 'Received contact form submission')
+        self.assertEqual(mail.outbox[0].subject,
+                         'Received contact form submission')
         self.assertIn('Test Message', mail.outbox[0].body)

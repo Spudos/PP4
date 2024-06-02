@@ -5,6 +5,7 @@ from blog.models import Post
 from blog.views import BlogEntries
 from django.contrib.auth.models import User
 
+
 class BlogEntriesTest(TestCase):
     @classmethod
     def setUpTestData(cls):
@@ -16,10 +17,10 @@ class BlogEntriesTest(TestCase):
         response = self.client.get(reverse('blog'))
         self.assertEqual(response.status_code, 200)
         self.assertTrue('post_list' in response.context)
-        
         posts = response.context['post_list']
         self.assertEqual(len(posts), 2)
         self.assertTemplateUsed(response, 'blog.html')
+
 
 class BlogDetailTest(TestCase):
     @classmethod
@@ -36,10 +37,8 @@ class BlogDetailTest(TestCase):
 
         self.assertTrue('blog' in response.context)
         self.assertEqual(response.context['blog'], self.post)
-
-
         self.assertTemplateUsed(response, 'blog_detail.html')
-    
+
     def test_blog_detail_post_method(self):
         self.client.force_login(self.user)
 
