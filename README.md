@@ -810,552 +810,167 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 
 ### Manual testing
 
-1. As a **customer** I can **login, register and logout** so that **buy items and save my information**
+1. As a **user** I can **see the session types on the welcome page** so that I can **see headline information about the sessions**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Register | Hover over or click the account button, then click the register button, use your email and enter into the two email fields, enter a username, and a password into the two password fields, click sign up button, go to your email and confirm the email, you are now registered | User is brought to the sign up page, user is then sent confirmation email, user is then sent to confirmation page, user is then notified that they have registered | Works as expected |
-| Login | Hover over or click the account button, then click the login button, use your email and enter into the email field, or enter your username, and then enter your password into the password field, click sign in button, you are now logged in | User is brought to the login page, user is then notified that they have logged in | Works as expected |
-| Logout | Hover over or click the account button, then click the logout button, click sign out button, you are now logged out | User is brought to the logout page, user is then notified that they have logged out | Works as expected |
+|  |  |  |  |
 
-<details><summary>See Register Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-4.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-5.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-6.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-7.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-8.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-9.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-10.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-11.png"><br>
-</details>
-
-<details><summary>See Login Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-login-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-login-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-login-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-login-4.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-login-5.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-login-6.png"><br>
-</details> 
-
-<details><summary>See Logout Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-logout-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-logout-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-logout-3.png"><br>
-</details> 
-
-<br>
-
-2. As a **customer** I can **easily navigate the website** so that **I find my item and pay for it**
+2. As a **user** I can **read detail about the session types that are available** so that **I understand what is best for me**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Header | Hover over or click the header, user can search and go to other pages, hover over or click real or digital in header, user is brought to products page | User is presented with navigation to home, products, profile, contact, checkout, cart | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Header Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-header-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-header-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-header-3.png"><br>
-</details> 
-
-<br>
-
-3. As a **customer** I can **view a list of products** so that **decide what item I'm buying**
+3. As a **user** I can **book a session** so that I can **begin my training**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Proudct List | Click the call to action button in the home hero or use the real or digital header buttons to navigate to the product list page | User is presented with list of products | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Proudct list Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-list-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-list-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-list-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-list-4.png"><br>
-</details> 
-
-<br>
-
-4. As a **customer** I can **search list of products** so that **I can find the item I want to buy**
+4. As a **user** I can **view my booked sessions** so that I can **cancel if i need to**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Proudct Search | Click the search input in the header, type in what you want to search for, press enter or click the search button | User is presented with list of products that they searched for | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Proudct Search Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-search-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-search-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-search-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-search-4.png"><br>
-</details> 
-
-<br>
-
-5. As a **customer** I can **filter list of products** so that **I can find the item I want to buy**
+5. As a **user** I can **leave a comment as I book** so that I can **inform the trainer about my requirements**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Proudct Filter | Navigate to the product list page, click the filter box's, select a filter from the dropdown menu | User is presented with list of products that they filtered for | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Proudct Filter Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-4.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-5.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-6.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-7.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-8.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-9.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-10.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-11.png"><br>
-</details> 
-
-<br>
-
-6. As a **customer** I can **sort the list of products** so that **find the item I want to buy**
+6. As a **user** I can **receive booking emails** so that I can **get confirmation that it has been booked**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Proudct Filter | Navigate to the product list page, click the sort dropdown box, select a sort filter from the dropdown menu | User is presented with list of products sorted in their selected choice | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Proudct Sort Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-3.png"><br>
-</details> 
-
-<br>
-
-7. As a **customer** I can **click to see more info on a product** so that **decide to buy the item**
+7. As a **user** I can **view all of the available blogs in a clear and simple layout** so that I can **find a blog a would like to read**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Proudct Detail | Navigate to the product list page, click the on the image of a product | User is brought to product detail page, info is presented | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Proudct Detail Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-3.png"><br>
-</details> 
-
-<br>
-
-8. As a **customer** I can **add a product to my cart** so that **I can buy it later**
+8. As a **user** I can **see a short excerpt from the blog** so that I can **understand what it is about**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Proudct Detail | Navigate to the product list page, click the on the image of a product, click add to cart button | User cart is updated, user is notified | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Proudct Detail Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-4.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-5.png"><br>
-</details> 
-
-<br>
-
-9. As a **customer** I can **choose the correct product theme** so that **I can buy the correct product theme**
+9. As a **user** I can **read the blog** so that I can **learn about the subject**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Proudct Detail | Navigate to the product list page, click the on the image of a product, click the theme dropdown container, select the correc theme, click add to cart button | User cart is updated, user is notified | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Proudct Detail Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-6.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-4.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-5.png"><br>
-</details> 
-
-<br>
-
-10. As a **customer** I can **add multiple items of product to the cart** so that **buy more than one item**
+10. As a **user** I can **like a blog** so that I can **give positive feedback on posts I enjoyed**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Proudct Detail | Navigate to the product list page, click the on the image of a product, click the quantity input and enter input or click the increment and decrement buttons, click add to cart button | User cart is updated, user is notified | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Proudct Detail Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-7.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-8.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-9.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-4.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-detail-5.png"><br>
-</details> 
-
-<br>
-
-11. As a **customer** I can **view my items in the cart** so that **I know what I'm buying**
+11. As a **user** I can **comment on a blog** so that **ask questions or leave useful informtation for other users**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Cart | Hover and click the cart button in the top right | User's cart is displayed | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Cart Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-2.png"><br>
-</details> 
-
-<br>
-
-12. As a **customer** I can **delete items from my cart** so that **I can change my order and what I'm buying**
+12. As a **user** I can **easily navigate the website** so that I can **find the information I am looking for**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Cart | Hover and click the cart button in the top right, click the delete button | Item from the cart is deleted, user is notified | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Cart Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-4.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-5.png"><br>
-</details> 
-
-<br>
-
-13. As a **customer** I can **change the item type and quantity** so that **I can change what I'm buying**
+13. As a **user** I can **log in securely to my account** so that I can **view my details**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Cart | Hover and click the cart button in the top right, click the quantity input and enter quantity and click update | Item from the cart is updated, user is notified | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Cart Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-6.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-7.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-8.png"><br>
-</details> 
-
-<br>
-
-14. As a **customer** I can **pay for the items in my cart** so that **I can receive the order**
+14. As a **user** I can **see contact information for the trainer** so that I can **get in touch as required**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Checkout | Hover and click the cart button in the top right, click the checkout order button, fill out form, click the complete order button | User is brought to checkout page, user is notified when order is complete | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Checkout Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-checkout-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-checkout-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-checkout-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-checkout-4.png"><br>
-</details> 
-
-<br>
-
-15. As a **customer** I can **receive a confimation email** so that **I can receive my order**
+15. As a **user** I can **send a message to the trainer** so that I **ask questions if I want to**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Checkout Success | Hover and click the cart button in the top right, click the checkout order button, fill out form, click the complete order button | User is brought to checkout page, user is notified when order is complete | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Checkout Success Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-checkout-5.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-checkout-6.png"><br>
-</details> 
-
-<br>
-
-16. As a **customer** I can **update and save my profile information** so that **easily buy again**
+16. As a **user** I can **see location information for the trainer** so that I **know where to go for sessions**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Profile | Hover and click the view profile button in the top right, fill out form, click the update information form | User is brought to profile page, user is notified | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Profile Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-4.png"><br>
-</details> 
-
-<br>
-
-17. As a **customer** I can **contact the site admin** so that **I can talk about any issues I might have**
+17. As a **user** I can **find the trainers social media accounts** so that I **follow their accounts**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Contact | Hover and click the view contact button in the top right, fill out form, click the send button | User is brought to contact page, user is notified | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Contact Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-contact-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-contact-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-contact-3.png"><br>
-</details> 
-
-<br>
-
-18. As a **customer** I can **talk to a chatbot** so that **I can get help when buying**
+18. As a **site admin** I can **display a welcoming home screen** so that **users will want to see the sessions and blogs I offer**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| ChatBot | Click the chatbot button in the bottom right, ask it a question about the company | Chatbot returns answer about the company | Works as expected |
-| ChatBot | Click the chatbot button in the bottom right, say a good thing about your product you bought, click yes sure after response, enter a short review | Chatbot returns answer asking you to enter a competition, chatbot will take short review and make a full review | Works as expected |
-| ChatBot | Click the chatbot button in the bottom right, ask it a question about the your order tracking, then type in your order number | Chatbot returns answer to what your order status is and tracks the order | Works as expected |
-| ChatBot | Click the chatbot button in the bottom right, ask it a question about the your looking for products, click yes sure button | Chatbot returns answer about your desired products, also return links to products | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Contact Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-4.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-5.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-6.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-7.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-8.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-9.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-10.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-11.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-12.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-13.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-14.png"><br>
-</details> 
-
-<br>
-
-19. As a **customer** I can **view a specific category of products** so that **find the product I want to buy**
+19. As a **site admin** I can **create, delete, and edit sessions** so that **I can tailor the information available to users**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Proudct Filter | Navigate to the product list page, click the filter box's, select a filter from the dropdown menu | User is presented with list of products that they filtered for | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Proudct Filter Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-4.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-5.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-6.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-7.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-8.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-9.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-10.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-11.png"><br>
-</details> 
-
-<br>
-
-20. As a **customer** I can **view a specific brand of products** so that **I can find the product I'm looking for**
+20. As a **site admin** I can **add diary entries** so that **users can book sessions**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Proudct Filter | Navigate to the product list page, click the filter box's, select a filter from the dropdown menu | User is presented with list of products that they filtered for | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Proudct Filter Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-4.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-5.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-6.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-7.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-8.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-9.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-10.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-11.png"><br>
-</details> 
-
-<br>
-
-21. As a **customer** I can **see a notification when completing an action** so that **I know my action was a success**
+21. As a **site admin** I can **receive booking emails** so that **I am informed when users book with me**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Profile | Hover and click the view profile button in the top right, fill out form, click the update information form | User is brought to profile page, user is notified | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Profile Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-4.png"><br>
-</details> 
-
-<br>
-
-22. As a **customer** I can **track my order** so that **I can see when it is delivered and where my order is**
+22. As a **site admin** I can **create, delete, and edit blogs** so that **I can produce new blog content and maintain it as needed**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Track Order | Hover and click the view profile button in the top right, click the order number under order history, click track order | User is brought to track order page | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Track Order Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-track-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-track-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-track-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-track-4.png"><br>
-</details> 
-
-<br>
-
-23. As a **customer** I can **see and write a review** so that **decide to buy and give feedback**
+23. As a **site admin** I can **add blogs in a draft state** so that **they are only public when I want them to be**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| ChatBot | Click the chatbot button in the bottom right, say a good thing about your product you bought, click yes sure after response, enter a short review | Chatbot returns answer asking you to enter a competition, chatbot will take short review and make a full review | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Chatbot Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-5.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-6.png"><br>
-</details> 
-
-<br>
-
-24. As a **site admin** I can **display a welcoming home screen** so that **customers will be willing to buy**
+24. As a **site admin** I can **allow users to comment on blog posts** so that **they can engage with the post**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Home | Click the home button in the top left | Welcoming home screen is displayed | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Home Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-home-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-home-2.png"><br>
-</details> 
-
-<br>
-
-25. As a **site admin** I can **add new products to the list** so that **customers can buy new products**
+25. As a **site admin** I can **approve comments** so that **ensure that only appropriate comments are published**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Custom Admin | Click the admin button in the top right unser the account dropdown, click the add product button under product management, fill out form and click add product button | User is taken to custom admin, then to form page | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Custom Admin Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-3.png"><br>
-</details> 
-
-<br>
-
-26. As a **site admin** I can **update products from the list** so that **customers have correct information about products**
+26. As a **site admin** I can **get comment notifications** so that **I am aware when a comment needs to be approved**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Custom Admin | Click the admin button in the top right unser the account dropdown, click the edit product button under product management, select your product, click select button, fill out form and click edit product button | User is taken to custom admin, then to form page | Works as expected |
+|  |  |  | As expected |
 
-<details><summary>See Custom Admin Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-4.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-5.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-6.png"><br>
-</details> 
-
-<br>
-
-27. As a **site admin** I can **delete products from the list** so that **customers can buy new products**
+27. As a **site admin** I can **receive questions and comments submitted from my contact page** so that I can **answer user queries**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Custom Admin | Click the admin button in the top right unser the account dropdown, click the delete product button under product management, select your product, click select button, fill out form and click delete product button | User is taken to custom admin, then to form page | Works as expected |
-
-<details><summary>See Custom Admin Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-7.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-5.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-6.png"><br>
-</details> 
-
-<br>
-
-28. As a **site admin** I can **add new categories to list** so that **customers can easily navigate products**
-
-| Feature | Action | Expected Result | Actual Result |
-| ------- | ------ | --------------- | ------------- |
-| Custom Admin | Click the admin button in the top right unser the account dropdown, click the add category button under category management, fill out form and click add category button | User is taken to custom admin, then to form page | Works as expected |
-
-<details><summary>See Custom Admin Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-8.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-3.png"><br>
-</details> 
-
-<br>
-
-29. As a **site admin** I can **update categories from the list** so that **customers can correctly see each category**
-
-| Feature | Action | Expected Result | Actual Result |
-| ------- | ------ | --------------- | ------------- |
-| Custom Admin | Click the admin button in the top right unser the account dropdown, click the edit category button under category management, select your category, click select button, fill out form and click edit category button | User is taken to custom admin, then to form page | Works as expected |
-
-<details><summary>See Custom Admin Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-9.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-5.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-6.png"><br>
-</details> 
-
-<br>
-
-30. As a **site admin** I can **delete categories from the list** so that **I can update products into their correct category**
-
-| Feature | Action | Expected Result | Actual Result |
-| ------- | ------ | --------------- | ------------- |
-| Custom Admin | Click the admin button in the top right unser the account dropdown, click the delete product button under product management, select your product, click select button, fill out form and click delete product button | User is taken to custom admin, then to form page | Works as expected |
-
-<details><summary>See Custom Admin Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-12.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-5.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-6.png"><br>
-</details> 
-
-<br>
-
-31. As a **site admin** I can **add new brands to list** so that **customers can easily navigate products**
-
-| Feature | Action | Expected Result | Actual Result |
-| ------- | ------ | --------------- | ------------- |
-| Custom Admin | Click the admin button in the top right unser the account dropdown, click the add brand button under brand management, fill out form and click add brand button | User is taken to custom admin, then to form page | Works as expected |
-
-<details><summary>See Custom Admin Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-14.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-3.png"><br>
-</details> 
-
-<br>
-
-32. As a **site admin** I can **update brands from the list** so that **customers can correctly see each brand**
-
-| Feature | Action | Expected Result | Actual Result |
-| ------- | ------ | --------------- | ------------- |
-| Custom Admin | Click the admin button in the top right unser the account dropdown, click the edit brand button under brand management, select your brand, click select button, fill out form and click edit brand button | User is taken to custom admin, then to form page | Works as expected |
-
-<details><summary>See Custom Admin Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-15.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-5.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-6.png"><br>
-</details> 
-
-<br>
-
-33. As a **site admin** I can **delete brands from the list** so that **I can update products into their correct brand**
-
-| Feature | Action | Expected Result | Actual Result |
-| ------- | ------ | --------------- | ------------- |
-| Custom Admin | Click the admin button in the top right unser the account dropdown, click the delete brand button under brand management, select your brand, click select button, fill out form and click delete brand button | User is taken to custom admin, then to form page | Works as expected |
-
-<details><summary>See Custom Admin Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-18.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-5.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-6.png"><br>
-</details> 
+|  |  |  | As expected |
 
 ##### Back to [top](#table-of-contents)<hr> 
 
@@ -1440,18 +1055,13 @@ A Python test plugin called coverage was used to generate the following results 
 
 ### Device Testing & Browser compatibility
 
-The site uses to test on various real world devices was [BrowserStack](https://www.browserstack.com/)  
-
-This allowed me to test on real devices and not just device emulators.
+The site used to test on various real world devices was [BrowserStack](https://www.browserstack.com/)  
 
 ##### Back to [top](#table-of-contents)<hr> 
 
 ## Bugs
 
-| **Bug** | **Fix** |
-| ------- | ------- |
-| Chatbot - if you ask a certain question, the chatbot intelligence can't give you an accurate answer | Spend more time and resources to improve chatbot intelligence |
-| Homepage - typewriter text - if you exit the page onto another page and return to the page, it will glitch the typewriter text | Add a js listener to block the function from calling if the user exits the page |
+All bugs were fixed during development
 
 ##### Back to [top](#table-of-contents)<hr>
 
@@ -1640,9 +1250,6 @@ You can clone the repository by following these steps:
 
 ### Media
 [MidJourney](https://www.midjourney.com/)
-
-### Chatbot
-[Voiceflow](https://voiceflow.com/)
 
 ##### Back to [top](#table-of-contents)<hr>
 
