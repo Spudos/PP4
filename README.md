@@ -8,9 +8,6 @@
 (Ctrl + click to open in new tab)
 
 ## Table of Contents
-  - [User Goals](#user-goals)
-  - [Site Owner Goals](#site-owner-goals)
-  - [User Experience](#user-experience)
   - [User Stories](#user-stories)
   - [Wireframes](#wireframes)
   - [Design](#design)
@@ -18,10 +15,8 @@
     - [Fonts](#fonts)
     - [Structure](#structure)
       - [Website pages](#website-pages)
-      - [AWS](#aws)
       - [Database](#database)
       - [Models](#models)
-      - [Voiceflow Chatbot](#voiceflow-chatbot)
   - [Technologies Used](#technologies-used)
   - [Features](#features)
   - [Validation](#validation)
@@ -35,190 +30,136 @@
   - [Credits](#credits)
   - [Acknowledgements](#acknowledgements)
 
-<hr>
-
-## User Goals
-
-- To browse and purchase items in the real world to enter the Metaverse
-- To browse and purchase digital items for the Metaverse
-
-## Site Owner Goals
-
-- Generate revenue through the sale of products in the ecommerce shop
-- Build a strong and loyal customer base by providing an easy-to-use platform and high-quality products
-- Establish Infinity Innovations as a trusted and respected brand in the golf industry
-- Achieve profitability and sustain long-term growth
-<hr>
-
-
-## User Experience
-
-### Target Audience
-- **Gaming Enthusiasts:** Gamers seeking immersive experiences and gaming accessories.
-- **Virtual Event Organizers:** Businesses looking for innovative virtual event solutions.
-- **Digital Content Creators:** Metaverse creators in need of digital assets.
-- **Educational Institutions:** Schools and colleges interested in VR for education.
-- **Remote Work Professionals:** Professionals adapting to remote work environments and virtual collaboration.
-
-### User Requirements and Expectations
-
-- **User-Friendly Interface:** Users will expect the app to have an intuitive and easy-to-navigate interface, with clear instructions for using VR/AR devices and exploring the metaverse.
-
-- **Reliability:** Users will expect the technology and products to work reliably, without glitches or technical problems, to ensure a seamless transition between the physical and virtual worlds.
-
-- **Security:** Users will prioritize the security of their personal and financial data when using the app, expecting robust measures in place to protect their information and privacy.
-
-- **Wide Product Range:** Users will expect a diverse selection of VR headsets, AR glasses, metaverse items, and accessories, providing them with various options for their virtual experiences.
-
-- **Accurate Information:** Users will rely on the app to provide precise and up-to-date information about VR/AR products, metaverse items, and any related updates or events.
-
-- **Competitive Pricing:** Users will anticipate competitive pricing for VR/AR devices and digital metaverse items, aligning with market standards and value for their investment.
-
-- **Excellent Customer Support:** Users will require responsive and helpful customer support services to assist with technical inquiries, troubleshooting, and product-related questions.
-
-- **Accessibility:** Users will expect accessibility features to accommodate a diverse range of needs, ensuring that everyone can enjoy and engage with the technology and products offered by Infinity Innovations.
-
-##### Back to [top](#table-of-contents)<hr>
+<hr> 
 
 ## User Stories
 
-### Customer 
+### User
 
-1. As a **customer** I can **login, register and logout** so that **buy items and save my information**
-2. As a **customer** I can **easily navigate the website** so that **I find my item and pay for it**
-3. As a **customer** I can **view a list of products** so that **decide what item I'm buying**
-4. As a **customer** I can **search list of products** so that **I can find the item I want to buy**
-5. As a **customer** I can **filter list of products** so that **I can find the item I want to buy**
-6. As a **customer** I can **sort the list of products** so that **find the item I want to buy**
-7. As a **customer** I can **click to see more info on a product** so that **decide to buy the item**
-8. As a **customer** I can **add a product to my cart** so that **I can buy it later**
-9. As a **customer** I can **choose the correct product theme** so that **I can buy the correct product theme**
-10. As a **customer** I can **add multiple items of product to the cart** so that **buy more than one item**
-11. As a **customer** I can **view my items in the cart** so that **I know what I'm buying**
-12. As a **customer** I can **delete items from my cart** so that **I can change my order and what I'm buying**
-13. As a **customer** I can **change the item type and quantity** so that **I can change what I'm buying**
-14. As a **customer** I can **pay for the items in my cart** so that **I can receive the order**
-15. As a **customer** I can **receive a confimation email** so that **I can receive my order**
-16. As a **customer** I can **update and save my profile information** so that **easily buy again**
-17. As a **customer** I can **contact the site admin** so that **I can talk about any issues I might have**\
-18. As a **customer** I can **talk to a chatbot** so that **I can get help when buying**
-19. As a **customer** I can **view a specific category of products** so that **find the product I want to buy**
-20. As a **customer** I can **view a specific brand of products** so that **I can find the product I'm looking for**
-21. As a **customer** I can **see a notification when completing an action** so that **I know my action was a success**
-22. As a **customer** I can **track my order** so that **I can see when it is delivered and where my order is**
-23. As a **customer** I can **see and write a review** so that **decide to buy and give feedback**
+#### Sessions
+
+1. As a **user** I can **see the session types on the welcome page** so that I can **see headline information about the sessions**
+2. As a **user** I can **read detail about the session types that are available** so that **I understand what is best for me**
+3. As a **user** I can **book a session** so that I can **begin my training**
+4. As a **user** I can **view my booked sessions** so that I can **cancel if i need to**
+5. As a **user** I can **leave a comment as I book** so that I can **inform the trainer about my requirements**
+6. As a **user** I can **receive booking emails** so that I can **get confirmation that it has been booked**
+
+#### Blog
+
+7. As a **user** I can **view all of the available blogs in a clear and simple layout** so that I can **find a blog a would like to read**
+8. As a **user** I can **see a short excerpt from the blog** so that I can **understand what it is about**
+9. As a **user** I can **read the blog** so that I can **learn about the subject**
+10. As a **user** I can **like a blog** so that I can **give positive feedback on posts I enjoyed**
+11. As a **user** I can **comment on a blog** so that **ask questions or leave useful informtation for other users**
+
+#### General
+
+12. As a **user** I can **easily navigate the website** so that I can **find the information I am looking for**
+13. As a **user** I can **log in securely to my account** so that I can **view my details**
+14. As a **user** I can **see contact information for the trainer** so that I can **get in touch as required**
+15. As a **user** I can **send a message to the trainer** so that I **ask questions if I want to**
+16. As a **user** I can **see location information for the trainer** so that I **know where to go for sessions**
+17. As a **user** I can **find the trainers social media accounts** so that I **follow their accounts**
 
 ### Site Admin
 
-24. As a **site admin** I can **display a welcoming home screen** so that **customers will be willing to buy**
-25. As a **site admin** I can **add new products to the list** so that **customers can buy new products**
-26. As a **site admin** I can **update products from the list** so that **customers have correct information about products**
-27. As a **site admin** I can **delete products from the list** so that **customers can buy new products**
-28. As a **site admin** I can **add new categories to list** so that **customers can easily navigate products**
-29. As a **site admin** I can **update categories from the list** so that **customers can correctly see each category**
-30. As a **site admin** I can **delete categories from the list** so that **I can update products into their correct category**
-31. As a **site admin** I can **add new brands to list** so that **customers can easily navigate products**
-32. As a **site admin** I can **update brands from the list** so that **customers can correctly see each brand**
-33. As a **site admin** I can **delete brands from the list** so that **I can update products into their correct brand**
+18. As a **site admin** I can **display a welcoming home screen** so that **users will want to see the sessions and blogs I offer**
+19. As a **site admin** I can **create, delete, and edit sessions** so that **I can tailor the information available to users**
+20. As a **site admin** I can **add diary entries** so that **users can book sessions**
+21. As a **site admin** I can **receive booking emails** so that **I am informed when users book with me**
+22. As a **site admin** I can **create, delete, and edit blogs** so that **I can produce new blog content and maintain it as needed**
+23. As a **site admin** I can **add blogs in a draft state** so that **they are only public when I want them to be**
+24. As a **site admin** I can **allow users to comment on blog posts** so that **they can engage with the post**
+25. As a **site admin** I can **approve comments** so that **ensure that only appropriate comments are published**
+26. As a **site admin** I can **get comment notifications** so that **I am aware when a comment needs to be approved**
+27. As a **site admin** I can **receive questions and comments submitted from my contact page** so that I can **answer user queries**
 
-### Kanban, Epics & User Stories
+### Kanban, & User Stories
+
 - GitHub Kanban was used to track all open user stories
-- Epics were created using the milestones feature
-- To Do, In Progress, Testing, Done headings were used in the kanban
+- Ready, In Progress, Testing, Done headings were used in the kanban
 
-<details><summary>Epic Overview</summary>
+#### User Stories
 
-![Epics](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-overview-1.png)<br>
-![Epics](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-overview-2.png)
+<details><summary>User Account</summary>
+
+![Account](/static/Readme_images/issues_account.png)
 </details>
 
-<details><summary>Epic 1</summary>
+<details><summary>Blog</summary>
 
-![Epic 1](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-1.png)
+![Blog](/static/Readme_images/issues_blog.png)
 </details>
 
-<details><summary>Epic 2</summary>
+<details><summary>Contact</summary>
 
-![Epic 2](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-2.png)
+![Contact](/static/Readme_images/issues_contact.png)
 </details>
 
-<details><summary>Epic 3</summary>
+<details><summary>General</summary>
 
-![Epic 3](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-3.png)
+![General](/static/Readme_images/issues_general.png)
 </details>
 
-<details><summary>Epic 4</summary>
+<details><summary>Session</summary>
 
-![Epic 4a](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-4-a.png)<br>
-![Epic 4b](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-4-b.png)
+![Session](/static/Readme_images/issues_session.png)
 </details>
 
-<details><summary>Epic 5</summary>
+#### Kanban Board
 
-![Epic 5](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-5.png)
+<details><summary>Kanban examples at various stages of the project</summary>
+
+Basic Welcome page complete, contact form in testing and session booking in progress
+![Kanban_1](/static/Readme_images/kanban_1.png)
+
+Session editing in testing and blog functions in progress
+![Kanban_2](/static/Readme_images/kanban_2.png)
+
+Comment and likes in testing, comment notifications and approval in progress
+![Kanban_3](/static/Readme_images/kanban_3.png)
+
+All work completed
+![Kanban_4](/static/Readme_images/kanban_4.png)
 </details>
-
-<details><summary>Epic 6</summary>
-
-![Epic 6](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-6.png)
-</details>
-
-<details><summary>Epic 7</summary>
-
-![Epic 7](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-7.png)
-</details>
-
-<details><summary>User Stories</summary>
-
-![User Stories 1](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/user-stories-1.png)<br>
-![User Stories 2](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/user-stories-2.png)<br>
-![User Stories 3](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/user-stories-3.png)
-</details>
-
-<details><summary>Kanban</summary>
-
-![Kanban](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/kanban.png)
-</details>
-
 
 ##### Back to [top](#table-of-contents)<hr>
 
 ## Wireframes
-I used Balsamiq to create wireframes for my project. It's a user-friendly wireframing tool that enables me to quickly and easily create mockups for my website or application. It offers a wide range of pre-built UI elements, and allows for easy collaboration with my team. I linked a pdf of my wireframes, which you can access it and check it out the design, layout and the flow of the project before implementing it in the real product.  
+Balsamiq is the tool that I commonly use to wireframe my projects.  It has the capability to quickly and easily draft website layouts on a multitude of representative platform sizes.  
 
-<details><summary>Wireframe Home</summary>  
+<details><summary>Welcome</summary>  
 
-![Wireframe Home](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/wireframes/wireframe-home.png)
+![Welcome](/static/Readme_images/wireframe_welcome.png)
 </details>
 
-<details><summary>Wireframe Product List</summary>  
+<details><summary>Blog</summary>  
 
-![Wireframe Product List](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/wireframes/wireframe-product-list.png)
+Blog Preview
+![Blog Preview](/static/Readme_images/wireframe_blog.png)
+
+Blog Detail
+![Blog Detail](/static/Readme_images/wireframe_read.png)
 </details>
 
-<details><summary>Wireframe Product Detail</summary>  
+<details><summary>Sessions</summary>  
 
-![Wireframe Product Detail](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/wireframes/wireframe-product-detail.png)
+Session Details
+![Session Details](/static/Readme_images/wireframe_sessions.png)
+
+Session Booking
+![Session Booking](/static/Readme_images/wireframe_booking.png)
 </details>
 
-<details><summary>Wireframe Cart</summary>  
+<details><summary>Contact Me</summary>  
 
-![Wireframe Cart](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/wireframes/wireframe-cart.png)
+![Contact Me](/static/Readme_images/wireframe_contact.png)
 </details>
 
-<details><summary>Wireframe Checkout</summary>  
+<details><summary>User Account</summary>  
 
-![Wireframe Checkout](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/wireframes/wireframe-checkout.png)
-</details>
-
-<details><summary>Wireframe Profile</summary>  
-
-![Wireframe Profile](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/wireframes/wireframe-profile.png)
-</details>
-
-<details><summary>Wireframe Contact</summary>  
-
-![Wireframe Contact](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/wireframes/wireframe-contact.png)
+![User Account](/static/Readme_images/wireframe_account.png)
 </details>
 
 ##### Back to [top](#table-of-contents)<hr>
@@ -227,73 +168,66 @@ I used Balsamiq to create wireframes for my project. It's a user-friendly wirefr
 
 ### Colors
 
+The colour scheme was chosen to provide a good contrast for accesibility whilst also being quite subtle.  The black for the header and social footer was given a transparancy of 90% to make it less harsh.
 
-The color I chose was orange and dark gray with a light gray background.  structure
-<details><summary>See Color Palette</summary>
-
-![Color Palette](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/contents/color-palette.png)
-</details>
+The images were then created with a blue gradient/orange theme to add more color and interest to the site.
 
 ### Fonts
 
- The fonts selected was from Google Fonts, Roboto and Montserrat.
-
- <details><summary>See Font Image</summary>
-
-![Font Image](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/contents/font-roboto.png)<br>
-![Font Image](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/contents/font-montserrat.png)
-</details>
+ The font selected was sans-serif with different sizing, weight and spacing used to add interest to the text.
 
 ##### Back to [top](#table-of-contents)<hr>
 
 ## Structure
 
-The site was designed for the user to be familiar with the layout.
+The site was designed for the user to find the layout simple to use and navigate through.
 
-The header contains a top section and a bottom section, the top section includes the logo, search bar, account and cart buttons.
+The header contains a top section in black which contains the company name and login/logout/sign up functions.  Below that is the nav bar colored beige.
 
-The footer contains contact info, links to the privacy policy and links to the contact page.
+The footer is in two sections, mirroring the header.  The beige section includes location and contact information with the black section containing links for the site owners social accounts.
 
 ### Website pages
 
 - The site consists of the following pages:
-  - Home
-  - Product List
-  - Product Detail
-  - Cart
-  - Checkout
-  - Checkout Success
-  - Contact
-  - Profile
-  - Track Order
-  - Reviews
-  - Policy
-  - Login
-  - Logout
-  - Reset Password
-  - Register
-  - 404
+
+  Welcome page
+
+  The Blog
+  - Blog listing
+  - Blog detail
+
+  Sessions
+  - Session Listing
+  - Session Booking
+  - No Sessions Availble
+  - Session Booked
+
+  Contact me
+  - Contact form
+  - Contact Success
+
+  User account
+
+  Note:
+  Django admin template were used for all admin functions hence there was no need to design a specific page for this
 
 ##### Back to [top](#table-of-contents)<hr>
 
-## AWS 
+## ElephantSQL
 
-I am using AWS S3 buckets to store my data. S3 is a highly scalable and durable cloud storage service provided by Amazon Web Services. It allows me to easily store and retrieve large amounts of data, and its built-in security features provide added protection for my files. I chose S3 for its scalability, durability, and security features.
+ElephantSQL was used to host the SQL database.
 
-<details><summary>See AWS Images</summary>
+This elegant solution allows cloud based stroage to be used so the same DB can be used at all time.  This is especially useful during development as local and deployed versions can be tested with the same data saving time and aiding consistency of results.
 
+<details><summary>ElephantSQL details</summary>
 
-![AWS Bucket](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-bucket.png)<br>
-![AWS Media](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-media.png)<br>
-![AWS Static](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-static.png)
+![ElephantSQL](/static/Readme_images/elephantsql.png)<br>
+
 </details>
 
 ##### Back to [top](#table-of-contents)<hr>
 
-
 ## Database
-
-I built my database with Python and the Django framework using PostgreSQL for the deployed Heroku version (production). It's a powerful and open-source object-relational database system that is known for its reliability, robustness, and performance. I chose it because it provides a flexible tool for efficiently managing and organizing my data.
 
 <details><summary>See Database Diagram</summary>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/database/database-diagram.png">
@@ -301,142 +235,85 @@ I built my database with Python and the Django framework using PostgreSQL for th
 
 ##### Back to [top](#table-of-contents)<hr>
 
- ## Models  
+## Models  
 
 ### User Model
 
 | Key        | Name         | Type        |
 | ---------- | ------------ | ----------- |
 | PrimaryKey | user_id      | AutoField   |
-|            | password     | VARCHAR     |
-|            | last_login   | VARCHAR     |
-|            | is_superuser | BOOLEAN     |
-|            | username     | VARCHAR     |
-|            | first_name   | VARCHAR     |
-|            | last_name    | VARCHAR     |
-|            | email        | VARCHAR     |
-|            | is_staff     | BOOLEAN     |
-|            |              |             |
-|            | is_active    | BOOLEAN     |
-|            | date_joined  | VARCHAR     |
+|            | password     | Varchar     |
+|            | last_login   | Varchar     |
+|            | is_superuser | Boolean     |
+|            | username     | Varchar     |
+|            | first_name   | Varchar    |
+|            | last_name    | Varchar     |
+|            | email        | Varchar     |
+|            | is_staff     | Boolean     |
+|            | is_active    | Boolean     |
+|            | date_joined  | Varchar     |
 
-### User Profile Model
+### Posts Model
 
 | Key        | Name                 | Type          |
 | ---------- | -------------------- | ------------- |
-| PrimaryKey | user_profile_id      | AutoField     |
-| ForeignKey | user                 | User model    |
-|            | default_phone_number | CharField     |
-|            | default_street_address1 | CharField |
-|            | default_street_address2 | CharField |
-|            | default_town_city    | CharField |
-|            | default_county       | CharField |
-|            | default_postcode     | CharField |
-|            | default_country      | CharField |
+| PrimaryKey | id      | AutoField     |
+| ForeignKey | author | User model |
+|            | title                | Char model    |
+|            | slug | SlugField     |
+|            | last_update | DateTimeField |
+|            | content    | TextField |
+|            | image       | CloudinaryField |
+|            | excerpt     | TextField |
+|            | created_on      | DateTimeField |
+|            | status       | IntegerField |
+|            | category     | IntegerField |
+|            | likes      | ManyToManyField |
 
-### Product Model
+### Comments Model
 
 | Key        | Name                 | Type          |
 | ---------- | -------------------- | ------------- |
 | PrimaryKey | id                   | AutoField     |
-| ForeignKey | brand                | Brand model   |
-| ForeignKey | category             | Category model |
+| ForeignKey | post                | Post model   |
 |            | name                 | CharField     |
-|            | sku                 | CharField     |
-|            | price                 | DecimalField |
-|            | rating               | DecimalField |
-|            | description          | TextField     |
-|            | has_themes           | BooleanField  |
-|            | image           | ImageField  |
-|            | image_url           | URLField  |
+|            | email                 | EmailField     |
+|            | body                 | TextField |
+|            | created_on               | DateTimeField |
+|            | approved          | BooleanField     |
 
-### Category Model
+### Sessions Model
 
 | Key        | Name                 | Type          |
 | ---------- | -------------------- | ------------- |
 | PrimaryKey | id                   | AutoField     |
-|            | friendly_name           | CharField  |
-|            | name           | CharField  |
-|            | universe           | CharField  |
+|            | session_type           | TextField  |
+|            | description           | CharField  |
+|            | excerpt           | TextField  |
+|            | image          | CloudinaryField  |
+|            | last_update           | DateTimeField  |
+|            | created_on          | DateTimeField  |
 
-### Brand Model
-
-| Key        | Name                 | Type          |
-| ---------- | -------------------- | ------------- |
-| PrimaryKey | id                   | AutoField     |
-|            | friendly_name           | CharField  |
-|            | name           | CharField  |
-|            | universe           | CharField  |
-
-### Order Model
+### Appointments Model
 
 | Key        | Name                 | Type          |
 | ---------- | -------------------- | ------------- |
 | PrimaryKey | id                   | AutoField     |
-| ForeignKey | user_profile           | Profile model  |
-|            | country           | CourntyField  |
-|            | county           | CharField  |
-|            | date           | DateTimeField  |
-|            | delivery_cost           | DecimalField  |
-|            | discounted_total           | DecimalField  |
-|            | email           | EmailField  |
-|            | full_name           | CharField  |
-|            | grand_total           | DecimalField  |
-|            | order_total           | DecimalField  |
-|            | real_items_total           | DecimalField  |
-|            | order_number           | CharField  |
-|            | phone_number           | CharField  |
-|            | postcode           | CharField  |
-|            | street_address1           | CharField  |
-|            | street_address2           | CharField  |
-|            | stripe_pid           | CharField  |
-|            | town_or_city           | CharField  |
-|            | original_cart           | TextField  |
+|            | appointment_type           | TextField  |
+|            | date_time           | DateTimeField  |
+|            | booking_id           | OneToOneField  |
 
-### OrderLineItem Model
+### Bookings Model
 
 | Key        | Name                 | Type          |
 | ---------- | -------------------- | ------------- |
 | PrimaryKey | id                   | AutoField     |
-| ForeginKey | order                   | Order model     |
-| ForeginKey | product                   | Product model     |
-|            | lineitem_total           | DecimalField  |
-|            | product_theme           | CharField  |
-|            | quantity           | IntegerField  |
-
-### ContactMessage Model
-
-| Key        | Name                 | Type          |
-| ---------- | -------------------- | ------------- |
-| PrimaryKey | id                   | AutoField     |
-|            | email           | EmailField  |
-|            | message           | TextField  |
-|            | name           | CharField  |
-|            | timestamp           | DateTimeField  |
-
-### Review Model
-
-| Key        | Name                 | Type          |
-| ---------- | -------------------- | ------------- |
-| PrimaryKey | id                   | AutoField     |
-|            | message           | TextField  |
-
-## Voiceflow Chatbot
-
-- The ai chatbot used on the website was built with voiceflow. I uploaded a knowledge base, it then uses an chatgpt api to return responses using the knowledge base.
-- The chatbot listens for certain triggers, then if it receives a message it will trigger a set response, and then returns to the main loop
-- There are 4 triggers:
-  - first it listens for a question about leaving a review, eg. "I really like the product I bought"
-  - second it listens for a question about tracking information, eg. "When will my order be delivered" - asking for the order number after
-  - third it listens for a question about looking for products, eg. "Do you sell vr headsets"
-  - Finally it listens for general questions about the company, eg. "Who is the founders of Infinity Innovaitons"
-
-<details><summary>See Chatbot diagram</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/database/chatbot-diagram-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/database/chatbot-diagram-2.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/database/chatbot-diagram-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/database/chatbot-diagram-4.png">
-</details>
+| ForeignKey | user          | Profile model  |
+|            | session_type           | TextField  |
+|            | notes           | TextField  |
+|            | appointment           | OneToOneField  |
+|            | last_update           | DateTimeField  |
+|            | created_on          | DateTimeField  |
 
 ##### Back to [top](#table-of-contents)<hr>
 
@@ -449,7 +326,7 @@ I built my database with Python and the Django framework using PostgreSQL for th
 - Javascript
 - Python
 - Django
-
+- Bootstrap
 
 ### Libraries & Tools
 
@@ -459,13 +336,11 @@ I built my database with Python and the Django framework using PostgreSQL for th
 - [Font Awesome](https://fontawesome.com/)
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
-- [Google Fonts](https://fonts.google.com/)
 - [Heroku Platform](https://id.heroku.com/login)
-- [AWS](https://aws.amazon.com/)
+- [Elephant SQL](https://customer.elephantsql.com/instance)
+- [Cloudinary](https://cloudinary.com/)
 - [jQuery](https://jquery.com)
 - [Postgres](https://www.postgresql.org/)
-- [Voiceflow](https://www.voiceflow.com/)
-- [ScribeHow](https://scribehow.com/scribe-ai)
 - Validation:
   - [WC3 Validator](https://validator.w3.org/)
   - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
@@ -474,284 +349,138 @@ I built my database with Python and the Django framework using PostgreSQL for th
   - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
   - [Wave Validator](https://wave.webaim.org/)
 
-##### Back to [top](#table-of-contents)
-
-## Features  
-
-
-### Search Engine Optimisation (SEO)
-I have used meta tags in the HTML of my web app's pages to optimize them for search engines. The description tag provides a brief summary of the content on the page, while the keywords tag lists relevant keywords to help search engines understand the content of the webpage and its relevance to related search queries.
-
-
-<details><summary>See SEO image</summary>
-
-![SEO](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/seo-meta.png)
-</details>  
+##### Back to [top](#table-of-contents) 
 
 ## Features
 
-### Top Header
+### Header
 
 - Featured on all pages
-- The Logo when clicked bring the user back to the homepage
-- The search bar is used to search for products in the store
-- The Account button is used to navigate to the profile, contact, custom admin, register, login and logout pages
-- The cart button is used to navigate to the cart and checkout pages and get a summary of the cart
-- User stories covered: 2, 4
+- The first section provides login/logout/signup options
+- The second section provides simple navigation with clear icons and hover functionality
+- User stories covered: 12, 13
 
 <details><summary>See feature images</summary>
 
-![Top Header](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-top-header.png)
-</details>
-
-### Bottom Header
-
-- Featured on all pages
-- There is 2 buttons, one for real products and one for digital products
-- The two buttons open a dropdown, where the products can be filtered and sorted in multiple ways
-- User stories covered: 2, 5, 6
-
-<details><summary>See feature images</summary>
-
-![Bottom Header](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-bottom-header.png)
-</details>
-
-### Discount Display
-
-- Featured on all pages
-- Displays the discount and discount threshold
-- User stories covered: 24
-
-<details><summary>See feature images</summary>
-
-![Discount Display](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-discount-display.png)
+![Header](/static/Readme_images/feature_header.png)
 </details>
 
 ### Footer
 
 - Featured on all pages
-- Contains private policy, social media, contact links with contact info
-- User stories covered: 2, 17
+- There are 2 section, one for contact and location information and one for social media links
+- User stories covered: 14, 16, 17, 18
 
 <details><summary>See feature images</summary>
 
-![Footer](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-footer.png)
+![Footer](/static/Readme_images/feature_footer.png)
 </details>
 
-### Chatbot
+### Welcome Page
 
-- Featured on all pages
-- Allows user to chat with a ai bot to answer questions and provide links to products
-- Used for customer support
-- For best use there is 4 things to ask:
-  - General information about Infinity innovations, looking for a product, tracking orders, write a review
-- User stories covered: 18
+- Main Landing page for the site
+- Displays hero image
+- Contains 3 main sections that link to the main functionality for each type - blogs, sessions and contact me
+- User stories covered: 1, 7, 14, 18
 
 <details><summary>See feature images</summary>
 
-![Chatbot](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-chatbot.png)
+![Welcome Blogs](/static/Readme_images/feature_welcome_blog.png)
+![Welcome Sessions](/static/Readme_images/feature_welcome_sessions.png)
+![Welcome Contact](/static/Readme_images/feature_welcome_contact.png)
+
 </details>
 
-### Home Hero
+### Blog Listing
 
-- Welcomes user to website
-- Call to action to shop products
-- User stories covered: 24
+- Shows all the available blogs
+- gives the option to like a blog if you are logged in
+- User stories covered: 7, 8, 10
 
 <details><summary>See feature images</summary>
 
-![Home Hero](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-home-hero.png)
+![Blog Listing](/static/Readme_images/feature_blog_listing.png)
 </details>
 
-### Home Categories
+### Blog Detail
 
-- Welcomes user to website
-- User can navigate to categories
-- User stories covered: 24
+- Shows the blog detail
+- Gives the option to comment on a blog if you are logged in
+- User stories covered: 9, 11, 24
 
 <details><summary>See feature images</summary>
 
-![Home Categories](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-home-categories.png)
+![Blog Detail](/static/Readme_images/feature_blog_detail.png)
 </details>
 
-### Home Review
+### Blog Comment Notification
 
-- Welcomes user to website
-- User can view reviews
-- User stories covered: 24, 23
+- Alerts the admin that there are comments to be approved
+- User stories covered: 26
 
 <details><summary>See feature images</summary>
 
-![Home Review](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-home-review.png)
+![Blog Comment Notification](/static/Readme_images/feature_notification.png)
 </details>
 
-### Login
+### Session Detail
 
-- User can login to their account
-- User stories covered: 1
+- Shows the user what sessions are available and detailed information about each session
+- User stories covered: 2
 
 <details><summary>See feature images</summary>
 
-![Login](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-login.png)
+![Session Detail](/static/Readme_images/feature_session_detail.png)
 </details>
 
-### Register
+### Session Booking
 
-- User can register an account
-- User stories covered: 1
+- Allows the user to book sessions and leave notes about the booking
+- The user is emailed once a booking has been made
+- A success screen is shown on booking, a failure screen is shown if no sessions are available
+- User stories covered: 3, 5, 6, 21
 
 <details><summary>See feature images</summary>
 
-![Register](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-register.png)
+![Session Booking](/static/Readme_images/feature_booking.png)
+![Session Booked](/static/Readme_images/feature_booking_success.png)
+![Session Failure](/static/Readme_images/feature_booking_failure.png)
 </details>
 
-### Logout
+### Contact Me
 
-- User can logout of their account
-- User stories covered: 1
+- Allows the user to communicate with the site owner
+- The site owner is emailed once a message has been sent
+- A success screen is shown once sent
+- User stories covered: 14, 15, 27
 
 <details><summary>See feature images</summary>
 
-![Logout](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-logout.png)
+![Session Booking](/static/Readme_images/feature_contact.png)
+![Session Booked](/static/Readme_images/feature_contact_success.png)
 </details>
 
-### Product List
+### User Account
 
-- Displays products in list
-- Each product is displayed with image, name, price and rating
-- Each product can be clicked to open the product detail
-- The total number of products in list is also displayed
-- User stories covered: 3
+- Allows the user see their details and bookings
+- Allows the user to cancel bookings
+- User stories covered: 13, 4
 
 <details><summary>See feature images</summary>
 
-![Product List](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-product-list.png)
+![Session Booking](/static/Readme_images/feature_account.png)
 </details>
 
-### Product Filter
+### Admin Section
 
-- Contains dropdown select boxes
-- The products can be sorted or filtered by universe, category and brand
-- User stories covered: 4, 5, 19, 20
+- Allows the site owner to create/edit/destroy posts, sessions, appointments, users, bookings and comments
+- User stories covered: 19, 20, 22, 23, 25
 
-<details><summary>See feature images</summary>
+<details><summary>See example feature images</summary>
 
-![Product List](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-product-filter.png)
-</details>
-
-### Product Detail
-
-- The product's image, name, price, rating, description is displayed
-- The user can select the product theme
-- The user can select the quantity of the product
-- The user can add the item to the cart
-- The user can return back to product list
-- User stories covered: 7, 8, 9, 10
-
-<details><summary>See feature images</summary>
-
-![Product Detail](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-product-detail.png)
-</details>
-
-### Notification
-
-- User is displayed with a notification when they complete and action
-- Success, error, info and warning messages are displayed
-- User stories covered: 21
-
-<details><summary>See feature images</summary>
-
-![Notification](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-notification.png)
-</details>
-
-### Cart
-
-- Displays the items in the cart with information and subtotal
-- User can view items in the cart
-- User can update the quantity of item in the cart
-- User can delete the item from the cart
-- Cart summary is displayed, cart total, real items total, delivery and grand total
-- User can return to products
-- User can click button to checkout
-- User stories covered: 11, 12, 13
-
-<details><summary>See feature images</summary>
-
-![Cart](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-cart.png)
-</details>
-
-### Checkout
-
-- Checkout form: user fills in their name, email, phone number, addresss
-- User can save their delivery information
-- User can input their card number to pay
-- User can return to cart
-- Displays order summary, total of cart and amount card will be charged
-- User stories covered: 14
-
-<details><summary>See feature images</summary>
-
-![Checkout](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-checkout.png)
-</details>
-
-### Checkout Success
-
-- Order confirmation is displayed
-- Order number, date, order items, delivery information and total is displayed
-- A confirmation email is sent
-- User can return to products
-- User stories covered: 15
-
-<details><summary>See feature images</summary>
-
-![Checkout Success](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-chechout-success.png)
-</details>
-
-### Track Order
-
-- Order delivery details are displayed
-- User can track the number of the order
-- See if it is delivered or where the item is
-- User stories covered: 22
-
-<details><summary>See feature images</summary>
-
-![Track Order](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-track-order.png)
-</details>
-
-### Profile
-
-- Default delivery information form can be filled out to update the user's information
-- Order history is displayed
-- Order number, date, items and total are displayed
-- User stories covered: 16
-
-<details><summary>See feature images</summary>
-
-![Profile](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-profile.png)
-</details>
-
-### Custom Admin
-
-- Page where you can manage product, category and brand items in the database
-- Clicking on the links will open a select box to search and select the item or open the form page to edit/add the item
-- The user can click the delete to select and delete an item also
-- User stories covered: 25, 26, 27, 28, 29, 30, 31, 32, 33
-
-<details><summary>See feature images</summary>
-
-![Custom Admin](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-custom-admin.png)
-</details>
-
-### Custom Admin Management
-
-- Page where you can manage product, category and brand items in the database
-- Admin can fill out form to add or edit the item
-- User stories covered: 25, 26, 27, 28, 29, 30, 31, 32, 33
-
-<details><summary>See feature images</summary>
-
-![Custom Admin Management](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-product-management.png)
+![Session Booking](/static/Readme_images/feature_admin_1.png)
+![Session Booking](/static/Readme_images/feature_admin_2.png)
+![Session Booking](/static/Readme_images/feature_admin_3.png)
 </details>
 
 ##### Back to [top](#table-of-contents)
