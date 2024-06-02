@@ -84,27 +84,27 @@
 
 <details><summary>User Account</summary>
 
-![Account](/static/readme_images/issues_account.png)
+![Account](/static/document_images/issues_account.png)
 </details>
 
 <details><summary>Blog</summary>
 
-![Blog](/static/readme_images/issues_blog.png)
+![Blog](/static/document_images/issues_blog.png)
 </details>
 
 <details><summary>Contact</summary>
 
-![Contact](/static/readme_images/issues_contact.png)
+![Contact](/static/document_images/issues_contact.png)
 </details>
 
 <details><summary>General</summary>
 
-![General](/static/readme_images/issues_general.png)
+![General](/static/document_images/issues_general.png)
 </details>
 
 <details><summary>Session</summary>
 
-![Session](/static/readme_images/issues_session.png)
+![Session](/static/document_images/issues_session.png)
 </details>
 
 #### Kanban Board
@@ -112,16 +112,16 @@
 <details><summary>Kanban examples at various stages of the project</summary>
 
 Basic Welcome page complete, contact form in testing and session booking in progress
-![Kanban_1](/static/readme_images/kanban_1.png)
+![Kanban_1](/static/document_images/kanban_1.png)
 
 Session editing in testing and blog functions in progress
-![Kanban_2](/static/readme_images/kanban_2.png)
+![Kanban_2](/static/document_images/kanban_2.png)
 
 Comment and likes in testing, comment notifications and approval in progress
-![Kanban_3](/static/readme_images/kanban_3.png)
+![Kanban_3](/static/document_images/kanban_3.png)
 
 All work completed
-![Kanban_4](/static/readme_images/kanban_4.png)
+![Kanban_4](/static/document_images/kanban_4.png)
 </details>
 
 ##### Back to [top](#table-of-contents)<hr>
@@ -131,35 +131,35 @@ Balsamiq is the tool that I commonly use to wireframe my projects.  It has the c
 
 <details><summary>Welcome</summary>  
 
-![Welcome](/static/readme_images/wireframe_welcome.png)
+![Welcome](/static/document_images/wireframe_welcome.png)
 </details>
 
 <details><summary>Blog</summary>  
 
 Blog Preview
-![Blog Preview](/static/readme_images/wireframe_blog.png)
+![Blog Preview](/static/document_images/wireframe_blog.png)
 
 Blog Detail
-![Blog Detail](/static/readme_images/wireframe_read.png)
+![Blog Detail](/static/document_images/wireframe_read.png)
 </details>
 
 <details><summary>Sessions</summary>  
 
 Session Details
-![Session Details](/static/readme_images/wireframe_sessions.png)
+![Session Details](/static/document_images/wireframe_sessions.png)
 
 Session Booking
-![Session Booking](/static/readme_images/wireframe_booking.png)
+![Session Booking](/static/document_images/wireframe_booking.png)
 </details>
 
 <details><summary>Contact Me</summary>  
 
-![Contact Me](/static/readme_images/wireframe_contact.png)
+![Contact Me](/static/document_images/wireframe_contact.png)
 </details>
 
 <details><summary>User Account</summary>  
 
-![User Account](/static/readme_images/wireframe_account.png)
+![User Account](/static/document_images/wireframe_account.png)
 </details>
 
 ##### Back to [top](#table-of-contents)<hr>
@@ -221,7 +221,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>ElephantSQL details</summary>
 
-![ElephantSQL](/static/readme_images/elephantsql.png)<br>
+![ElephantSQL](/static/document_images/elephantsql.png)<br>
 
 </details>
 
@@ -362,7 +362,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Header](/static/readme_images/feature_header.png)
+![Header](/static/document_images/feature_header.png)
 </details>
 
 ### Footer
@@ -373,7 +373,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Footer](/static/readme_images/feature_footer.png)
+![Footer](/static/document_images/feature_footer.png)
 </details>
 
 ### Welcome Page
@@ -385,9 +385,9 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Welcome Blogs](/static/readme_images/feature_welcome_blog.png)
-![Welcome Sessions](/static/readme_images/feature_welcome_sessions.png)
-![Welcome Contact](/static/readme_images/feature_welcome_contact.png)
+![Welcome Blogs](/static/document_images/feature_welcome_blog.png)
+![Welcome Sessions](/static/document_images/feature_welcome_sessions.png)
+![Welcome Contact](/static/document_images/feature_welcome_contact.png)
 
 </details>
 
@@ -399,7 +399,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Blog Listing](/static/readme_images/feature_blog_listing.png)
+![Blog Listing](/static/document_images/feature_blog_listing.png)
 </details>
 
 ### Blog Detail
@@ -410,7 +410,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Blog Detail](/static/readme_images/feature_blog_detail.png)
+![Blog Detail](/static/document_images/feature_blog_detail.png)
 </details>
 
 ### Blog Comment Notification
@@ -420,7 +420,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Blog Comment Notification](/static/readme_images/feature_notification.png)
+![Blog Comment Notification](/static/document_images/feature_notification.png)
 </details>
 
 ### Session Detail
@@ -430,7 +430,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Session Detail](/static/readme_images/feature_session_detail.png)
+![Session Detail](/static/document_images/feature_session_detail.png)
 </details>
 
 ### Session Booking
@@ -442,9 +442,9 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Session Booking](/static/readme_images/feature_booking.png)
-![Session Booked](/static/readme_images/feature_booking_success.png)
-![Session Failure](/static/readme_images/feature_booking_failure.png)
+![Session Booking](/static/document_images/feature_booking.png)
+![Session Booked](/static/document_images/feature_booking_success.png)
+![Session Failure](/static/document_images/feature_booking_failure.png)
 </details>
 
 ### Contact Me
@@ -456,8 +456,8 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Session Booking](/static/readme_images/feature_contact.png)
-![Session Booked](/static/readme_images/feature_contact_success.png)
+![Session Booking](/static/document_images/feature_contact.png)
+![Session Booked](/static/document_images/feature_contact_success.png)
 </details>
 
 ### User Account
@@ -468,7 +468,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Session Booking](/static/readme_images/feature_account.png)
+![Session Booking](/static/document_images/feature_account.png)
 </details>
 
 ### Admin Section
@@ -478,9 +478,9 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See example feature images</summary>
 
-![Session Booking](/static/readme_images/feature_admin_1.png)
-![Session Booking](/static/readme_images/feature_admin_2.png)
-![Session Booking](/static/readme_images/feature_admin_3.png)
+![Session Booking](/static/document_images/feature_admin_1.png)
+![Session Booking](/static/document_images/feature_admin_2.png)
+![Session Booking](/static/document_images/feature_admin_3.png)
 </details>
 
 ##### Back to [top](#table-of-contents)
@@ -583,7 +583,7 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 
 <details><summary>style.css</summary>
 
-![style.css](/static/readme_images/css_validation.png)
+![style.css](/static/document_images/css_validation.png)
 </details>
 
 - No errors found
@@ -595,12 +595,12 @@ JSHint javaScript Validation Service was used to validate all javaScript snippet
 
 <details><summary>base.html</summary>
 
-![base.html](/static/readme_images/js_base.png)
+![base.html](/static/document_images/js_base.png)
 </details>
 
 <details><summary>account.html</summary>
 
-![user_account.html](/static/readme_images/js_account.png)
+![user_account.html](/static/document_images/js_account.png)
 </details>
 
 - No errors found
@@ -615,49 +615,49 @@ JSHint javaScript Validation Service was used to validate all javaScript snippet
 
 <details><summary>admin.py</summary>
 
-![admin.py](/static/readme_images/pep8_blog_admin.png)
+![admin.py](/static/document_images/pep8_blog_admin.png)
 </details>
 
 <details><summary>forms.py</summary>
 
-![forms.py](/static/readme_images/pep8_blog_forms.png)
+![forms.py](/static/document_images/pep8_blog_forms.png)
 </details>
 
 <details><summary>models.py</summary>
 
-![models.py](/static/readme_images/pep8_blog_models.png)
+![models.py](/static/document_images/pep8_blog_models.png)
 </details>
 
 <details><summary>tests.py</summary>
 
-![tests.py](/static/readme_images/pep8_blog_tests.png)
+![tests.py](/static/document_images/pep8_blog_tests.png)
 </details>
 
 <details><summary>urls.py</summary>
 
-![urls.py](/static/readme_images/pep8_blog_urls.png)
+![urls.py](/static/document_images/pep8_blog_urls.png)
 </details>
 
 <details><summary>views.py</summary>
 
-![views.py](/static/readme_images/pep8_blog_views.png)
+![views.py](/static/document_images/pep8_blog_views.png)
 </details>
 
 ### Booking App
 
 <details><summary>admin.py</summary>
 
-![admin.py](/static/readme_images/pep8_book_admin.png)
+![admin.py](/static/document_images/pep8_book_admin.png)
 </details>
 
 <details><summary>forms.py</summary>
 
-![forms.py](/static/readme_images/pep8_book_forms.png)
+![forms.py](/static/document_images/pep8_book_forms.png)
 </details>
 
 <details><summary>models.py</summary>
 
-![models.py](/static/readme_images/pep8_book_models.png)
+![models.py](/static/document_images/pep8_book_models.png)
 </details>
 
 <details><summary>tests.py</summary>
@@ -667,63 +667,63 @@ JSHint javaScript Validation Service was used to validate all javaScript snippet
 
 <details><summary>urls.py</summary>
 
-![urls.py](/static/readme_images/pep8_book_urls.png)
+![urls.py](/static/document_images/pep8_book_urls.png)
 </details>
 
 <details><summary>views.py</summary>
 
-![views.py](/static/readme_images/pep8_book_views.png)
+![views.py](/static/document_images/pep8_book_views.png)
 </details>
 
 ### Contact App
 
 <details><summary>forms.py</summary>
 
-![forms.py](/static/readme_images/pep8_contact_forms.png)
+![forms.py](/static/document_images/pep8_contact_forms.png)
 </details>
 
 <details><summary>tests.py</summary>
 
-![tests.py](/static/readme_images/pep8_contact_tests.png)
+![tests.py](/static/document_images/pep8_contact_tests.png)
 </details>
 
 <details><summary>urls.py</summary>
 
-![urls.py](/static/readme_images/pep8_contact_urls.png)
+![urls.py](/static/document_images/pep8_contact_urls.png)
 </details>
 
 <details><summary>views.py</summary>
 
-![views.py](/static/readme_images/pep8_contact_views.png)
+![views.py](/static/document_images/pep8_contact_views.png)
 </details>
 
 ### Welcome App
 
 <details><summary>urls.py</summary>
 
-![urls.py](/static/readme_images/pep8_welcome_urls.png)
+![urls.py](/static/document_images/pep8_welcome_urls.png)
 </details>
 
 <details><summary>views.py</summary>
 
-![views.py](/static/readme_images/pep8_welcome_views.png)
+![views.py](/static/document_images/pep8_welcome_views.png)
 </details>
 
 ### Puredrive App
 
 <details><summary>settings.py</summary>
 
-![settings.py](/static/readme_images/pep8_puredrive_settings.png)
+![settings.py](/static/document_images/pep8_puredrive_settings.png)
 </details>
 
 <details><summary>urls.py</summary>
 
-![urls.py](/static/readme_images/pep8_puredrive_urls.png)
+![urls.py](/static/document_images/pep8_puredrive_urls.png)
 </details>
 
 <details><summary>manage.py</summary>
 
-![manage.py](/static/readme_images/pep8_puredrive_manage.png)
+![manage.py](/static/document_images/pep8_puredrive_manage.png)
 </details>
 
 ##### Back to [top](#table-of-contents)<hr> 
@@ -753,52 +753,52 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 
 <details><summary>welcome.html</summary>
 
-![welcome.html](/static/readme_images/lh_welcome.png)
+![welcome.html](/static/document_images/lh_welcome.png)
 </details>
 
 <details><summary>blog.html</summary>
 
-![blog.html](/static/readme_images/lh_blog.png)
+![blog.html](/static/document_images/lh_blog.png)
 </details>
 
 <details><summary>blog_detail.html</summary>
 
-![blog_detail.html](/static/readme_images/lh_blog_detail.png)
+![blog_detail.html](/static/document_images/lh_blog_detail.png)
 </details>
 
 <details><summary>booking.html</summary>
 
-![booking.html](/static/readme_images/lh_booking.png)
+![booking.html](/static/document_images/lh_booking.png)
 </details>
 
 <details><summary>booking_form.html</summary>
 
-![booking_form.html](/static/readme_images/lh_booking_form.png)
+![booking_form.html](/static/document_images/lh_booking_form.png)
 </details>
 
 <details><summary>booking_success.html</summary>
 
-![booking_success.html](/static/readme_images/lh_booking_success.png)
+![booking_success.html](/static/document_images/lh_booking_success.png)
 </details>
 
 <details><summary>booking_full.html</summary>
 
-![booking_full.html](/static/readme_images/lh_booking_full.png)
+![booking_full.html](/static/document_images/lh_booking_full.png)
 </details>
 
 <details><summary>contact.html</summary>
 
-![contact.html](/static/readme_images/lh_contact.png)
+![contact.html](/static/document_images/lh_contact.png)
 </details>
 
 <details><summary>contact_success.html</summary>
 
-![contact_success.html](/static/readme_images/lh_success.png)
+![contact_success.html](/static/document_images/lh_success.png)
 </details>
 
 <details><summary>user_account.html</summary>
 
-![user_account.html](/static/readme_images/lh_account.png)
+![user_account.html](/static/document_images/lh_account.png)
 </details>
 
 ##### Back to [top](#table-of-contents)<hr> 
