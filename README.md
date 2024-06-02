@@ -491,9 +491,9 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 The W3C Markup Validation Service was used to validate the HTML of the website.  
 
-### Home  
+### Welcome  
 
-index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2F) 
+welcome.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2F)
 - No Errors Found
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
