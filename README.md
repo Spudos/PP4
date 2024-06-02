@@ -505,7 +505,7 @@ login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefit
 
 ### Sign Up
 
-register.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Faccounts%2Fsignup%2F)
+signup.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Faccounts%2Fsignup%2F)
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -516,7 +516,7 @@ register.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrive
 
 ### Sign Out
 
-<details><summary>logout.html</summary>
+<details><summary>signout.html</summary>
 
 ![logout](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Faccounts%2Flogout%2F)
 </details>
@@ -525,34 +525,27 @@ register.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrive
 
 ### Blog List
 
-products.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Fblog%2F)
+blog.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Fblog%2F)
 
 - No Errors Found
 
-### Blog Detail
+### Blog Detail Page
 
-product_detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fproducts%2F10%2F)
-- No Errors Found
+blog_detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Fblog%2Fshopping-for-fitness%2F)
+
+- No Errors Found  
+
+### Booking Page
+
+booking.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Fbooking%2F)
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
+| Error | Booking | Bad value /booking/booking_form/?session_type=Weight Loss for attribute href on element a: Illegal character in query: space is not allowed. | Not a html error but an error in data passed into the html code |
 
-### Cart
+### Booking Form
 
-cart.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fcart%2F) 
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |
-
-### Checkout
-
-checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fcheckout%2F)
+checkout.html [results]()
 - No Errors Found
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -560,11 +553,11 @@ checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-in
 | Error | N/A | N/A | N/A |
 | Warning | N/A | N/A | N/A | 
 
-### Checkout Success
+### Booking Success
 
 <details><summary>checkout_success.html</summary>
 
-![checkout_success](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-checkou-success.png)
+![checkout_success]()
 </details>
 - No Errors Found
 
@@ -574,11 +567,11 @@ checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-in
 | Error | N/A | N/A | N/A |
 | Warning | N/A | N/A | N/A | 
 
-### Profile
+### Booking unavailable
 
 <details><summary>profile.html</summary>
 
-![profile](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-profile.png)
+![profile]()
 </details>
 - No Errors Found
 
@@ -592,7 +585,7 @@ checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-in
 
 <details><summary>tracking_order.html</summary>
 
-![Track Order](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-profile.png)
+![Track Order]()
 </details>
 - No Errors Found
 
@@ -600,11 +593,12 @@ checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-in
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
 | Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
+| Warning | N/A | N/A | N/A |
 
 ### Contact
 
-contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fcontact%2F) 
+contact.html [results]()
+
 - No Errors Found
 
 
@@ -617,7 +611,7 @@ contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-inf
 
 <details><summary>add_product.html</summary>
 
-![add_product](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-add-product.png)
+![add_product](g)
 </details>
 - No Errors Found
 
@@ -631,22 +625,9 @@ contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-inf
 
 <details><summary>edit_product.html</summary>
 
-![edit_product](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-edit-product.png)
+![edit_product]()
 </details>
-- No Errors Found
 
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
-
-### 404
-
-<details><summary>404.html</summary>
-
-![404](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-edit-product.png)
-</details>
 - No Errors Found
 
 
