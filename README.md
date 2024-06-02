@@ -385,8 +385,11 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
+Welcome Page Blog Section
 ![Welcome Blogs](/static/document_images/feature_welcome_blog.png)<br>
+Welcome Page Session Section
 ![Welcome Sessions](/static/document_images/feature_welcome_sessions.png)<br>
+Welcome Page Contact Section
 ![Welcome Contact](/static/document_images/feature_welcome_contact.png)
 
 </details>
@@ -442,9 +445,12 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Session Booking](/static/document_images/feature_booking.png)<br>
-![Session Booked](/static/document_images/feature_booking_success.png)<br>
-![Session Failure](/static/document_images/feature_booking_failure.png)
+Booking Page
+![Booking Page](/static/document_images/feature_booking.png)<br>
+Booking Success
+![Booking Success](/static/document_images/feature_booking_success.png)<br>
+Booking Full
+![Booking Full](/static/document_images/feature_booking_failure.png)
 </details>
 
 ### Contact Me
@@ -456,8 +462,10 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Session Booking](/static/document_images/feature_contact.png)<br>
-![Session Booked](/static/document_images/feature_contact_success.png)
+Contact Me
+![Contact Me](/static/document_images/feature_contact.png)<br>
+Contact Success
+![Contact Success](/static/document_images/feature_contact_success.png)
 </details>
 
 ### User Account
@@ -478,9 +486,12 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See example feature images</summary>
 
-![Session Booking](/static/document_images/feature_admin_1.png)<br>
-![Session Booking](/static/document_images/feature_admin_2.png)<br>
-![Session Booking](/static/document_images/feature_admin_3.png)
+Admin Example 1
+![Admin Example 1](/static/document_images/feature_admin_1.png)<br>
+Admin Example 2
+![Admin Example 2](/static/document_images/feature_admin_2.png)<br>
+Admin Example 3
+![Admin Example 3](/static/document_images/feature_admin_3.png)
 </details>
 
 ##### Back to [top](#table-of-contents)
