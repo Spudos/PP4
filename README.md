@@ -749,27 +749,57 @@ contact success [results](https://wave.webaim.org/report#/https://puredrivefitne
 
 ## Lighthouse
 
-Performance and best practices were tested using Lighthouse.
+Page Performance was tested using Lighthouse, all pages achieved a score of at least 95.
 
-welcome.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/)
+<details><summary>welcome.html</summary>
 
-blog.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/blog/)
+![welcome.html](/static/readme_images/lh_welcome.png)
+</details>
 
-blog_details [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/blog/shopping-for-fitness/)
+<details><summary>blog.html</summary>
 
-booking.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/booking/)
+![blog.html](/static/readme_images/lh_blog.png)
+</details>
 
-booking_form.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/booking/)
+<details><summary>blog_detail.html</summary>
 
-booking_success.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/booking/)
+![blog_detail.html](/static/readme_images/lh_blog_detail.png)
+</details>
 
-booking_failure.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/booking/)
+<details><summary>booking.html</summary>
 
-contact.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/contact/)
+![booking.html](/static/readme_images/lh_booking.png)
+</details>
 
-contact_success.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/success/)
+<details><summary>booking_form.html</summary>
 
-user_account.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/success/)
+![booking_form.html](/static/readme_images/lh_booking_form.png)
+</details>
+
+<details><summary>booking_success.html</summary>
+
+![booking_success.html](/static/readme_images/lh_booking_success.png)
+</details>
+
+<details><summary>booking_full.html</summary>
+
+![booking_full.html](/static/readme_images/lh_booking_full.png)
+</details>
+
+<details><summary>contact.html</summary>
+
+![contact.html](/static/readme_images/lh_contact.png)
+</details>
+
+<details><summary>contact_success.html</summary>
+
+![contact_success.html](/static/readme_images/lh_success.png)
+</details>
+
+<details><summary>user_account.html</summary>
+
+![user_account.html](/static/readme_images/lh_account.png)
+</details>
 
 ##### Back to [top](#table-of-contents)<hr> 
 
