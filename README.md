@@ -385,8 +385,8 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Welcome Blogs](/static/document_images/feature_welcome_blog.png)
-![Welcome Sessions](/static/document_images/feature_welcome_sessions.png)
+![Welcome Blogs](/static/document_images/feature_welcome_blog.png)<br>
+![Welcome Sessions](/static/document_images/feature_welcome_sessions.png)<br>
 ![Welcome Contact](/static/document_images/feature_welcome_contact.png)
 
 </details>
@@ -442,8 +442,8 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Session Booking](/static/document_images/feature_booking.png)
-![Session Booked](/static/document_images/feature_booking_success.png)
+![Session Booking](/static/document_images/feature_booking.png)<br>
+![Session Booked](/static/document_images/feature_booking_success.png)<br>
 ![Session Failure](/static/document_images/feature_booking_failure.png)
 </details>
 
@@ -456,7 +456,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See feature images</summary>
 
-![Session Booking](/static/document_images/feature_contact.png)
+![Session Booking](/static/document_images/feature_contact.png)<br>
 ![Session Booked](/static/document_images/feature_contact_success.png)
 </details>
 
@@ -478,8 +478,8 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>See example feature images</summary>
 
-![Session Booking](/static/document_images/feature_admin_1.png)
-![Session Booking](/static/document_images/feature_admin_2.png)
+![Session Booking](/static/document_images/feature_admin_1.png)<br>
+![Session Booking](/static/document_images/feature_admin_2.png)<br>
 ![Session Booking](/static/document_images/feature_admin_3.png)
 </details>
 
