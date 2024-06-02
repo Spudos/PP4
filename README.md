@@ -544,15 +544,11 @@ booking.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivef
 
 booking_form.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Fbooking%2Fbooking_form%2F%3Fsession_type%3DMotivation)
 
-- No Errors Found, 1 info notice
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Info | Booking Form | Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. | Inconsequntial error passed in by standard form|
+- No Errors Found
 
 ### Booking Success
 
-booking_success.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Fuser-account%2F#textarea)
+booking_success.html (source code copied into validator due to dynamic data)
 
 - No Errors Found
 
@@ -560,11 +556,7 @@ booking_success.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpu
 
 booking_full.html [results](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Fbooking%2Fbooking_form%2F%3Fsession_type%3DMotivation)
 
-- No Errors Found, 1 info notice
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Info | Booking Full | Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. | Inconsequntial error passed in by standard form|
+- No Errors Found
 
 ### Contact Me
 
@@ -580,7 +572,7 @@ success.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivef
 
 ### Account Page
 
-account.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Fuser-account%2F#textarea)
+account.html  (source code copied into validator due to dynamic data)
 
 - No Errors Found
 
@@ -589,37 +581,12 @@ account.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivef
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 
-<details><summary>base.css</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
-</details> 
+<details><summary>style.css</summary>
 
-<details><summary>account.css</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
-</details> 
+![style.css](/static/Readme_images/css_validation.png)
+</details>
 
-<details><summary>cart.css</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
-</details> 
-
-<details><summary>checkout.css</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
-</details> 
-
-<details><summary>contact.css</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
-</details> 
-
-<details><summary>home.css</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
-</details> 
-
-<details><summary>products.css</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
-</details> 
-
-<details><summary>profile.css</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
-</details> 
+- No errors found
 
 ##### Back to [top](#table-of-contents)
 
