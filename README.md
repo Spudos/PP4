@@ -516,10 +516,7 @@ signup.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefi
 
 ### Sign Out
 
-<details><summary>signout.html</summary>
-
-![logout](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Faccounts%2Flogout%2F)
-</details>
+signout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Faccounts%2Flogout%2F)
 
 - No Errors Found
 
@@ -545,96 +542,47 @@ booking.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivef
 
 ### Booking Form
 
-checkout.html [results]()
-- No Errors Found
+booking_form.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Fbooking%2Fbooking_form%2F%3Fsession_type%3DMotivation)
+
+- No Errors Found, 1 info notice
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
+| Info | Booking Form | Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. | Inconsequntial error passed in by standard form|
 
 ### Booking Success
 
-<details><summary>checkout_success.html</summary>
-
-![checkout_success]()
-</details>
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
-
-### Booking unavailable
-
-<details><summary>profile.html</summary>
-
-![profile]()
-</details>
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
-
-### Track Order
-
-<details><summary>tracking_order.html</summary>
-
-![Track Order]()
-</details>
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |
-
-### Contact
-
-contact.html [results]()
+booking_success.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Fuser-account%2F#textarea)
 
 - No Errors Found
 
+### Booking Unavailable
+
+booking_full.html [results](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Fbooking%2Fbooking_form%2F%3Fsession_type%3DMotivation)
+
+- No Errors Found, 1 info notice
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
+| Info | Booking Full | Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. | Inconsequntial error passed in by standard form|
 
-### Add Product
+### Contact Me
 
-<details><summary>add_product.html</summary>
-
-![add_product](g)
-</details>
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
-
-### Edit Product
-
-<details><summary>edit_product.html</summary>
-
-![edit_product]()
-</details>
+contact.html [results](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Fcontact%2F)
 
 - No Errors Found
 
+### Contact Success
 
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
+success.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Fsuccess%2F)
+
+- No Errors Found
+
+### Account Page
+
+account.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Fuser-account%2F#textarea)
+
+- No Errors Found
 
 ##### Back to [top](#table-of-contents)
 
