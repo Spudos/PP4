@@ -729,139 +729,47 @@ JSHint javaScript Validation Service was used to validate all javaScript snippet
 ##### Back to [top](#table-of-contents)<hr> 
 
 ## Accessibility  
-The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure the website met high accessibility standards.
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure key website pages met high accessibility standards.
 
 - No errors found
 
-<details><summary>Home</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-home.png">
-</details>
+welcome.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/)
 
-<details><summary>Product List</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-product-list.png">
-</details> 
+blog.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/blog/)
 
-<details><summary>Product Detail</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-product-detail.png">
-</details>
+blog_details [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/blog/shopping-for-fitness/)
 
-<details><summary>Checkout</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-checkout.png">
-</details>
+booking.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/booking/)
 
-<details><summary>Checkout Success</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-checkout-success.png">
-</details>
+contact.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/contact/)
 
-<details><summary>Contact</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-contact.png">
-</details>
-
-<details><summary>Profile</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-profile.png">
-</details>
-
-<details><summary>Reviews</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-reviews.png">
-</details>
-
-<details><summary>Policy</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-policy.png">
-</details>
-
-<details><summary>Login</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-login.png">
-</details>
-
-<details><summary>Logout</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-logout.png">
-</details>
-
-<details><summary>Reset Password</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-password-rest.png">
-</details>
-
-<details><summary>Register</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-register.png">
-</details>
-
-<details><summary>Admin Management</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-management.png">
-</details>
-
-<details><summary>404</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-home.png">
-</details>
+contact success [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/success/)
 
 ##### Back to [top](#table-of-contents)<hr> 
 
 ## Lighthouse
 
-Performance, best practices and SEO was tested using Lighthouse.
+Performance and best practices were tested using Lighthouse.
 
-<details><summary>Home</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-home.png">
-</details>
+welcome.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/)
 
-<details><summary>Product List</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-product-list.png">
-</details> 
+blog.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/blog/)
 
-<details><summary>Product Detail</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-product-detail.png">
-</details>
+blog_details [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/blog/shopping-for-fitness/)
 
-<details><summary>Checkout</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-checkout.png">
-</details>
+booking.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/booking/)
 
-<details><summary>Checkout Success</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-checkout-success.png">
-</details>
+booking_form.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/booking/)
 
-<details><summary>Contact</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-contact.png">
-</details>
+booking_success.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/booking/)
 
-<details><summary>Profile</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-profile.png">
-</details>
+booking_failure.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/booking/)
 
-<details><summary>Reviews</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-reviews.png">
-</details>
+contact.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/contact/)
 
-<details><summary>Policy</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-policy.png">
-</details>
+contact_success.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/success/)
 
-<details><summary>Login</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-login.png">
-</details>
-
-<details><summary>Logout</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-logout.png">
-</details>
-
-<details><summary>Reset Password</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-reset-password.png">
-</details>
-
-<details><summary>Register</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-register.png">
-</details>
-
-<details><summary>Custom Admin</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-custom-admin.png">
-</details>
-
-<details><summary>Admin Management</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-management.png">
-</details>
-
-<details><summary>404</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-home.png">
-</details>
+user_account.html [results](https://wave.webaim.org/report#/https://puredrivefitness-68f4e5eedb4f.herokuapp.com/success/)
 
 ##### Back to [top](#table-of-contents)<hr> 
 
