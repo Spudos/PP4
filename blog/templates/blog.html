@@ -19,9 +19,9 @@
                   <div class="card-section blog-header">
                     <div class="blog-list-image mb-5">
                       {% if "none" in post.image.url %}
-                      <img src="{% static 'images/big-image.png' %}">
+                      <img src="{% static 'images/session_gym.jpg' %}" alt="an icon of a person on a running machine">
                       {% else %}
-                      <img src=" {{ post.image.url }}">
+                      <img src=" {{ post.image.url }}" alt="{{ post.title }}">
                       {% endif %}
                     </div>
                     <a href='{% url 'blog_detail' post.slug %}'><h4>{{ post.title }}</h4>

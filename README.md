@@ -494,57 +494,42 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 ### Welcome  
 
 welcome.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2F)
-- No Errors Found
 
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
+- No Errors Found
 
 ### Login  
 
-login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Faccounts%2Flogin%2F)
+login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Faccounts%2Flogin%2F)
+
 - No Errors Found
+
+### Sign Up
+
+register.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Faccounts%2Fsignup%2F)
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
+| Error | Embedded Sign up page | End tag p implied, but there were open elements. | Error on system template.  Does not affect view or site performance |
+| Error | Embedded Sign up page | Unclosed element span. | Error on system template.  Does not affect view or site performance |
+| Error | Embedded Sign up page |  Stray end tag span. | Error on system template.  Does not affect view or site performance |
+| Error | Embedded Sign up page |  No p element in scope but a p end tag seen. | Error on system template.  Does not affect view or site performance |
 
-### Register  
-
-register.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Faccounts%2Fsignup%2F)
-- No Errors Found
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
-
-### Logout 
+### Sign Out
 
 <details><summary>logout.html</summary>
 
-![logout](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-logout.png)
+![logout](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Faccounts%2Flogout%2F)
 </details>
+
 - No Errors Found
 
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
+### Blog List
 
-### Products 
+products.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuredrivefitness-68f4e5eedb4f.herokuapp.com%2Fblog%2F)
 
-products.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fproducts%2F)
 - No Errors Found
 
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-### Product Detail 
+### Blog Detail
 
 product_detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fproducts%2F10%2F)
 - No Errors Found
