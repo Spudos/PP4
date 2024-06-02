@@ -608,28 +608,130 @@ JSHint javaScript Validation Service was used to validate all javaScript snippet
 ##### Back to [top](#table-of-contents)<hr> 
 
 ## PEP8 Validation
-[CI Python Linter](https://pep8ci.herokuapp.com/) was used to check the code for PEP8 requirements.
 
+[CI Python Linter](https://pep8ci.herokuapp.com/) was used to check the code for PEP8 requirements.  Screenshots for all of the major code componants are included below.
 
-### Cart
+### Blog App
 
-<details><summary>contexts.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-contexts.png">
+<details><summary>admin.py</summary>
+
+![admin.py](/static/readme_images/pep8_blog_admin.png)
 </details>
 
-<details><summary>cart_tools.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-cart-tools.png">
+<details><summary>forms.py</summary>
+
+![forms.py](/static/readme_images/pep8_blog_forms.png)
+</details>
+
+<details><summary>models.py</summary>
+
+![models.py](/static/readme_images/pep8_blog_models.png)
+</details>
+
+<details><summary>tests.py</summary>
+
+![tests.py](/static/readme_images/pep8_blog_tests.png)
+</details>
+
+<details><summary>urls.py</summary>
+
+![urls.py](/static/readme_images/pep8_blog_urls.png)
+</details>
+
+<details><summary>views.py</summary>
+
+![views.py](/static/readme_images/pep8_blog_views.png)
+</details>
+
+### Booking App
+
+<details><summary>admin.py</summary>
+
+![admin.py](/static/readme_images/pep8_book_admin.png)
+</details>
+
+<details><summary>forms.py</summary>
+
+![forms.py](/static/readme_images/pep8_book_forms.png)
+</details>
+
+<details><summary>models.py</summary>
+
+![models.py](/static/readme_images/pep8_book_models.png)
+</details>
+
+<details><summary>tests.py</summary>
+
+![tests.py]()
+</details>
+
+<details><summary>urls.py</summary>
+
+![urls.py](/static/readme_images/pep8_book_urls.png)
+</details>
+
+<details><summary>views.py</summary>
+
+![views.py](/static/readme_images/pep8_book_views.png)
+</details>
+
+### Contact App
+
+<details><summary>forms.py</summary>
+
+![forms.py](/static/readme_images/pep8_contact_forms.png)
+</details>
+
+<details><summary>tests.py</summary>
+
+![tests.py](/static/readme_images/pep8_contact_tests.png)
+</details>
+
+<details><summary>urls.py</summary>
+
+![urls.py](/static/readme_images/pep8_contact_urls.png)
+</details>
+
+<details><summary>views.py</summary>
+
+![views.py](/static/readme_images/pep8_contact_views.png)
+</details>
+
+### Welcome App
+
+<details><summary>urls.py</summary>
+
+![urls.py](/static/readme_images/pep8_welcome_urls.png)
+</details>
+
+<details><summary>views.py</summary>
+
+![views.py](/static/readme_images/pep8_welcome_views.png)
+</details>
+
+### Puredrive App
+
+<details><summary>settings.py</summary>
+
+![settings.py](/static/readme_images/pep8_puredrive_settings.png)
+</details>
+
+<details><summary>urls.py</summary>
+
+![urls.py](/static/readme_images/pep8_puredrive_urls.png)
+</details>
+
+<details><summary>manage.py</summary>
+
+![manage.py](/static/readme_images/pep8_puredrive_manage.png)
 </details>
 
 ##### Back to [top](#table-of-contents)<hr> 
 
 ## Accessibility  
-The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure the website met high accessibility standards.  
-- All pages returned 0 errors.
-- I have added sr only tags throught the website to ensure that the website is accessible
-- There are contrast errors, there is not a dark enough orange to have white text, I have decided to change the color as dark as I can but these contrast errors still exist
-- To suit the them of my website I'm keeping the orange color
-- All alerts presented were for redundant links whichweres taken into account during development.
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure the website met high accessibility standards.
+
+- No errors found
 
 <details><summary>Home</summary>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-home.png">

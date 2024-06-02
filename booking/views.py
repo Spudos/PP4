@@ -25,7 +25,9 @@ def booking_form(request):
     user_name = request.user.get_full_name()
 
     current_date = date.today()
-    available_appointments = Appointments.objects.filter(Q(booking__isnull=True) & Q(date_time__gt=current_date)).order_by("date_time")
+    available_appointments = Appointments.objects.filter(
+        Q(booking__isnull=True) & Q(
+            date_time__gt=current_date)).order_by("date_time")
 
     if request.method == 'POST':
         form = BookingForm(request.POST)
@@ -34,11 +36,14 @@ def booking_form(request):
             new_booking = form.save(commit=False)
             new_booking.user = request.user
             new_booking.session_type = session_type
-            appointment_id = request.POST.get('appointment')
-            appointment_instance = get_object_or_404(Appointments, id=appointment_id)
+            appointment_id = request.POST.get(
+                'appointment')
+            appointment_instance = get_object_or_404(
+                Appointments, id=appointment_id)
             new_booking.appointment = appointment_instance
             new_booking.save()
-            return redirect(reverse('booking_success', kwargs={'booking_id': new_booking.id}))
+            return redirect(reverse(
+                'booking_success', kwargs={'booking_id': new_booking.id}))
         else:
             return HttpResponseBadRequest("Form data is not valid")
     else:
@@ -46,7 +51,9 @@ def booking_form(request):
         form = BookingForm(initial=initial_data)
 
     if available_appointments:
-        return render(request, 'booking_form.html', {'form': form, 'user_name': user_name, 'available_appointments': available_appointments})
+        return render(request, 'booking_form.html', {
+            'form': form, 'user_name': user_name,
+            'available_appointments': available_appointments})
     else:
         return render(request, 'booking_full.html')
 

@@ -9,9 +9,20 @@ from django.contrib.auth.models import User
 class BlogEntriesTest(TestCase):
     @classmethod
     def setUpTestData(cls):
-        user = User.objects.create(username='your_username', email='your_email@example.com', password='your_password', first_name='First', last_name='Last', date_joined=timezone.now())
-        Post.objects.create(title='Test Post 1', status=1, author=user, slug='1', created_on=timezone.now())
-        Post.objects.create(title='Test Post 2', status=1, author=user, slug='2', created_on=timezone.now())
+        user = User.objects.create(username='your_username',
+                                   email='your_email@example.com',
+                                   password='your_password',
+                                   first_name='First',
+                                   last_name='Last',
+                                   date_joined=timezone.now())
+        Post.objects.create(title='Test Post 1',
+                                  status=1, author=user,
+                                  slug='1',
+                                  created_on=timezone.now())
+        Post.objects.create(title='Test Post 2',
+                                  status=1, author=user,
+                                  slug='2',
+                                  created_on=timezone.now())
 
     def test_blog_entries_view(self):
         response = self.client.get(reverse('blog'))
@@ -25,14 +36,24 @@ class BlogEntriesTest(TestCase):
 class BlogDetailTest(TestCase):
     @classmethod
     def setUpTestData(cls):
-        user = User.objects.create(username='your_username', email='your_email@example.com', password='your_password', first_name='First', last_name='Last', date_joined=timezone.now())
-        cls.user = User.objects.create_user(username='testuser', password='12345')
-        cls.post = Post.objects.create(title='Test Post', author=user, status=1, slug='test-post')
+        user = User.objects.create(username='your_username',
+                                            email='your_email@example.com',
+                                            password='your_password',
+                                            first_name='First',
+                                            last_name='Last',
+                                            date_joined=timezone.now())
+        cls.user = User.objects.create_user(username='testuser',
+                                            password='12345')
+        cls.post = Post.objects.create(title='Test Post',
+                                       author=user,
+                                       status=1,
+                                       slug='test-post')
 
     def test_blog_detail_view(self):
         self.client.force_login(self.user)
 
-        response = self.client.get(reverse('blog_detail', kwargs={'slug': self.post.slug}))
+        response = self.client.get(reverse('blog_detail',
+                                           kwargs={'slug': self.post.slug}))
         self.assertEqual(response.status_code, 200)
 
         self.assertTrue('blog' in response.context)
@@ -48,7 +69,9 @@ class BlogDetailTest(TestCase):
             'text': 'Test comment text',
         }
 
-        response = self.client.post(reverse('blog_detail', kwargs={'slug': self.post.slug}), data=comment_data)
+        response = self.client.post(reverse('blog_detail',
+                                    kwargs={'slug': self.post.slug}),
+                                    data=comment_data)
         self.assertEqual(response.status_code, 200)
 
         self.assertEqual(self.post.comments.count(), 1)

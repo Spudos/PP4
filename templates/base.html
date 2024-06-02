@@ -4,14 +4,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pure Drive Fitness</title>
 
     <!-- Font Awesome CSS -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
 
     <script
       src="https://kit.fontawesome.com/4a0d024432.js"
@@ -23,10 +24,11 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous">
+      crossorigin="anonymous"
+    />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
 
     <!-- Google Maps -->
     <script
@@ -110,8 +112,7 @@
           {% if user.is_authenticated %}
           <li class="nav-button">
             <a class="nav-link" href="{% url 'user_account' %}"
-              ><i class="fa-solid fa-person"></i
-              ><span>Me</span></a
+              ><i class="fa-solid fa-person"></i><span>Me</span></a
             >
           </li>
           {% endif %}
@@ -121,13 +122,17 @@
 
     <div class="container">
       <div class="row">
-          <div class="col-md-8 offset-md-2">
-              {% for message in messages %}
-              <div class="alert {{ message.tags }} alert-dismissible fade show" id="msg" role="alert">
-                  {{ message | safe }}
-              </div>
-              {% endfor %}
+        <div class="col-md-8 offset-md-2">
+          {% for message in messages %}
+          <div
+            class="alert {{ message.tags }} alert-dismissible fade show"
+            id="msg"
+            role="alert"
+          >
+            {{ message | safe }}
           </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
 
@@ -149,7 +154,7 @@
       </div>
       <gmp-map
         class="col-xl-4 col-md-6"
-        style="max-height: 300px;"
+        style="max-height: 300px"
         center="52.688995361328125,-2.762193202972412"
         zoom="14"
         map-id="DEMO_MAP_ID"
@@ -165,21 +170,29 @@
       <div
         class="col-xl-4 col-md-6 d-flex justify-content-between align-items-center g-5 social"
       >
-        <a href="https://www.facebook.com" target="_blank"
-          ><i class="fa-brands fa-facebook contact-button"></i
-        ></a>
+        <a href="https://www.facebook.com" target="_blank">
+          <i
+            class="fa-brands fa-facebook contact-button"
+            aria-hidden="true"
+          ></i>
+          <span class="sr-only">Visit our Facebook page</span>
+        </a>
         <a href="https://www.instagram.com" target="_blank"
           ><i class="fa-brands fa-square-instagram contact-button"></i
-        ></a>
+          ><span class="sr-only">Visit our Instagram page</span>
+        </a>
         <a href="https://www.twitter.com" target="_blank"
           ><i class="fa-brands fa-x-twitter contact-button"></i
-        ></a>
+          ><span class="sr-only">Visit our X page</span></a
+        >
         <a href="https://www.tiktok.com" target="_blank"
           ><i class="fa-brands fa-tiktok contact-button"></i
-        ></a>
+          ><span class="sr-only">Visit our TikTok page</span></a
+        >
         <a href="https://www.snapchat.com" target="_blank"
           ><i class="fa-brands fa-square-snapchat contact-button"></i
-        ></a>
+          ><span class="sr-only">Visit our Snapchat page</span></a
+        >
       </div>
     </footer>
 
@@ -188,9 +201,9 @@
 
     <script>
       setTimeout(function () {
-          let messages = document.getElementById('msg');
-          let alert = new bootstrap.Alert(messages);
-          alert.close();
+        let messages = document.getElementById("msg");
+        let alert = new bootstrap.Alert(messages);
+        alert.close();
       }, 2000);
     </script>
   </body>
