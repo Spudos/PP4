@@ -221,8 +221,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 
 <details><summary>ElephantSQL details</summary>
 
-![ElephantSQL](/static/document_images/elephantsql.png)<br>
-
+![ElephantSQL](/static/document_images/elephantsql.png)
 </details>
 
 ##### Back to [top](#table-of-contents)<hr>
@@ -230,7 +229,8 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 ## Database
 
 <details><summary>See Database Diagram</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/database/database-diagram.png">
+
+![ElephantSQL](/static/document_images/DB_diagram.png)
 </details>
 
 ##### Back to [top](#table-of-contents)<hr>
@@ -861,7 +861,7 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Welcome Page | The first section below the header on the welcome page displays the most recent blog posts. Click on 'let's read' or 'Read' from the nav bar to view the blog listing|  | As expected |
+| Welcome Page | The first section below the header on the welcome page displays the most recent blog posts. Click on 'let's read' or 'Read' from the nav bar to view the blog listing| A blog listing is shown | As expected |
 | Blog Listing | Once you have navigated to the blog listing all blogs are shown in a paginated view so that a selection can be made | The blog lisyting is diaplyed, 4 at a time | As expected |
 
 8. As a **user** I can **see a short excerpt from the blog** so that I can **understand what it is about**
@@ -898,7 +898,7 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Header | From the first header section butttons for login/signup/logout are shown as appropriate | the user can log into their account | As expected |
+| Header | From the first header section butttons for login/signup/logout are shown as appropriate | The user can log into their account | As expected |
 | User Account | When logged in click on 'Me' in the nav bar to view your details | User detaiuls are shown | As expected |
 
 14. As a **user** I can **see contact information for the trainer** so that I can **get in touch as required**
