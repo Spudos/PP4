@@ -90,9 +90,8 @@ main {
   background: rgba(0, 0, 0, 0.2);
 }
 
-/*--------------------------------------------Hero*/
-#hero {
-  background: url("../images/hero.webp");
+/*--------------------------------------------Hero*/ 
+#hero > img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,8 +100,8 @@ main {
   height: 300px;
   margin: auto;
   margin-top: 50px;
-}  
-
+  object-fit: cover;
+}
 /*--------------------------------------------Featured Blogs*/
 #featured-blog-image {
   max-width: 300px;
