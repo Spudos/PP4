@@ -41,7 +41,7 @@
 1. As a **user** I can **see the session types on the welcome page** so that I can **see headline information about the sessions**
 2. As a **user** I can **read detail about the session types that are available** so that **I understand what is best for me**
 3. As a **user** I can **book a session** so that I can **begin my training**
-4. As a **user** I can **view my booked sessions** so that I can **cancel if i need to**
+4. As a **user** I can **view my booked sessions** so that I can **cancel if i need to or edit the session**
 5. As a **user** I can **leave a comment as I book** so that I can **inform the trainer about my requirements**
 6. As a **user** I can **receive booking emails** so that I can **get confirmation that it has been booked**
 
@@ -471,7 +471,7 @@ Contact Success
 ### User Account
 
 - Allows the user see their details and bookings
-- Allows the user to cancel bookings
+- Allows the user to cancel and edit bookings
 - User stories covered: 13, 4
 
 <details><summary>See feature images</summary>
@@ -839,11 +839,11 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 | ------- | ------ | --------------- | ------------- |
 | Session Booking | First you must log in then navigate to the session detail page.  Once you have navigated to the session detail page clicking on the session test will take you to a booking form if any sessions are available | A booking page is displayed | As expected |
 
-4. As a **user** I can **view my booked sessions** so that I can **cancel if i need to**
+4. As a **user** I can **view my booked sessions** so that I can **cancel if i need to or edit the session**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| User Account | When logged in click on 'Me' in the nav bar.  Scroll down to see the booked session detail below user information | All upcoming and past session are displayed | As expected |
+| User Account | When logged in click on 'Me' in the nav bar.  Scroll down to see the booked session detail below user information and cancel or edit as required.  A email will be sent if a booking is changed. | All upcoming and past session are displayed and edit/cancel functionality exists | As expected |
 
 5. As a **user** I can **leave a comment as I book** so that I can **inform the trainer about my requirements**
 
@@ -990,30 +990,35 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 
 ### Automated testing
 
-- Testing was done using the built in Django module, unittest.
+- Testing was done using the built in Django module, unittest.  The focus of texting was the view files for each module.  Testing these elements helps ensure that all business logic is being correctly applied.
+- All tests passed
 
 #### Blog
 
 <details><summary> See summary</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-cart.png">
+
+![blog](/static/document_images/tests_blog.png)
 </details>
 
 #### Booking
 
 <details><summary> See summary</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-checkout.png">
+
+![blog](/static/document_images/tests_booking.png)
 </details>
 
 #### Contact
 
 <details><summary> See summary</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-contact.png">
+
+![contact](/static/document_images/tests_contact.png)
 </details>
 
 #### Welcome
 
 <details><summary> See summary</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-custom-admin.png">
+
+![welcome](/static/document_images/tests_welcome.png)
 </details>
 
 ### Device Testing & Browser compatibility
