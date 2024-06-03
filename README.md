@@ -710,6 +710,11 @@ JSHint javaScript Validation Service was used to validate all javaScript snippet
 
 ### Welcome App
 
+<details><summary>tests.py</summary>
+
+![tests.py](/static/document_images/pep8_welcome_tests.png)
+</details>
+
 <details><summary>urls.py</summary>
 
 ![urls.py](/static/document_images/pep8_welcome_urls.png)
