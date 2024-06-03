@@ -51,7 +51,7 @@
 8. As a **user** I can **see a short excerpt from the blog** so that I can **understand what it is about**
 9. As a **user** I can **read the blog** so that I can **learn about the subject**
 10. As a **user** I can **like a blog** so that I can **give positive feedback on posts I enjoyed**
-11. As a **user** I can **comment on a blog** so that **ask questions or leave useful informtation for other users**
+11. As a **user** I can **comment on a blog** so that **ask questions or leave useful information for other users**
 
 #### General
 
@@ -78,7 +78,7 @@
 ### Kanban, & User Stories
 
 - GitHub Kanban was used to track all open user stories
-- Ready, In Progress, Testing, Done headings were used in the kanban
+- Ready, In Progress, Testing, Done headings were used in the Kanban
 
 #### User Stories
 
@@ -168,7 +168,7 @@ Session Booking
 
 ### Colors
 
-The colour scheme was chosen to provide a good contrast for accesibility whilst also being quite subtle.  The black for the header and social footer was given a transparancy of 90% to make it less harsh.
+The color scheme was chosen to provide a good contrast for accessibility whilst also being quite subtle.  The black for the header and social footer was given a transparency of 90% to make it less harsh.
 
 The images were then created with a blue gradient/orange theme to add more color and interest to the site.
 
@@ -199,7 +199,7 @@ The footer is in two sections, mirroring the header.  The beige section includes
   Sessions
   - Session Listing
   - Session Booking
-  - No Sessions Availble
+  - No Sessions Available
   - Session Booked
 
   Contact me
@@ -217,7 +217,7 @@ The footer is in two sections, mirroring the header.  The beige section includes
 
 ElephantSQL was used to host the SQL database.
 
-This elegant solution allows cloud based stroage to be used so the same DB can be used at all time.  This is especially useful during development as local and deployed versions can be tested with the same data saving time and aiding consistency of results.
+This elegant solution allows cloud based storage to be used so the same DB can be used at all time.  This is especially useful during development as local and deployed versions can be tested with the same data saving time and aiding consistency of results.
 
 <details><summary>ElephantSQL details</summary>
 
@@ -356,7 +356,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 ### Header
 
 - Featured on all pages
-- The first section provides login/logout/signup options
+- The first section provides login/logout/sign up options
 - The second section provides simple navigation with clear icons and hover functionality
 - User stories covered: 12, 13
 
@@ -620,7 +620,7 @@ JSHint javaScript Validation Service was used to validate all javaScript snippet
 
 ## PEP8 Validation
 
-[CI Python Linter](https://pep8ci.herokuapp.com/) was used to check the code for PEP8 requirements.  Screenshots for all of the major code componants are included below.
+[CI Python Linter](https://pep8ci.herokuapp.com/) was used to check the code for PEP8 requirements.  Screenshots for all of the major code components are included below.
 
 ### Blog App
 
@@ -855,14 +855,14 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Session Booking | Once you have sucessfully made a booking via the booking form you receive an email giving you details of the session you have booked | An email with relevant information is sent to the user | As expected |
+| Session Booking | Once you have successfully made a booking via the booking form you receive an email giving you details of the session you have booked | An email with relevant information is sent to the user | As expected |
 
 7. As a **user** I can **view all of the available blogs in a clear and simple layout** so that I can **find a blog a would like to read**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
 | Welcome Page | The first section below the header on the welcome page displays the most recent blog posts. Click on 'let's read' or 'Read' from the nav bar to view the blog listing| A blog listing is shown | As expected |
-| Blog Listing | Once you have navigated to the blog listing all blogs are shown in a paginated view so that a selection can be made | The blog lisyting is diaplyed, 4 at a time | As expected |
+| Blog Listing | Once you have navigated to the blog listing all blogs are shown in a paginated view so that a selection can be made | The blog listing is displayed, 4 at a time | As expected |
 
 8. As a **user** I can **see a short excerpt from the blog** so that I can **understand what it is about**
 
@@ -874,7 +874,7 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Blog Detail | From the blog listing you can click on the post to view the full blog post | The blog post is diaplyed in an easy to read format | As expected |
+| Blog Detail | From the blog listing you can click on the post to view the full blog post | The blog post is displayed in an easy to read format | As expected |
 
 10. As a **user** I can **like a blog** so that I can **give positive feedback on posts I enjoyed**
 
@@ -882,7 +882,7 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 | ------- | ------ | --------------- | ------------- |
 | Blog Listing | You mst be logged in to access this functionality.  Navigate to the blog listing page, once there click on the thumbs up icon to like a page.  Clicking again removes the like from the post. | 'Likes' are displayed and the user can add their approval | As expected |
 
-11. As a **user** I can **comment on a blog** so that **ask questions or leave useful informtation for other users**
+11. As a **user** I can **comment on a blog** so that **ask questions or leave useful information for other users**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
@@ -898,8 +898,8 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Header | From the first header section butttons for login/signup/logout are shown as appropriate | The user can log into their account | As expected |
-| User Account | When logged in click on 'Me' in the nav bar to view your details | User detaiuls are shown | As expected |
+| Header | From the first header section buttons for login/signup/logout are shown as appropriate | The user can log into their account | As expected |
+| User Account | When logged in click on 'Me' in the nav bar to view your details | User details are shown | As expected |
 
 14. As a **user** I can **see contact information for the trainer** so that I can **get in touch as required**
 
@@ -936,25 +936,25 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Admin Section | append /admin to the root web address and log in as a superuser.  Click on 'sessions' from the left menu and use the intuitive interface to perform the desired option | Full CRUD functionalityu is available | As expected |
+| Admin Section | append /admin to the root web address and log in as a superuser.  Click on 'sessions' from the left menu and use the intuitive interface to perform the desired option | Full CRUD functionality is available | As expected |
 
 20. As a **site admin** I can **add diary entries** so that **users can book sessions**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Admin Section | append /admin to the root web address and log in as a superuser.  Click on 'appointments' from the left menu and use the intuitive interface to perform the desired option | Full CRUD functionalityu is available  | As expected |
+| Admin Section | append /admin to the root web address and log in as a superuser.  Click on 'appointments' from the left menu and use the intuitive interface to perform the desired option | Full CRUD functionality is available  | As expected |
 
 21. As a **site admin** I can **receive booking emails** so that **I am informed when users book with me**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Session Booking | When a booking is made an email is sent to the site owner to inform them about the booking | An email is receoved by the site owner | As expected |
+| Session Booking | When a booking is made an email is sent to the site owner to inform them about the booking | An email is received by the site owner | As expected |
 
 22. As a **site admin** I can **create, delete, and edit blogs** so that **I can produce new blog content and maintain it as needed**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Admin Section | append /admin to the root web address and log in as a superuser.  Click on 'posts' from the left menu and use the intuitive interface to perform the desired option | Full CRUD functionalityu is available  | As expected |
+| Admin Section | append /admin to the root web address and log in as a superuser.  Click on 'posts' from the left menu and use the intuitive interface to perform the desired option | Full CRUD functionality is available  | As expected |
 
 23. As a **site admin** I can **add blogs in a draft state** so that **they are only public when I want them to be**
 
@@ -966,7 +966,7 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Blog Listing | A user mst be logged in to access this functionality.  They navigate to the blog listing page, once there they click a blog to see the full blog.  They scroll to the bottom to the comment section and add a comment.  A notification will appear on the homepage to inform you a commentis awaiting approval. | Full comment functionality is available | As expected |
+| Blog Listing | A user mst be logged in to access this functionality.  They navigate to the blog listing page, once there they click a blog to see the full blog.  They scroll to the bottom to the comment section and add a comment.  A notification will appear on the homepage to inform you a comment is awaiting approval. | Full comment functionality is available | As expected |
 
 25. As a **site admin** I can **approve comments** so that **ensure that only appropriate comments are published**
 
@@ -978,7 +978,7 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Blog Comment Notification | When a comment has been submitted a notification will appear on the homepage to inform you a commentis awaiting approval. Log in to admin and follow the procedure for comment approval. | Unapproved comment notifications are provided | As expected |
+| Blog Comment Notification | When a comment has been submitted a notification will appear on the homepage to inform you a comment is awaiting approval. Log in to admin and follow the procedure for comment approval. | Unapproved comment notifications are provided | As expected |
 
 27. As a **site admin** I can **receive questions and comments submitted from my contact page** so that I can **answer user queries**
 
@@ -994,40 +994,25 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 
 #### Blog
 
-- test_contexts.py
-- test_views.py
-
-<details><summary> See images</summary>
+<details><summary> See summary</summary>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-cart.png">
 </details>
 
 #### Booking
 
-- test_forms.py
-- test_models.py
-- test_views.py
-- test_webhook_handler.py
-
-<details><summary> See images</summary>
+<details><summary> See summary</summary>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-checkout.png">
 </details>
 
 #### Contact
 
-- test_forms.py
-- test_models.py
-- test_views.py
-
-<details><summary> See images</summary>
+<details><summary> See summary</summary>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-contact.png">
 </details>
 
 #### Welcome
 
-- test_forms.py
-- test_views.py
-
-<details><summary> See images</summary>
+<details><summary> See summary</summary>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-custom-admin.png">
 </details>
 
@@ -1046,7 +1031,7 @@ The website was tested on the these devices:
 - Ipad air
 - Iphone 12
 
-In addition, using chrome dev tools, the website was checked to ensure that it was fully responsive from a widthj of 320px upwards.
+In addition, using chrome dev tools, the website was checked to ensure that it was fully responsive from a width of 320px upwards.
 
 No issues were identified during these tests.
 
@@ -1104,7 +1089,7 @@ Here are the steps to deployment
 - Scroll down to the config vars section, and add 4 config vars:
     1. Key: CLOUDINARY_URL Value: API details for your Cloudinary account
     2. Key: DATABASE_URL Value: API details for your ElephantSWL account
-    3. Key: EMAIL_API_KEY Value: API details for your email providor
+    3. Key: EMAIL_API_KEY Value: API details for your email provider
     4. Key: SECRET KEY Value: The secret key you generated
   
   All of these details are stored in the env.py in your application files.
@@ -1127,8 +1112,8 @@ Here are the steps to deployment
 You can clone the repository by following these steps:
 
 1. Go to the GitHub repository
-2. Locate the Code button above the list of files and click it 
-3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+2. Locate the Code button above the list of files and click it
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
 4. Open Git Bash
 5. Change the current working directory to the one where you want the cloned directory
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
