@@ -673,7 +673,7 @@ JSHint javaScript Validation Service was used to validate all javaScript snippet
 
 <details><summary>tests.py</summary>
 
-![tests.py]()
+![tests.py](/static/document_images/pep8_book_tests.png)
 </details>
 
 <details><summary>urls.py</summary>
