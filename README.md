@@ -1,6 +1,6 @@
 # PP4: Pure Drive Fitness
 
-![Site Home Page](https://puredrivefitness-68f4e5eedb4f.herokuapp.com/)
+![Site Home Page](/static/document_images/multi_device.png)
 
 **Developer: Andrew Pierce**
 
