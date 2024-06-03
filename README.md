@@ -991,9 +991,8 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 ### Automated testing
 
 - Testing was done using the built in Django module, unittest.
-- Coverage was also usesd to generate a report
 
-#### Cart
+#### Blog
 
 - test_contexts.py
 - test_views.py
@@ -1002,7 +1001,7 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-cart.png">
 </details>
 
-#### Checkout
+#### Booking
 
 - test_forms.py
 - test_models.py
@@ -1023,7 +1022,7 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-contact.png">
 </details>
 
-#### Custom Admin
+#### Welcome
 
 - test_forms.py
 - test_views.py
@@ -1032,50 +1031,30 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-custom-admin.png">
 </details>
 
-#### Home
-
-- test_views.py
-
-<details><summary> See images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-home.png">
-</details>
-
-#### Products
-
-- test_models.py
-- test_views.py
-
-<details><summary> See images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-products.png">
-</details>
-
-#### Profiles
-
-- test_forms.py
-- test_models.py
-- test_views.py
-
-<details><summary> See images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-profiles.png">
-</details>
-
-### Coverage  
-A Python test plugin called coverage was used to generate the following results and display how much of the code was covered by the unittest module.
-
-<details><summary> Coverage</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-coverage-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-coverage-2.png">
-</details>
-
 ### Device Testing & Browser compatibility
 
-The site used to test on various real world devices was [BrowserStack](https://www.browserstack.com/)  
+The website was tested on the these browsers:
+
+- Google Chrome
+- Apple Safari
+- Mozilla Firefox
+
+The website was tested on the these devices:
+
+- Macbook Pro
+- Windows PC with a variety of monitor sizes
+- Ipad air
+- Iphone 12
+
+In addition, using chrome dev tools, the website was checked to ensure that it was fully responsive from a widthj of 320px upwards.
+
+No issues were identified during these tests.
 
 ##### Back to [top](#table-of-contents)<hr> 
 
 ## Bugs
 
-All bugs were fixed during development
+All bugs identified were fixed during development
 
 ##### Back to [top](#table-of-contents)<hr>
 
@@ -1125,27 +1104,19 @@ Here are the steps to deployment
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/heroku/deployment-6.png">
 </details>
 
-- Scroll down to the config vars section, and add 2 config vars:
-    * The first key is CREDS and the value here is the creds.json file that was generated for the google sheets API to work properly.
-    * The second key is PORT and the Value is 8000
+- Scroll down to the config vars section, and add 4 config vars:
+    1. Key: CLOUDINARY_URL Value: API details for your Cloudinary account
+    2. Key: DATABASE_URL Value: API details for your ElephantSWL account
+    3. Key: EMAIL_API_KEY Value: API details for your email providor
+    4. Key: SECRET KEY Value: The secret key you generated
   
-
-<details><summary> See images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/heroku/deployment-7.png">
-</details>
-
-- Once you have set up the config vars, scroll down to buildpacks (still under the settings tab)
-
-- Add the Python and Node.js buildpacks to your app and make sure that when they are displayed, they appear in the order:
-    * Python
-    * Node.JS
-  
+  All of these details are stored in the env.py in your application files.
 
 <details><summary> See images</summary>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/heroku/deployment-8.png">
 </details>
 
-- Navigate back to the settings tab.
+- Navigate to the deploy tab.
 
 - Select automatic deploys to allow Heroku to build the site with new changes each time changes are pushed to GitHub.
 
@@ -1159,111 +1130,37 @@ Here are the steps to deployment
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/heroku/deployment-10.png">
 </details>
 
-### AWS S3 Bucket Setup  
-
-To set up an AWS S3 bucket:
-
-1. Sign in to the AWS Management Console and open the Amazon S3 console.  
-<details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-2.png">
-</details>
-
-2. Click on the "Create Bucket" button.  
-<details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-3.png">
-</details>
-
-3. Enter a unique name for your bucket, and select the region where you want the bucket to be located.
-<details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-4.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-5.png">
-</details>
-
-4. Configure any additional options, such as versioning, object-level logging, and object tagging, as needed.  
-
-5. Click on the "Create" button to create the bucket.
-
-6. Set up the appropriate permissions for the bucket, such as access control lists (ACLs) and bucket policies, to control who can access the data in the bucket.  
-<details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-6.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-7.png">
-</details>
-
-7. Upload files to the bucket using the AWS S3 console, the AWS S3 CLI, or the AWS S3 SDK.  
-<details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-8.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-9.png">
-</details>
-
-8. Access your files through the AWS S3 Console, AWS S3 CLI, or the AWS S3 SDK.  
-<details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-10.png">
-</details>  
-
-### Stripe Endpoint
-
-1. Register for a Stripe account at stripe.com
-2. Log into your Stripe account and navigate to the Developers section  
-<details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-1.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-2.png">
-</details>  
-
-3. In the Developers section, locate the API keys section and take note of the publishable and secret keys  
-<details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-3.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-4.png">
-</details> 
-
-4. Create environment variables in your local environment and on Heroku, such as STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY, with the values of the publishable and secret keys  
-
-5. Return to the Developers section of your Stripe account and click on the Webhooks tab  
-<details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-5.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-6.png">
-</details> 
-
-6. Create a webhook with the URL of your website, such as https://example.com/checkout/wh/  
-<details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-7.png"><br>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-8.png">
-</details> 
-
-7. Choose the events you want to receive, such as payment_intent.payment_failed and payment_intent.succeeded  
-
-8. Take note of the key generated for this webhook  
-
-9. Create an environment variable, such as STRIPE_WH_SECRET, with the value of the webhook secret key on your local environment and Heroku  
-
-10. Test the webhook to ensure it is working properly and troubleshoot any issues that may arise.  
-
-### Fork Repository
-To fork the repository by following these steps:
-1. Go to the GitHub repository
-2. Click on Fork button in upper right hand corner
 <hr>
 
 ### Clone Repository
+
 You can clone the repository by following these steps:
-1. Go to the GitHub repository 
+
+1. Go to the GitHub repository
 2. Locate the Code button above the list of files and click it 
 3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
 4. Open Git Bash
 5. Change the current working directory to the one where you want the cloned directory
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
-7.Press Enter to create your local clone.
+7. Press Enter to create your local clone.
 
 ##### Back to [top](#table-of-contents)<hr>
 
 ## Credits
 
 ### Code  
-- Code Institute for the cart and checkout app as a basis for my checkout and basket apps
-- Code Institute Slack community for guidance on many of my bug fixes.
+
+- Code Institute for the blog app as a basis for my blog app
 
 ### Media
-[MidJourney](https://www.midjourney.com/)
+
+- Sam Pierce agreed to create the blue/orange images for the site and the hero image
+[Sam Pierce](https://www.sampiercephotography.com/)
+
+### Text Content
+
+- You.com was used to generate most of the text blocks on the site.
+[you.com](https://www.you.com/)
 
 ##### Back to [top](#table-of-contents)<hr>
 
@@ -1272,4 +1169,3 @@ You can clone the repository by following these steps:
 ### Special thanks to the following:
 - My Mentor Mo Shami for his excellent guidance and valuable advice 
 - Code Institute Slack Community
-- Code Institute Tutor Support
