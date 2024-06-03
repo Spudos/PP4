@@ -825,7 +825,7 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  |  |
+|  |  |  | As expected |
 
 2. As a **user** I can **read detail about the session types that are available** so that **I understand what is best for me**
 
