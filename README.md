@@ -1066,42 +1066,39 @@ All bugs identified were fixed during development
 
 This application has been deployed from GitHub to Heroku. A guide to deploying to Heroku can be found [here](https://devcenter.heroku.com/articles/github-integration)
 Here are the steps to deployment
+
 - Login or create an account at [Heroku](https://dashboard.heroku.com/)
 
 <details><summary> See images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/heroku/deployment-1.png">
+
+![deploy_1](/static/document_images/deploy_1.png)
 </details>
 
 - Click on New > Create new app in the top right of the screen.
 
-<details><summary> See images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/heroku/deployment-2.png">
-</details>
-
 - Add an app name and select location, then click 'create app'.
 
 <details><summary> See images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/heroku/deployment-3.png">
+
+![deploy_2](/static/document_images/deploy_2.png)
 </details>
 
 - Under the deploy tab of the next page, select connect to GitHub.
 
 - Log in to your GitHub account when prompted.
 
-<details><summary> See images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/heroku/deployment-4.png">
-</details>
-
 - Select the repository that you want to be connected to the Heroku app.
 
 <details><summary> See images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/heroku/deployment-5.png">
+
+![deploy_3](/static/document_images/deploy_3.png)
 </details>
 
 - Click on the settings tab.
 
 <details><summary> See images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/heroku/deployment-6.png">
+
+![deploy_4](/static/document_images/deploy_4.png)
 </details>
 
 - Scroll down to the config vars section, and add 4 config vars:
@@ -1112,22 +1109,15 @@ Here are the steps to deployment
   
   All of these details are stored in the env.py in your application files.
 
-<details><summary> See images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/heroku/deployment-8.png">
-</details>
-
 - Navigate to the deploy tab.
 
 - Select automatic deploys to allow Heroku to build the site with new changes each time changes are pushed to GitHub.
 
-<details><summary> See images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/heroku/deployment-9.png">
-</details>
-
 - In the 'manual deploy' section beneath this, make sure the branch selected is 'main' and click deploy branch.
 
 <details><summary> See images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/heroku/deployment-10.png">
+
+![deploy_5](/static/document_images/deploy_5.png)
 </details>
 
 <hr>
