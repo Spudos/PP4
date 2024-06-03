@@ -381,7 +381,7 @@ This elegant solution allows cloud based stroage to be used so the same DB can b
 - Main Landing page for the site
 - Displays hero image
 - Contains 3 main sections that link to the main functionality for each type - blogs, sessions and contact me
-- User stories covered: 1, 7, 14, 18
+- User stories covered: 1, 7, 14
 
 <details><summary>See feature images</summary>
 
@@ -825,163 +825,166 @@ Page Performance was tested using Lighthouse, all pages achieved a score of at l
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Welcome Page | On the welcome page scroll down to the section below the blog section and you will see session types with brief descriptions | The user can see the session types | As expected |
 
 2. As a **user** I can **read detail about the session types that are available** so that **I understand what is best for me**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Session Detail | From the welcome page either click the 'let's meet' button below the session section or click 'meet' in the nav bar | Detail for each available session type is listed | As expected |
 
 3. As a **user** I can **book a session** so that I can **begin my training**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Session Booking | First you must log in then navigate to the session detail page.  Once you have navigated to the session detail page clicking on the session test will take you to a booking form if any sessions are available | A booking page is displayed | As expected |
 
 4. As a **user** I can **view my booked sessions** so that I can **cancel if i need to**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| User Account | When logged in click on 'Me' in the nav bar.  Scroll down to see the booked session detail below user information | All upcoming and past session are displayed | As expected |
 
 5. As a **user** I can **leave a comment as I book** so that I can **inform the trainer about my requirements**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Session Booking | When on the booking form a text box is provided to leave any comments on the booking | The text box is displayed for free form notes | As expected |
 
 6. As a **user** I can **receive booking emails** so that I can **get confirmation that it has been booked**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Session Booking | Once you have sucessfully made a booking via the booking form you receive an email giving you details of the session you have booked | An email with relevant information is sent to the user | As expected |
 
 7. As a **user** I can **view all of the available blogs in a clear and simple layout** so that I can **find a blog a would like to read**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Welcome Page | The first section below the header on the welcome page displays the most recent blog posts. Click on 'let's read' or 'Read' from the nav bar to view the blog listing|  | As expected |
+| Blog Listing | Once you have navigated to the blog listing all blogs are shown in a paginated view so that a selection can be made | The blog lisyting is diaplyed, 4 at a time | As expected |
 
 8. As a **user** I can **see a short excerpt from the blog** so that I can **understand what it is about**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Blog Listing | Navigate to the blog listing page.  Each post shows a short excerpt from the post | An excerpt is shown | As expected |
 
 9. As a **user** I can **read the blog** so that I can **learn about the subject**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Blog Detail | From the blog listing you can click on the post to view the full blog post | The blog post is diaplyed in an easy to read format | As expected |
 
 10. As a **user** I can **like a blog** so that I can **give positive feedback on posts I enjoyed**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Blog Listing | You mst be logged in to access this functionality.  Navigate to the blog listing page, once there click on the thumbs up icon to like a page.  Clicking again removes the like from the post. | 'Likes' are displayed and the user can add their approval | As expected |
 
 11. As a **user** I can **comment on a blog** so that **ask questions or leave useful informtation for other users**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Blog Listing | You mst be logged in to access this functionality.  Navigate to the blog listing page, once there click a blog to see the full blog.  Scroll to the bottom to the comment section and a dd a comment.  A notification will show that your comment is awaiting approval.  Further comments cannot be added until your comment is approved. | Full comment functionality is available | As expected |
 
 12. As a **user** I can **easily navigate the website** so that I can **find the information I am looking for**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Header | The nav bar is shown on all pages and gives easy to nav buttons | Navigation is provided | As expected |
 
 13. As a **user** I can **log in securely to my account** so that I can **view my details**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Header | From the first header section butttons for login/signup/logout are shown as appropriate | the user can log into their account | As expected |
+| User Account | When logged in click on 'Me' in the nav bar to view your details | User detaiuls are shown | As expected |
 
 14. As a **user** I can **see contact information for the trainer** so that I can **get in touch as required**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Footer | Scroll to the bottom of any page, full contact details are displayed | All contact details are given | As expected |
+| Contact Me | Scroll down the home page to the contact section and click on 'Let's talk' or from the nav bar click on 'Talk' to go to the contact page where full contact details are given as well as a option to send a message to the site owner | Multiple contact details are provided | As expected |
 
 15. As a **user** I can **send a message to the trainer** so that I **ask questions if I want to**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Contact Me | Scroll down the home page to the contact section and click on 'Let's talk' or from the nav bar click on 'Talk' to go to the contact page where the option to send a message to the site owner | A validated messaging form is provided | As expected |
 
 16. As a **user** I can **see location information for the trainer** so that I **know where to go for sessions**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Footer | Scroll to the bottom of any page, address details and a google map are provided | Location details are easy to find | As expected |
 
 17. As a **user** I can **find the trainers social media accounts** so that I **follow their accounts**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Footer | Scroll to the bottom of any page, in the bottom footer section links to the site owners social media accounts are displayed | All social media accounts are linked to the site | As expected |
 
 18. As a **site admin** I can **display a welcoming home screen** so that **users will want to see the sessions and blogs I offer**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Welcome Page | The home page has clear and consistent styling and shows blog, session and contact information | A detailed welcome page is shown | As expected |
 
 19. As a **site admin** I can **create, delete, and edit sessions** so that **I can tailor the information available to users**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Admin Section | append /admin to the root web address and log in as a superuser.  Click on 'sessions' from the left menu and use the intuitive interface to perform the desired option | Full CRUD functionalityu is available | As expected |
 
 20. As a **site admin** I can **add diary entries** so that **users can book sessions**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Admin Section | append /admin to the root web address and log in as a superuser.  Click on 'appointments' from the left menu and use the intuitive interface to perform the desired option | Full CRUD functionalityu is available  | As expected |
 
 21. As a **site admin** I can **receive booking emails** so that **I am informed when users book with me**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Session Booking | When a booking is made an email is sent to the site owner to inform them about the booking | An email is receoved by the site owner | As expected |
 
 22. As a **site admin** I can **create, delete, and edit blogs** so that **I can produce new blog content and maintain it as needed**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Admin Section | append /admin to the root web address and log in as a superuser.  Click on 'posts' from the left menu and use the intuitive interface to perform the desired option | Full CRUD functionalityu is available  | As expected |
 
 23. As a **site admin** I can **add blogs in a draft state** so that **they are only public when I want them to be**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Admin Section | append /admin to the root web address and log in as a superuser.  Click on 'posts' from the left menu.  When you edit or create a post you can toggle its state between draft and published | A post can be put in a draft or published state | As expected |
 
 24. As a **site admin** I can **allow users to comment on blog posts** so that **they can engage with the post**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Blog Listing | A user mst be logged in to access this functionality.  They navigate to the blog listing page, once there they click a blog to see the full blog.  They scroll to the bottom to the comment section and add a comment.  A notification will appear on the homepage to inform you a commentis awaiting approval. | Full comment functionality is available | As expected |
 
 25. As a **site admin** I can **approve comments** so that **ensure that only appropriate comments are published**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Admin Section | Log in to admin and select 'comments' from the left menu.  Any comments that are not approved will be indicated as such.  Click on a comment to alter its state to approved. | Full comment functionality is available | As expected |
 
 26. As a **site admin** I can **get comment notifications** so that **I am aware when a comment needs to be approved**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Blog Comment Notification | When a comment has been submitted a notification will appear on the homepage to inform you a commentis awaiting approval. Log in to admin and follow the procedure for comment approval. | Unapproved comment notifications are provided | As expected |
 
 27. As a **site admin** I can **receive questions and comments submitted from my contact page** so that I can **answer user queries**
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-|  |  |  | As expected |
+| Contact Me | When a user submits a message via the contact me form an email is sent to the site owner with details of the user and their message | An email is received by the site user with all relevant details | As expected |
 
 ##### Back to [top](#table-of-contents)<hr> 
 
