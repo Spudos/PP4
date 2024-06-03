@@ -131,16 +131,16 @@ Balsamiq is the tool that I commonly use to wireframe my projects.  It has the c
 
 <details><summary>Welcome</summary>  
 
-![Welcome](/static/document_images/wireframe_welcome.png)
+![Welcome](/static/document_images/wf_welcome.png)
 </details>
 
 <details><summary>Blog</summary>  
 
 Blog Preview
-![Blog Preview](/static/document_images/wireframe_blog.png)
+![Blog Preview](/static/document_images/wf_blog_listing.png)
 
 Blog Detail
-![Blog Detail](/static/document_images/wireframe_read.png)
+![Blog Detail](/static/document_images/wf_blog_detail.png)
 </details>
 
 <details><summary>Sessions</summary>  
