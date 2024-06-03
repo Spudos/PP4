@@ -146,20 +146,20 @@ Blog Detail
 <details><summary>Sessions</summary>  
 
 Session Details
-![Session Details](/static/document_images/wireframe_sessions.png)
+![Session Details](/static/document_images/wf_sessions.png)
 
 Session Booking
-![Session Booking](/static/document_images/wireframe_booking.png)
+![Session Booking](/static/document_images/wf_booking.png)
 </details>
 
 <details><summary>Contact Me</summary>  
 
-![Contact Me](/static/document_images/wireframe_contact.png)
+![Contact Me](/static/document_images/wf_contact.png)
 </details>
 
 <details><summary>User Account</summary>  
 
-![User Account](/static/document_images/wireframe_account.png)
+![User Account](/static/document_images/wf_account.png)
 </details>
 
 ##### Back to [top](#table-of-contents)<hr>
